@@ -21,8 +21,33 @@ DATA = QUIZ / "data"
 BANKS = DATA / "banks"
 IMPORTS = QUIZ / "imports"
 
-INTERVIEW_MD = ROOT / "Tests" / "阶段性主程成长路线" / "大厂面试题_域映射.md"
-YZ4_XLSX = ROOT / "Tests" / "元宇宙专业四题库.xlsx"
+INTERVIEW_MD_CANDIDATES = (
+    ROOT / "Docs" / "04-教练参考" / "大厂面试题映射.md",
+    ROOT / "Tests" / "阶段性主程成长路线" / "大厂面试题_域映射.md",
+)
+YZ4_XLSX_CANDIDATES = (
+    ROOT / "Tests" / "元宇宙专业四题库.xlsx",
+    ROOT / "Docs" / "03-排课与考纲" / "元宇宙专业四题库.xlsx",
+)
+
+
+def resolve_first(*candidates: Path) -> Path | None:
+    for path in candidates:
+        if path.exists():
+            return path
+    return None
+
+
+def interview_md_path() -> Path:
+    path = resolve_first(*INTERVIEW_MD_CANDIDATES)
+    if not path:
+        tried = "\n    ".join(str(p.relative_to(ROOT)) for p in INTERVIEW_MD_CANDIDATES)
+        raise FileNotFoundError(f"未找到面试题映射文件，已尝试：\n    {tried}")
+    return path
+
+
+def yz4_xlsx_path() -> Path | None:
+    return resolve_first(*YZ4_XLSX_CANDIDATES)
 
 DOMAIN_NAMES = {
     1: "C# 与面向对象进阶",
@@ -90,7 +115,8 @@ def write_bank(bank_id: str, name: str, track: str, bank_type: str, questions: l
 
 
 def parse_interview() -> list:
-    text = INTERVIEW_MD.read_text(encoding="utf-8")
+    md_path = interview_md_path()
+    text = md_path.read_text(encoding="utf-8")
     domains: dict[int, str] = {}
     for m in re.finditer(r"^## [三四五六七八九十]+、域 (\d+) · (.+)$", text, re.M):
         domains[int(m.group(1))] = m.group(2).strip()
@@ -157,11 +183,13 @@ def parse_exam_xlsx() -> tuple[list, dict]:
         print("  [跳过] 需 pip install openpyxl")
         return [], {}
 
-    if not YZ4_XLSX.exists():
-        print(f"  [跳过] 未找到 {YZ4_XLSX}")
+    xlsx_path = yz4_xlsx_path()
+    if not xlsx_path:
+        tried = ", ".join(str(p.relative_to(ROOT)) for p in YZ4_XLSX_CANDIDATES)
+        print(f"  [跳过] 未找到 Excel 题库（{tried}）")
         return [], {}
 
-    wb = openpyxl.load_workbook(YZ4_XLSX, read_only=True, data_only=True)
+    wb = openpyxl.load_workbook(xlsx_path, read_only=True, data_only=True)
     all_questions: list = []
     by_week: dict[int, list] = defaultdict(list)
     by_unit: dict[int, list] = defaultdict(list)
@@ -222,7 +250,7 @@ def parse_exam_xlsx() -> tuple[list, dict]:
                 "exam",
                 "theory",
                 qs,
-                str(YZ4_XLSX.relative_to(ROOT)),
+                str(xlsx_path.relative_to(ROOT)),
             )
             | {"weekNum": w, "sheetName": sheet_label}
         )
@@ -239,7 +267,7 @@ def parse_exam_xlsx() -> tuple[list, dict]:
                 "exam",
                 "theory",
                 qs,
-                str(YZ4_XLSX.relative_to(ROOT)),
+                str(xlsx_path.relative_to(ROOT)),
             )
             | {"unitNum": unit_num, "unitName": label}
         )
@@ -250,7 +278,7 @@ def parse_exam_xlsx() -> tuple[list, dict]:
         "exam",
         "theory",
         all_questions,
-        str(YZ4_XLSX.relative_to(ROOT)),
+        str(xlsx_path.relative_to(ROOT)),
     )
 
     print(
@@ -315,11 +343,31 @@ def parse_imports() -> list[dict]:
     return out
 
 
+def load_preserved_exam_meta() -> dict:
+    manifest_path = DATA / "manifest.json"
+    if not manifest_path.exists():
+        return {"weeks": [], "units": []}
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    for track in manifest.get("tracks", []):
+        if track.get("id") != "exam":
+            continue
+        modes = track.get("modes", {})
+        weeks = modes.get("week", {}).get("options", [])
+        units = modes.get("unit", {}).get("options", [])
+        if weeks or units:
+            print(
+                f"  [保留] 沿用已有考试题库（{len(weeks)} 周 / {len(units)} 单元）"
+            )
+            return {"weeks": weeks, "units": units}
+    return {"weeks": [], "units": []}
+
+
 def main():
     DATA.mkdir(parents=True, exist_ok=True)
     BANKS.mkdir(parents=True, exist_ok=True)
 
     print("构建大厂面试 · 成长路线…")
+    interview_source = interview_md_path()
     interview_q = parse_interview()
     interview_bank = write_bank(
         "interview",
@@ -327,12 +375,14 @@ def main():
         "interview",
         "interview",
         interview_q,
-        "Tests/阶段性主程成长路线/大厂面试题_域映射.md",
+        str(interview_source.relative_to(ROOT)),
     )
-    print(f"  面试题: {len(interview_q)} 题")
+    print(f"  面试题: {len(interview_q)} 题 ← {interview_source.relative_to(ROOT)}")
 
     print("构建考试及格 · 理论题库…")
     _, exam_meta = parse_exam_xlsx()
+    if not exam_meta.get("weeks") and not exam_meta.get("units"):
+        exam_meta = load_preserved_exam_meta()
     custom = parse_imports()
 
     manifest = {
