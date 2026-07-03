@@ -24,6 +24,7 @@ Coach 同条 Chat：Read 仓库 → FICM + 大厂商业对比表 → **问你开
 |:--:|------|--------|------|:--------:|
 | 01 | 血量系统 | F05-BATTLE | [`小灶01_Exam05血量商业四层.md`](小灶01_Exam05血量商业四层.md) | 待你选 |
 | 02 | Loading | F05-LOAD / F06-LOAD | [`小灶02_Exam06Loading商业分层.md`](小灶02_Exam06Loading商业分层.md) | ✅ 自检 3/3 |
-| 03 | 战斗 HUD | F05-BUI | 🔒 待写 | — |
+| 03 | Dictionary 认证 | F07-AUTH | [`小灶03_Exam07Dictionary商业四层.md`](小灶03_Exam07Dictionary商业四层.md) | ✅ |
+| **04** | **Exam03 战斗射击加血** | **F03-COMBAT** | [`小灶04_Exam03战斗射击商业四层.md`](小灶04_Exam03战斗射击商业四层.md) | **✅ 2026-07-03** |
 
-**触发语**：`小灶：血量` · `小灶：Loading` · `开小灶：XXX` · `跳过小灶`
+**触发语**：`小灶：血量` · `小灶：Loading` · **`小灶：Exam03战斗`** · `开小灶：XXX` · `跳过小灶`
