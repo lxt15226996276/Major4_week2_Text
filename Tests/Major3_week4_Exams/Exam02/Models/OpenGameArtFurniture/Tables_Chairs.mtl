@@ -1,0 +1,72 @@
+newmtl material46
+Ka 0.099000 0.099000 0.099000
+Kd 0.700000 0.700000 0.700000
+Ks 1.000000 1.000000 1.000000
+Ns 300.000000
+Tr 0.000000
+illum 2
+map_Kd C:\Softimage\XSI_6.02\Data\PARPG_Buildings\Props\Plastic_Table.psd
+newmtl material47
+Ka 0.300000 0.300000 0.300000
+Kd 0.700000 0.700000 0.700000
+Ks 1.000000 1.000000 1.000000
+Ns 300.000000
+Tr 0.000000
+illum 2
+map_Kd C:\Softimage\XSI_6.02\Data\PARPG_Buildings\Props\Plastic_Table_Leg.psd
+newmtl material40
+Ka 0.300000 0.300000 0.300000
+Kd 0.700000 0.700000 0.700000
+Ks 1.000000 1.000000 1.000000
+Ns 300.000000
+Tr 0.000000
+illum 2
+map_Kd C:\Softimage\XSI_6.02\Data\PARPG_Buildings\Props\Wooden_Table.psd
+newmtl material41
+Ka 0.300000 0.300000 0.300000
+Kd 0.700000 0.700000 0.700000
+Ks 1.000000 1.000000 1.000000
+Ns 300.000000
+Tr 0.000000
+illum 2
+map_Kd C:\Softimage\XSI_6.02\Data\PARPG_Buildings\Props\Wooden_Table.psd
+newmtl material45
+Ka 0.300000 0.300000 0.300000
+Kd 0.700000 0.700000 0.700000
+Ks 1.000000 1.000000 1.000000
+Ns 300.000000
+Tr 0.000000
+illum 2
+map_Kd C:\Softimage\XSI_6.02\Data\PARPG_Buildings\Props\Wooden_Table_II.psd
+newmtl material48
+Ka 0.300000 0.300000 0.300000
+Kd 0.700000 0.700000 0.700000
+Ks 1.000000 1.000000 1.000000
+Ns 300.000000
+Tr 0.000000
+illum 2
+map_Kd C:\Softimage\XSI_6.02\Data\PARPG_Buildings\Props\Plastic_Table_Leg.psd
+newmtl material63
+Ka 0.300000 0.300000 0.300000
+Kd 0.700000 0.700000 0.700000
+Ks 1.000000 1.000000 1.000000
+Ns 50.000000
+Tr 0.000000
+illum 2
+map_Kd C:\Softimage\XSI_6.02\Data\PARPG_Buildings\Props\light_Wood.png
+newmtl material64
+Ka 0.300000 0.300000 0.300000
+Kd 0.700000 0.700000 0.700000
+Ks 1.000000 1.000000 1.000000
+Ns 50.000000
+Tr 0.000000
+illum 2
+map_Kd C:\Softimage\XSI_6.02\Data\PARPG_Buildings\Props\light_Wood.png
+newmtl material65
+Ka 0.300000 0.300000 0.300000
+Kd 0.700000 0.700000 0.700000
+Ks 1.000000 1.000000 1.000000
+Ns 50.000000
+Tr 0.000000
+illum 2
+map_Kd C:\Softimage\XSI_6.02\Data\PARPG_Buildings\Props\light_Wood.png

@@ -1,0 +1,295 @@
+{
+  "id": "exam-unit-u08",
+  "name": "第八单元：动画状态机（一） · 15题",
+  "track": "exam",
+  "type": "theory",
+  "source": "Tests\\元宇宙专业四题库.xlsx",
+  "count": 15,
+  "questions": [
+    {
+      "id": "EX-W2-U08-022",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何添加动画状态间的过渡？",
+      "answer": "在 Animator 窗口中从源状态拖动到目标状态，创建过渡线并设置条件。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U08-024",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "“Exit Time” 在过渡中的作用？",
+      "answer": "设置源状态播放到指定比例（0-1）时允许过渡，确保动画播放完整。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U08-025",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何实现动画的立即过渡？",
+      "answer": "取消勾选 “Has Exit Time”，并设置过渡的 “Duration” 为 0。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U08-026",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "多状态切换中 “Interruption Source” 的作用？",
+      "answer": "设置过渡的中断源，如 “None”（不可中断）、“Current State”（当前状态可被中断）。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U08-027",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "“Transition Duration” 的含义？",
+      "answer": "控制两个动画状态过渡的时间长度，影响混合平滑度。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U08-029",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何在代码中设置 Animator 参数？",
+      "answer": "使用 Animator.SetBool ()、SetTrigger ()、SetFloat () 等方法设置对应参数。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U08-030",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "子状态机的作用？",
+      "answer": "将多个相关状态归类管理，简化复杂状态机的结构，提高可读性。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U08-032",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "动画层（Layers）的用途？",
+      "answer": "用于混合多个动画（如基础动作 + 表情动画），通过权重控制各层影响程度。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U08-033",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何调整动画层的权重？",
+      "answer": "在 Animator 窗口的 Layers 面板中拖动权重滑块，范围为 0（无影响）到 1（完全影响）。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U08-034",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "“Layer Sync” 选项的作用？",
+      "answer": "使子层与基础层同步状态，确保动画时间线一致。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U08-036",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "动画层的 “IK Pass” 选项用途？",
+      "answer": "允许该层使用反向动力学（IK），用于骨骼目标定位（如角色看向目标）。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W3-U08-018",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何添加动画状态间的过渡？",
+      "answer": "在 Animator 窗口中从源状态拖动到目标状态，创建过渡线并设置条件。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W3-U08-019",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "多状态 Controller 中状态切换的条件？",
+      "answer": "通过 Animator 参数（如布尔值、触发器、浮点数）控制过渡条件。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U08-012",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "多状态 Controller 中状态切换的条件？",
+      "answer": "通过 Animator 参数（如布尔值、触发器、浮点数）控制过渡条件。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U08-013",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何添加动画状态间的过渡？",
+      "answer": "在 Animator 窗口中从源状态拖动到目标状态，创建过渡线并设置条件。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第八单元：动画状态机（一）"
+      ]
+    }
+  ]
+}

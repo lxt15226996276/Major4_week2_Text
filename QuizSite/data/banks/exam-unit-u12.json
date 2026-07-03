@@ -1,0 +1,181 @@
+{
+  "id": "exam-unit-u12",
+  "name": "第十二单元：摇杆插件 · 9题",
+  "track": "exam",
+  "type": "theory",
+  "source": "Tests\\元宇宙专业四题库.xlsx",
+  "count": 9,
+  "questions": [
+    {
+      "id": "EX-W3-U12-032",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何实现摇杆振动反馈？",
+      "answer": "结合设备振动 API，输入达阈值时触发。",
+      "category": "第十二单元：摇杆插件",
+      "unitNum": 12,
+      "unitName": "第十二单元：摇杆插件",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十二单元：摇杆插件"
+      ]
+    },
+    {
+      "id": "EX-W3-U12-033",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "摇杆如何配合摄像机控制漫游？",
+      "answer": "左摇杆控移动，右摇杆控摄像机旋转。",
+      "category": "第十二单元：摇杆插件",
+      "unitNum": 12,
+      "unitName": "第十二单元：摇杆插件",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十二单元：摇杆插件"
+      ]
+    },
+    {
+      "id": "EX-W3-U12-034",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何通过摇杆控制角色转向？",
+      "answer": "让角色 forward 方向跟随摇杆水平方向或移动方向。",
+      "category": "第十二单元：摇杆插件",
+      "unitNum": 12,
+      "unitName": "第十二单元：摇杆插件",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十二单元：摇杆插件"
+      ]
+    },
+    {
+      "id": "EX-W3-U12-035",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "摇杆输入平滑处理方法？",
+      "answer": "用 Mathf.Lerp () 或 SmoothDamp () 减少抖动。",
+      "category": "第十二单元：摇杆插件",
+      "unitNum": 12,
+      "unitName": "第十二单元：摇杆插件",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十二单元：摇杆插件"
+      ]
+    },
+    {
+      "id": "EX-W3-U12-036",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何用 EasyTouch 创建虚拟摇杆？",
+      "answer": "添加 Joystick 控件，设置位置、外观和轴映射，关联移动脚本。",
+      "category": "第十二单元：摇杆插件",
+      "unitNum": 12,
+      "unitName": "第十二单元：摇杆插件",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十二单元：摇杆插件"
+      ]
+    },
+    {
+      "id": "EX-W3-U12-037",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何获取摇杆输入力度？",
+      "answer": "用 Joystick.GetAxisValue () 获取 0-1 范围值。",
+      "category": "第十二单元：摇杆插件",
+      "unitNum": 12,
+      "unitName": "第十二单元：摇杆插件",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十二单元：摇杆插件"
+      ]
+    },
+    {
+      "id": "EX-W3-U12-038",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "摇杆 “Axis Options” 通常包含哪些轴？",
+      "answer": "X 轴（水平）和 Y 轴（垂直）。",
+      "category": "第十二单元：摇杆插件",
+      "unitNum": 12,
+      "unitName": "第十二单元：摇杆插件",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十二单元：摇杆插件"
+      ]
+    },
+    {
+      "id": "EX-W3-U12-039",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "导入摇杆插件的步骤？",
+      "answer": "下载插件，通过 “Assets> Import Package” 导入项目。",
+      "category": "第十二单元：摇杆插件",
+      "unitNum": 12,
+      "unitName": "第十二单元：摇杆插件",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十二单元：摇杆插件"
+      ]
+    },
+    {
+      "id": "EX-W4-U12-017",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "导入摇杆插件的步骤？",
+      "answer": "下载插件，通过 “Assets> Import Package” 导入项目。",
+      "category": "第十二单元：摇杆插件",
+      "unitNum": 12,
+      "unitName": "第十二单元：摇杆插件",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十二单元：摇杆插件"
+      ]
+    }
+  ]
+}

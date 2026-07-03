@@ -1,0 +1,257 @@
+{
+  "id": "exam-unit-u11",
+  "name": "第十一单元：角色控制器 · 13题",
+  "track": "exam",
+  "type": "theory",
+  "source": "Tests\\元宇宙专业四题库.xlsx",
+  "count": 13,
+  "questions": [
+    {
+      "id": "EX-W3-U11-021",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何检测 CharacterController 碰撞？",
+      "answer": "通过 Move () 返回的 CollisionFlags 判断。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W3-U11-022",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "CharacterController 组件的核心功能是什么？",
+      "answer": "处理角色移动与碰撞，无需依赖刚体。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W3-U11-023",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何用 CharacterController 实现移动？",
+      "answer": "调用 Move () 方法，传入基于输入的位移向量（乘 Time.deltaTime）。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W3-U11-024",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "实现跳跃功能的关键步骤？",
+      "answer": "检测跳跃输入，通过 isGrounded 判断在地面时施加向上位移。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W3-U11-025",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何实现角色下蹲？",
+      "answer": "修改 Height 和 Center 属性，播放下蹲动画。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W3-U11-026",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何处理重力对 CharacterController 的影响？",
+      "answer": "不在地面时，移动向量加向下重力加速度。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W3-U11-027",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何让角色移动方向与摄像机朝向一致？",
+      "answer": "将输入向量转换为摄像机参考的世界方向。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W3-U11-028",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "“Step Offset” 属性影响？",
+      "answer": "控制角色可跨越的最大台阶高度。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W3-U11-029",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "“Radius” 和 “Height” 属性影响？",
+      "answer": "前者控制碰撞体半径，后者控制碰撞体高度。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W3-U11-030",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "跳跃动画的触发条件？",
+      "answer": "检测到跳跃输入且角色在地面时，设置 Animator 触发器。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W3-U11-031",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何关联移动速度与动画？",
+      "answer": "获取移动速度，用 Animator.SetFloat () 传给状态机控制动画切换。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W4-U11-015",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何用 CharacterController 实现移动？",
+      "answer": "调用 Move () 方法，传入基于输入的位移向量（乘 Time.deltaTime）。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W4-U11-016",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何关联移动速度与动画？",
+      "answer": "获取移动速度，用 Animator.SetFloat () 传给状态机控制动画切换。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十一单元：角色控制器"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unity 随机刷题 · Major4</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brand-icon">◆</span>
+        <div>
+          <h1>随机刷题</h1>
+          <p>Unity 主程成长路线</p>
+        </div>
+      </div>
+
+      <section class="panel">
+        <h2>题库来源</h2>
+        <div class="chip-group" id="sourceFilter">
+          <button class="chip active" data-source="all">全部</button>
+          <button class="chip" data-source="interview">大厂面试</button>
+          <button class="chip" data-source="xiaozao">小灶课堂</button>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>知识域</h2>
+        <select id="domainFilter" class="select">
+          <option value="all">全部域</option>
+        </select>
+      </section>
+
+      <section class="panel">
+        <h2>职级</h2>
+        <div class="chip-group" id="levelFilter">
+          <button class="chip active" data-level="all">全部</button>
+          <button class="chip" data-level="中">中级</button>
+          <button class="chip" data-level="高">高级</button>
+          <button class="chip" data-level="主程">主程</button>
+          <button class="chip" data-level="小灶">小灶</button>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>关联练习</h2>
+        <select id="examFilter" class="select">
+          <option value="all">不限</option>
+        </select>
+      </section>
+
+      <section class="panel stats">
+        <h2>今日进度</h2>
+        <div class="stat-grid">
+          <div class="stat">
+            <span class="stat-num" id="statToday">0</span>
+            <span class="stat-label">已刷</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" id="statPool">0</span>
+            <span class="stat-label">可选</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" id="statMastered">0</span>
+            <span class="stat-label">已掌握</span>
+          </div>
+        </div>
+      </section>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div class="mode-toggle">
+          <button class="mode-btn active" data-mode="random">随机模式</button>
+          <button class="mode-btn" data-mode="sequential">顺序模式</button>
+        </div>
+        <button class="btn ghost" id="btnResetProgress" title="清除本地进度">重置进度</button>
+      </header>
+
+      <article class="card" id="questionCard">
+        <div class="card-meta">
+          <span class="badge" id="qId">—</span>
+          <span class="badge domain" id="qDomain">—</span>
+          <span class="badge level" id="qLevel">—</span>
+          <span class="badge freq hidden" id="qFreq">★ 高频</span>
+        </div>
+
+        <h2 class="question" id="qText">加载中…</h2>
+        <p class="focus" id="qFocus"></p>
+
+        <div class="answer-panel hidden" id="answerPanel">
+          <h3>标准答要点</h3>
+          <div class="answer-body" id="qAnswer"></div>
+        </div>
+
+        <div class="actions">
+          <button class="btn primary" id="btnReveal">显示答案</button>
+          <button class="btn success hidden" id="btnMastered">标记已掌握</button>
+          <button class="btn secondary" id="btnNext">下一题 →</button>
+        </div>
+
+        <div class="progress-bar">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <p class="progress-text" id="progressText"></p>
+      </article>
+
+      <footer class="footer">
+        <p>题库来自 <code>大厂面试题_域映射.md</code> 与 <code>小灶课堂</code> · 本地运行，进度存浏览器</p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="js/app.js" type="module"></script>
+</body>
+</html>

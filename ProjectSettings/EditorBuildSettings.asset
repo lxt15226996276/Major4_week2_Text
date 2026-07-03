@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Exams/Exam01/Scenes/Exam01_LoginScene.unity
+    guid: 48d5817c08497e74bb0258c96b575edd
+  - enabled: 1
+    path: Assets/Exams/Exam01/Scenes/Exam01_ServerScene.unity
+    guid: 5d89efa7c9a263b4bac87624314360a4
+  - enabled: 1
+    path: Assets/Exams/Exam02/Scenes/Exam02_LoginScene.unity
+    guid: d7ef98608acd33b4fa7fe62019bf9a76
+  - enabled: 1
+    path: Assets/Exams/Exam02/Scenes/Exam02_ServerScene.unity
+    guid: 5195a9b7ad227874b9496c7d2aeb2214
+  - enabled: 1
+    path: Assets/Exams/Exam03/Scenes/Exam03_LoginScene.unity
+    guid: dce7c4cc8e897744ca16407733b02989
+  - enabled: 1
+    path: Assets/Exams/Exam03/Scenes/Exam03_GameScene.unity
+    guid: 847c082dde6fe2148b0910b1afa43a3b
+  - enabled: 1
+    path: Assets/Exams/Exam02/Scenes/Exam02_Game1.unity
+    guid: 344c229fd824bd345a35db8e298e708e
+  - enabled: 1
+    path: Assets/Exams/Exam08/Scenes/Exam08_LoginScene.unity
+    guid: 4ea99a032ec8d4f4fac5e92a92c4d4a3
+  - enabled: 1
+    path: Assets/Exams/Exam08/Scenes/Exam08_LoadingScene.unity
+    guid: 0296dcae2b93cce47a3d5ad45fb8c55c
+  - enabled: 1
+    path: Assets/Exams/Exam08/Scenes/Exam08_MainScene.unity
+    guid: 8b3a00424af50654ea4e22a599ed45c6
+  - enabled: 1
+    path: Assets/Exams/Exam08/Scenes/Exam08_ServerScene.unity
+    guid: 243786a43a01b16459b5dd658986c86d
+  - enabled: 1
+    path: Assets/Exams/Exam02/Scenes/Exam02_Game2.unity
+    guid: aee6cba2e3decdb4f80a8b9a468b9576
+  - enabled: 1
+    path: Assets/Exams/Exam02/Scenes/Exam02_Game3.unity
+    guid: 899a66f4b052f2f46949db055c1de970
+  - enabled: 1
+    path: Assets/Exams/Exam07/Scenes/Exam07_Game.unity
+    guid: daa86830cf80c8d40957a44f44d3bd3a
+  - enabled: 1
+    path: Assets/Exams/Exam07/Scenes/Exam07_Login.unity
+    guid: c033a3d3df5a5eb439436cbe8010f136
+  - enabled: 1
+    path: Assets/Exams/Exam05/Scenes/Exam05_LoadingScene.unity
+    guid: 9337262aa2bfa454aa4d7a1c1b993f9c
+  - enabled: 1
+    path: Assets/Exams/Exam05/Scenes/Exam05_GameScene.unity
+    guid: daccd10f587d4044fbae873b009d01c1
+  - enabled: 1
+    path: Assets/Exams/Exam06/Scenes/Exam06_Loading.unity
+    guid: 2ebc60082a3579741aede1623838c6a1
+  - enabled: 1
+    path: Assets/Exams/Exam06/Scenes/Exam06_Game.unity
+    guid: ae2df78efb673b44898f84f69b0aca49
+  m_configObjects: {}

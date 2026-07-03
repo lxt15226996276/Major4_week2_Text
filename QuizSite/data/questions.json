@@ -1,0 +1,1094 @@
+{
+  "title": "Unity 大厂面试随机刷题",
+  "source": "Tests/阶段性主程成长路线/大厂面试题_域映射.md",
+  "version": "1.0",
+  "total": 79,
+  "domains": [
+    {
+      "id": 1,
+      "name": "C# 与面向对象进阶"
+    },
+    {
+      "id": 2,
+      "name": "Unity 核心机制深入"
+    },
+    {
+      "id": 3,
+      "name": "渲染与图形"
+    },
+    {
+      "id": 4,
+      "name": "物理与动画"
+    },
+    {
+      "id": 5,
+      "name": "性能优化"
+    },
+    {
+      "id": 6,
+      "name": "架构与工程化"
+    },
+    {
+      "id": 7,
+      "name": "网络与多人"
+    },
+    {
+      "id": 8,
+      "name": "编辑器扩展与工具链"
+    },
+    {
+      "id": 9,
+      "name": "底层与引擎原理"
+    },
+    {
+      "id": 10,
+      "name": "跨领域能力"
+    }
+  ],
+  "questions": [
+    {
+      "id": "INT-1-001",
+      "domain": 1,
+      "domainName": "C# 与面向对象进阶",
+      "level": "中级",
+      "question": "值类型和引用类型区别？struct 适用场景？",
+      "focus": "L2 内存",
+      "answer": "栈/堆、拷贝语义、小数据不可变；Unity 中 Vector3 是 struct",
+      "examRef": "↔ Exam02",
+      "tags": [
+        "高频"
+      ],
+      "followUp": "string 是值类型还是引用类型？为何 immutable？"
+    },
+    {
+      "id": "INT-1-002",
+      "domain": 1,
+      "domainName": "C# 与面向对象进阶",
+      "level": "中级",
+      "question": "装箱拆箱是什么？对 GC 影响？",
+      "focus": "L2 GC",
+      "answer": "IL 层面、值类型→object、循环内避免",
+      "examRef": "↔ Exam02",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-1-003",
+      "domain": 1,
+      "domainName": "C# 与面向对象进阶",
+      "level": "中级",
+      "question": "委托和 event 区别？为何 public delegate 危险？",
+      "focus": "L2",
+      "answer": "event 禁止外部 =；多播链；泄漏",
+      "examRef": "↔ Exam07",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-1-004",
+      "domain": 1,
+      "domainName": "C# 与面向对象进阶",
+      "level": "高级",
+      "question": "Lambda 闭包捕获 for 循环变量 Bug？",
+      "focus": "L2",
+      "answer": "共享同一变量地址；局部拷贝 fix",
+      "examRef": null,
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-1-005",
+      "domain": 1,
+      "domainName": "C# 与面向对象进阶",
+      "level": "高级",
+      "question": "Dictionary 原理？线程安全吗？",
+      "focus": "L2",
+      "answer": "哈希桶、O(1) 均摊；ConcurrentDictionary",
+      "examRef": "↔ Exam02/07",
+      "tags": [
+        "高频"
+      ],
+      "followUp": "Dictionary 遍历中 Remove 会怎样？"
+    },
+    {
+      "id": "INT-1-006",
+      "domain": 1,
+      "domainName": "C# 与面向对象进阶",
+      "level": "高级",
+      "question": "async/await 和协程怎么选？",
+      "focus": "L2/L3",
+      "answer": "主线程上下文、UniTask、CancellationToken",
+      "examRef": "↔ Exam02",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-1-007",
+      "domain": 1,
+      "domainName": "C# 与面向对象进阶",
+      "level": "高级",
+      "question": "接口 vs 抽象类？组合优于继承举例？",
+      "focus": "L2",
+      "answer": "多继承接口；GamePlay 模块解耦",
+      "examRef": "↔ Exam06 架构",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-1-008",
+      "domain": 1,
+      "domainName": "C# 与面向对象进阶",
+      "level": "主程",
+      "question": "如何设计弱引用事件总线防泄漏？",
+      "focus": "L3",
+      "answer": "WeakReference、注销清单、域隔离",
+      "examRef": "📋",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-1-009",
+      "domain": 1,
+      "domainName": "C# 与面向对象进阶",
+      "level": "高级",
+      "question": "如何定位一次 GC Alloc 来源？",
+      "focus": "L2/L3",
+      "answer": "Profiler GC Alloc、Deep Profile",
+      "examRef": "↔ Exam05 UI",
+      "tags": [
+        "需演示"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-1-010",
+      "domain": 1,
+      "domainName": "C# 与面向对象进阶",
+      "level": "主程",
+      "question": "asmdef 如何拆程序集？解决什么问题？",
+      "focus": "L3",
+      "answer": "编译速度、循环依赖、Editor 剥离",
+      "examRef": "📋",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-2-001",
+      "domain": 2,
+      "domainName": "Unity 核心机制深入",
+      "level": "中级",
+      "question": "Awake/Start/OnEnable 顺序与调用时机？",
+      "focus": "L2",
+      "answer": "脚本顺序、对象激活、实例化",
+      "examRef": "全 Exam",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-2-002",
+      "domain": 2,
+      "domainName": "Unity 核心机制深入",
+      "level": "中级",
+      "question": "场景 A 跳 B，A 上物体何时销毁？",
+      "focus": "L2",
+      "answer": "LoadScene 默认 Single 卸载",
+      "examRef": "↔ Exam01",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-2-003",
+      "domain": 2,
+      "domainName": "Unity 核心机制深入",
+      "level": "中级",
+      "question": "LoadScene 和 LoadSceneAsync 区别？",
+      "focus": "L2",
+      "answer": "主线程阻塞、progress、allowSceneActivation",
+      "examRef": "↔ Exam02",
+      "tags": [
+        "高频"
+      ],
+      "followUp": "为什么 progress 有时到不了 0.9？"
+    },
+    {
+      "id": "INT-2-004",
+      "domain": 2,
+      "domainName": "Unity 核心机制深入",
+      "level": "中级",
+      "question": "Instantiate 和 Destroy 的性能注意？",
+      "focus": "L2",
+      "answer": "GC、帧峰值；池化",
+      "examRef": "↔ Exam01",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-2-005",
+      "domain": 2,
+      "domainName": "Unity 核心机制深入",
+      "level": "高级",
+      "question": "DontDestroyOnLoad 用途与风险？",
+      "focus": "L2",
+      "answer": "DDOL 场景、静态引用泄漏",
+      "examRef": null,
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-2-006",
+      "domain": 2,
+      "domainName": "Unity 核心机制深入",
+      "level": "高级",
+      "question": "协程底层原理？yield 是什么？",
+      "focus": "L2",
+      "answer": "状态机、 IEnumerator",
+      "examRef": "↔ Exam04/05",
+      "tags": [
+        "高频"
+      ],
+      "followUp": "协程在物体 SetActive(false) 时还跑吗？"
+    },
+    {
+      "id": "INT-2-007",
+      "domain": 2,
+      "domainName": "Unity 核心机制深入",
+      "level": "高级",
+      "question": "Script Execution Order 解决什么问题？",
+      "focus": "L2",
+      "answer": "初始化依赖、Input→Logic→Camera",
+      "examRef": null,
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-2-008",
+      "domain": 2,
+      "domainName": "Unity 核心机制深入",
+      "level": "高级",
+      "question": "FixedUpdate 和 Update 区别？timeScale 影响？",
+      "focus": "L2",
+      "answer": "固定步长 0.02s；物理在 Fixed",
+      "examRef": "↔ Exam04",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-2-009",
+      "domain": 2,
+      "domainName": "Unity 核心机制深入",
+      "level": "主程",
+      "question": "设计一个 SceneLoader 模块要哪些 API？",
+      "focus": "L3",
+      "answer": "同步/异步、进度、回调、错误重试",
+      "examRef": "↔ Exam02/08",
+      "tags": [
+        "偏架构"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-2-010",
+      "domain": 2,
+      "domainName": "Unity 核心机制深入",
+      "level": "主程",
+      "question": "简述 PlayerLoop 与脚本调用的关系",
+      "focus": "L3",
+      "answer": "原生循环各阶段；Update 插入点",
+      "examRef": null,
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-3-001",
+      "domain": 3,
+      "domainName": "渲染与图形（偏进阶）",
+      "level": "中级",
+      "question": "Canvas 三种 Render Mode 区别？",
+      "focus": "L2",
+      "answer": "Overlay/Camera/World",
+      "examRef": "↔ Exam01",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-3-002",
+      "domain": 3,
+      "domainName": "渲染与图形（偏进阶）",
+      "level": "中级",
+      "question": "Canvas Scaler 如何做分辨率适配？",
+      "focus": "L2",
+      "answer": "Scale With Screen Size、Match",
+      "examRef": "↔ Exam01",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-3-003",
+      "domain": 3,
+      "domainName": "渲染与图形（偏进阶）",
+      "level": "中级",
+      "question": "UI 点击无响应排查步骤？",
+      "focus": "L2",
+      "answer": "EventSystem、Raycast Target、遮挡",
+      "examRef": "↔ Exam01",
+      "tags": [
+        "高频"
+      ],
+      "followUp": "多个 Canvas 时 Sort Order 怎么设？"
+    },
+    {
+      "id": "INT-3-004",
+      "domain": 3,
+      "domainName": "渲染与图形（偏进阶）",
+      "level": "高级",
+      "question": "UI 卡顿常见原因？",
+      "focus": "L2/L3",
+      "answer": "Rebuild、Overdraw、频繁 SetActive",
+      "examRef": "↔ Exam05",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-3-005",
+      "domain": 3,
+      "domainName": "渲染与图形（偏进阶）",
+      "level": "高级",
+      "question": "什么是 DrawCall？如何降低 UI DrawCall？",
+      "focus": "L2",
+      "answer": "合批、图集、同材质",
+      "examRef": "↔ Exam05",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-3-006",
+      "domain": 3,
+      "domainName": "渲染与图形（偏进阶）",
+      "level": "高级",
+      "question": "Mask 为何打断合批？",
+      "focus": "L2",
+      "answer": "Stencil、额外 Draw",
+      "examRef": null,
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-3-007",
+      "domain": 3,
+      "domainName": "渲染与图形（偏进阶）",
+      "level": "高级",
+      "question": "Built-in 和 URP 选型差异？",
+      "focus": "L3",
+      "answer": "SRP Batcher、可编程管线",
+      "examRef": "专题",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-3-008",
+      "domain": 3,
+      "domainName": "渲染与图形（偏进阶）",
+      "level": "高级",
+      "question": "SRP Batcher 生效条件？",
+      "focus": "L3",
+      "answer": "Shader 兼容、CBUFFER 一致",
+      "examRef": "专题",
+      "tags": [
+        "需演示"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-3-009",
+      "domain": 3,
+      "domainName": "渲染与图形（偏进阶）",
+      "level": "主程",
+      "question": "如何做高低配画质切换？",
+      "focus": "L3",
+      "answer": "后处理、分辨率、LOD",
+      "examRef": "📋",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-3-010",
+      "domain": 3,
+      "domainName": "渲染与图形（偏进阶）",
+      "level": "主程",
+      "question": "PBR 中 Metallic/Roughness 含义？",
+      "focus": "L3",
+      "answer": "能量守恒、BRDF 概念",
+      "examRef": "专题",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-4-001",
+      "domain": 4,
+      "domainName": "物理与动画",
+      "level": "中级",
+      "question": "OnCollisionEnter 和 OnTriggerEnter 区别？",
+      "focus": "L2",
+      "answer": "IsTrigger、Rigidbody 组合",
+      "examRef": "↔ Exam03",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-4-002",
+      "domain": 4,
+      "domainName": "物理与动画",
+      "level": "中级",
+      "question": "Raycast 参数 LayerMask 作用？",
+      "focus": "L2",
+      "answer": "位掩码过滤",
+      "examRef": "↔ Exam03",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-4-003",
+      "domain": 4,
+      "domainName": "物理与动画",
+      "level": "中级",
+      "question": "CharacterController vs Rigidbody 移动？",
+      "focus": "L2",
+      "answer": "kinematic、台阶、物理交互",
+      "examRef": "↔ Exam04",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-4-004",
+      "domain": 4,
+      "domainName": "物理与动画",
+      "level": "高级",
+      "question": "子弹穿透怎么解决？",
+      "focus": "L2",
+      "answer": "CCD、射线检测、减小 Fixed Timestep",
+      "examRef": "↔ Exam03",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-4-005",
+      "domain": 4,
+      "domainName": "物理与动画",
+      "level": "高级",
+      "question": "Animator 中 Trigger/Bool 使用场景？",
+      "focus": "L2",
+      "answer": "一次性 Trigger；状态 Bool",
+      "examRef": "↔ Exam04",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-4-006",
+      "domain": 4,
+      "domainName": "物理与动画",
+      "level": "高级",
+      "question": "Blend Tree 解决什么问题？",
+      "focus": "L2",
+      "answer": "2D 混合、平滑过渡",
+      "examRef": "↔ Exam04",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-4-007",
+      "domain": 4,
+      "domainName": "物理与动画",
+      "level": "高级",
+      "question": "物理模块 CPU 高怎么查？",
+      "focus": "L2/L3",
+      "answer": "Profiler Physics、Sleep、Layer 矩阵",
+      "examRef": null,
+      "tags": [
+        "需演示"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-4-008",
+      "domain": 4,
+      "domainName": "物理与动画",
+      "level": "主程",
+      "question": "Physics Job / DOTS 物理适用场景？",
+      "focus": "L3",
+      "answer": "大量刚体、与 Mono 混合",
+      "examRef": "专题",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-5-001",
+      "domain": 5,
+      "domainName": "性能优化（高级重点）",
+      "level": "中级",
+      "question": "Update 里为什么避免 Find/GetComponent？",
+      "focus": "L2",
+      "answer": "字符串查找、缓存引用",
+      "examRef": "全 Exam",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-5-002",
+      "domain": 5,
+      "domainName": "性能优化（高级重点）",
+      "level": "中级",
+      "question": "对象池解决什么问题？如何实现？",
+      "focus": "L2",
+      "answer": "复用、峰值 GC",
+      "examRef": "↔ Exam01 列表",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-5-003",
+      "domain": 5,
+      "domainName": "性能优化（高级重点）",
+      "level": "高级",
+      "question": "说一次你（或假设）用 Profiler 查卡顿经历",
+      "focus": "L2/L3",
+      "answer": "CPU/GC/Rendering 分工",
+      "examRef": "🔧",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-5-004",
+      "domain": 5,
+      "domainName": "性能优化（高级重点）",
+      "level": "高级",
+      "question": "UI 列表 1000 条怎么优化？",
+      "focus": "L3",
+      "answer": "虚拟列表、只渲染可见项",
+      "examRef": "↔ Exam01 B2",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-5-005",
+      "domain": 5,
+      "domainName": "性能优化（高级重点）",
+      "level": "高级",
+      "question": "内存泄漏在 Unity 中常见原因？",
+      "focus": "L2/L3",
+      "answer": "静态引用、事件未注销、DDOL",
+      "examRef": "↔ Exam07",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-5-006",
+      "domain": 5,
+      "domainName": "性能优化（高级重点）",
+      "level": "高级",
+      "question": "GC 和 IL2CPP 关系？",
+      "focus": "L2",
+      "answer": "分代回收、STW",
+      "examRef": "域9 联动",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-5-007",
+      "domain": 5,
+      "domainName": "性能优化（高级重点）",
+      "level": "高级",
+      "question": "如何优化启动时间？",
+      "focus": "L3",
+      "answer": "首包、异步、场景拆分",
+      "examRef": "↔ Exam02",
+      "tags": [
+        "需演示"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-5-008",
+      "domain": 5,
+      "domainName": "性能优化（高级重点）",
+      "level": "主程",
+      "question": "线上卡顿如何远程定位？",
+      "focus": "L3",
+      "answer": "日志、快照、符号表",
+      "examRef": "📋",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-5-009",
+      "domain": 5,
+      "domainName": "性能优化（高级重点）",
+      "level": "主程",
+      "question": "包体瘦身有哪些手段？",
+      "focus": "L3",
+      "answer": "纹理压缩、Audio、Shader 变体",
+      "examRef": "📋",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-6-001",
+      "domain": 6,
+      "domainName": "架构与工程化",
+      "level": "中级",
+      "question": "单例优缺点？Unity 中单例写法注意？",
+      "focus": "L2",
+      "answer": "全局访问 vs 测试性、DontDestroy",
+      "examRef": "↔ Exam07",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-6-002",
+      "domain": 6,
+      "domainName": "架构与工程化",
+      "level": "中级",
+      "question": "MVC 在 Unity UI 中怎么分？",
+      "focus": "L2",
+      "answer": "View 纯显示、Controller 协调",
+      "examRef": "↔ Exam01",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-6-003",
+      "domain": 6,
+      "domainName": "架构与工程化",
+      "level": "高级",
+      "question": "场景间如何传递登录用户名？",
+      "focus": "L2",
+      "answer": "静态会话、SO、PlayerPrefs 对比",
+      "examRef": "↔ Exam08",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-6-004",
+      "domain": 6,
+      "domainName": "架构与工程化",
+      "level": "高级",
+      "question": "事件总线和直接引用的取舍？",
+      "focus": "L2/L3",
+      "answer": "解耦 vs 调试难度",
+      "examRef": "↔ Exam02",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-6-005",
+      "domain": 6,
+      "domainName": "架构与工程化",
+      "level": "高级",
+      "question": "五层架构哪五层？依赖方向？",
+      "focus": "L3",
+      "answer": "UI/Logic/Data/Net/Res",
+      "examRef": "专题",
+      "tags": [
+        "偏架构"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-6-006",
+      "domain": 6,
+      "domainName": "架构与工程化",
+      "level": "高级",
+      "question": "MVVM 和数据绑定好处？",
+      "focus": "L3",
+      "answer": "减少手动 SetText",
+      "examRef": "专题",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-6-007",
+      "domain": 6,
+      "domainName": "架构与工程化",
+      "level": "主程",
+      "question": "模块如何热插拔初始化？",
+      "focus": "L3",
+      "answer": "ModuleManager、IGameModule",
+      "examRef": "📋",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-6-008",
+      "domain": 6,
+      "domainName": "架构与工程化",
+      "level": "主程",
+      "question": "如何做 Code Review 关注 Unity 项目？",
+      "focus": "L3",
+      "answer": "生命周期、空引用、资源释放",
+      "examRef": "↔ Exam10 域10",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-7-001",
+      "domain": 7,
+      "domainName": "网络与多人",
+      "level": "中级",
+      "question": "TCP 和 UDP 区别？游戏常用哪个？",
+      "focus": "L2",
+      "answer": "可靠有序 vs 低延迟",
+      "examRef": "专题",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-7-002",
+      "domain": 7,
+      "domainName": "网络与多人",
+      "level": "高级",
+      "question": "状态同步 vs 帧同步？",
+      "focus": "L2/L3",
+      "answer": "带宽、确定性、回滚",
+      "examRef": "专题",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-7-003",
+      "domain": 7,
+      "domainName": "网络与多人",
+      "level": "高级",
+      "question": "客户端预测和服务端回滚？",
+      "focus": "L3",
+      "answer": "延迟补偿",
+      "examRef": "专题",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-7-004",
+      "domain": 7,
+      "domainName": "网络与多人",
+      "level": "高级",
+      "question": "TCP 粘包怎么处理？",
+      "focus": "L2",
+      "answer": "长度头、分包协议",
+      "examRef": "专题",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-7-005",
+      "domain": 7,
+      "domainName": "网络与多人",
+      "level": "高级",
+      "question": "心跳、重连怎么设计？",
+      "focus": "L3",
+      "answer": "超时、指数退避",
+      "examRef": "专题",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-7-006",
+      "domain": 7,
+      "domainName": "网络与多人",
+      "level": "主程",
+      "question": "如何防加速器/改包？",
+      "focus": "L3",
+      "answer": "服务端权威、校验",
+      "examRef": "📋",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-7-007",
+      "domain": 7,
+      "domainName": "网络与多人",
+      "level": "中级",
+      "question": "UnityWebRequest 下载大文件注意？",
+      "focus": "L2",
+      "answer": "断点、MD5、缓存",
+      "examRef": "↔ Exam02 延伸",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-8-001",
+      "domain": 8,
+      "domainName": "编辑器扩展与工具链",
+      "level": "中级",
+      "question": "[SerializeField] 和 public 区别？",
+      "focus": "L2",
+      "answer": "封装、Inspector 暴露",
+      "examRef": "全 Exam",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-8-002",
+      "domain": 8,
+      "domainName": "编辑器扩展与工具链",
+      "level": "高级",
+      "question": "如何写 Custom Inspector？",
+      "focus": "L2",
+      "answer": "Editor 文件夹、OnInspectorGUI",
+      "examRef": "专题",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-8-003",
+      "domain": 8,
+      "domainName": "编辑器扩展与工具链",
+      "level": "高级",
+      "question": "MenuItem 和 EditorWindow 使用场景？",
+      "focus": "L2",
+      "answer": "一次性工具 vs 面板",
+      "examRef": "专题",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-8-004",
+      "domain": 8,
+      "domainName": "编辑器扩展与工具链",
+      "level": "高级",
+      "question": "AssetPostprocessor 能做什么？",
+      "focus": "L3",
+      "answer": "导入规范、自动压缩",
+      "examRef": "专题",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-8-005",
+      "domain": 8,
+      "domainName": "编辑器扩展与工具链",
+      "level": "主程",
+      "question": "CI 打包 Unity 流程要点？",
+      "focus": "L3",
+      "answer": "headless、License、版本号",
+      "examRef": "专题",
+      "tags": [
+        "偏架构"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-8-006",
+      "domain": 8,
+      "domainName": "编辑器扩展与工具链",
+      "level": "高级",
+      "question": "如何做资源规范自动检查？",
+      "focus": "L3",
+      "answer": "贴图尺寸、只读、重复资源",
+      "examRef": "专题",
+      "tags": [
+        "需演示"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-9-001",
+      "domain": 9,
+      "domainName": "底层与引擎原理",
+      "level": "高级",
+      "question": "Mono 和 IL2CPP 区别？",
+      "focus": "L2",
+      "answer": "AOT、启动、调试",
+      "examRef": null,
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-9-002",
+      "domain": 9,
+      "domainName": "底层与引擎原理",
+      "level": "高级",
+      "question": "Unity 为什么大部分 API 只能主线程？",
+      "focus": "L2",
+      "answer": "引擎非线程安全",
+      "examRef": null,
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-9-003",
+      "domain": 9,
+      "domainName": "底层与引擎原理",
+      "level": "高级",
+      "question": "协程是线程吗？",
+      "focus": "L2",
+      "answer": "主线程分帧、状态机",
+      "examRef": "↔ Exam05",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-9-004",
+      "domain": 9,
+      "domainName": "底层与引擎原理",
+      "level": "高级",
+      "question": "GameObject 和 Component 关系？",
+      "focus": "L2",
+      "answer": "实体-组件、Transform 特殊",
+      "examRef": null,
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-9-005",
+      "domain": 9,
+      "domainName": "底层与引擎原理",
+      "level": "主程",
+      "question": "Burst/Job 解决什么问题？",
+      "focus": "L3",
+      "answer": "SIMD、多核、无 GC",
+      "examRef": "专题",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-9-006",
+      "domain": 9,
+      "domainName": "底层与引擎原理",
+      "level": "主程",
+      "question": "ECS 和 OOP 架构对比？",
+      "focus": "L3",
+      "answer": "缓存友好、数据导向",
+      "examRef": "专题",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-10-001",
+      "domain": 10,
+      "domainName": "跨领域能力",
+      "level": "中级",
+      "question": "说一个你解决过的 Bug（STAR）",
+      "focus": "L2",
+      "answer": "情境-任务-行动-结果",
+      "examRef": "自检",
+      "tags": [
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-10-002",
+      "domain": 10,
+      "domainName": "跨领域能力",
+      "level": "高级",
+      "question": "Prefab 规范如何和美术协作？",
+      "focus": "L2",
+      "answer": "命名、层级、变体",
+      "examRef": "↔ Exam01 Prefab",
+      "tags": [],
+      "followUp": null
+    },
+    {
+      "id": "INT-10-003",
+      "domain": 10,
+      "domainName": "跨领域能力",
+      "level": "高级",
+      "question": "需求工期评估怎么做？",
+      "focus": "L3",
+      "answer": "拆分、风险缓冲",
+      "examRef": null,
+      "tags": [
+        "偏架构"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-10-004",
+      "domain": 10,
+      "domainName": "跨领域能力",
+      "level": "主程",
+      "question": "线上闪退如何查？",
+      "focus": "L3",
+      "answer": "符号表、空引用、Native 崩溃",
+      "examRef": null,
+      "tags": [
+        "偏架构"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-10-005",
+      "domain": 10,
+      "domainName": "跨领域能力",
+      "level": "主程",
+      "question": "技术选型你会考虑哪些维度？",
+      "focus": "L3",
+      "answer": "团队、维护、性能、包体",
+      "examRef": null,
+      "tags": [
+        "偏架构"
+      ],
+      "followUp": null
+    }
+  ]
+}

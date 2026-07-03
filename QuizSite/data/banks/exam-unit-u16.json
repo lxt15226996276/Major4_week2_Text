@@ -1,0 +1,181 @@
+{
+  "id": "exam-unit-u16",
+  "name": "第十六单元 项目实例 RPG世界（一） · 9题",
+  "track": "exam",
+  "type": "theory",
+  "source": "Tests\\元宇宙专业四题库.xlsx",
+  "count": 9,
+  "questions": [
+    {
+      "id": "EX-W4-U16-020",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "TextMeshPro 自动合批的原理是什么？",
+      "answer": "自动合并字体纹理，整合文本字体信息。",
+      "category": "第十六单元 项目实例 RPG世界（一）",
+      "unitNum": 16,
+      "unitName": "第十六单元 项目实例 RPG世界（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十六单元 项目实例 RPG世界（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U16-021",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "滚动列表优化中，对象池的实现逻辑是什么？",
+      "answer": "初始化少量 Item，滑动时回收移出 Item 并复用。",
+      "category": "第十六单元 项目实例 RPG世界（一）",
+      "unitNum": 16,
+      "unitName": "第十六单元 项目实例 RPG世界（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十六单元 项目实例 RPG世界（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U16-022",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "锚点的设置方式及适用场景？",
+      "answer": "1. 固定父对象角落：按钮等固定元素；2. 拉伸父对象边缘：背景等自适应元素；3. 居中：标题等居中元素。",
+      "category": "第十六单元 项目实例 RPG世界（一）",
+      "unitNum": 16,
+      "unitName": "第十六单元 项目实例 RPG世界（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十六单元 项目实例 RPG世界（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U16-023",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "协程与 Update 的执行顺序？",
+      "answer": "每帧先执行 Update，再执行协程 yield return 后逻辑。",
+      "category": "第十六单元 项目实例 RPG世界（一）",
+      "unitNum": 16,
+      "unitName": "第十六单元 项目实例 RPG世界（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十六单元 项目实例 RPG世界（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U16-024",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "合批为何需保证 UI 元素深度相同？",
+      "answer": "深度不同破坏渲染顺序，Unity 无法合批。",
+      "category": "第十六单元 项目实例 RPG世界（一）",
+      "unitNum": 16,
+      "unitName": "第十六单元 项目实例 RPG世界（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十六单元 项目实例 RPG世界（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U16-025",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "UI 元素 “Static” 标记的作用？",
+      "answer": "避免动态操作打断合批，保证静态 UI 合批效果。",
+      "category": "第十六单元 项目实例 RPG世界（一）",
+      "unitNum": 16,
+      "unitName": "第十六单元 项目实例 RPG世界（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十六单元 项目实例 RPG世界（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U16-026",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何处理大量同屏角色的 HUD 性能问题？",
+      "answer": "1. 分帧更新；2. 视距剔除；3. 同一图集合并渲染。",
+      "category": "第十六单元 项目实例 RPG世界（一）",
+      "unitNum": 16,
+      "unitName": "第十六单元 项目实例 RPG世界（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十六单元 项目实例 RPG世界（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U16-027",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "Canvas 分多层级的好处？",
+      "answer": "1. 减少重绘范围；2. 便于逻辑管理（如弹窗单独控制）。",
+      "category": "第十六单元 项目实例 RPG世界（一）",
+      "unitNum": 16,
+      "unitName": "第十六单元 项目实例 RPG世界（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十六单元 项目实例 RPG世界（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U16-028",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "动态 UI 和静态 UI 为何放不同 Canvas？",
+      "answer": "动态 UI 变化仅影响自身 Canvas，避免静态 UI 连带重绘。",
+      "category": "第十六单元 项目实例 RPG世界（一）",
+      "unitNum": 16,
+      "unitName": "第十六单元 项目实例 RPG世界（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十六单元 项目实例 RPG世界（一）"
+      ]
+    }
+  ]
+}

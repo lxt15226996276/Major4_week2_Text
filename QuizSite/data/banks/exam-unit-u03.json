@@ -1,0 +1,371 @@
+{
+  "id": "exam-unit-u03",
+  "name": "第三单元：常用控件（二） · 19题",
+  "track": "exam",
+  "type": "theory",
+  "source": "Tests\\元宇宙专业四题库.xlsx",
+  "count": 19,
+  "questions": [
+    {
+      "id": "EX-W1-U03-029",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Slider 控件的主要属性？",
+      "answer": "包括 Min Value、Max Value、Value、Whole Numbers 等。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-030",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Scrollbar 与 Scroll Rect 的关系？",
+      "answer": "Scrollbar 可作为 Scroll Rect 的滚动控制器，两者状态同步。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-031",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Mask 与 RectMask2d 的区别？",
+      "answer": "Mask 支持任意形状，性能较差；RectMask2d 仅支持矩形，性能更好。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-032",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Scroll Rect 的组成部分？",
+      "answer": "包括 Viewport（可视区域）、Content（滚动内容）、滚动条。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-033",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Mask 组件的工作原理？",
+      "answer": "通过模板测试，只显示遮罩范围内的内容，隐藏超出部分。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-034",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Scrollbar 的 “Number Of Steps” 属性作用？",
+      "answer": "设置滚动条的步长，使 Value 值按固定间隔变化。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-035",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "优化 Scroll Rect 性能的方法？",
+      "answer": "使用 RectMask2d 替代 Mask，开启对象池，限制子物体数量。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-036",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Slider 的 “On Value Changed” 事件触发时机？",
+      "answer": "当 Slider 的 Value 值发生变化时（拖动或代码修改）。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-037",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Scroll Rect 的 “Movement Type” 有哪些？",
+      "answer": "包括 Unrestricted、Elastic、Clamped。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-038",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Mask 组件需要配合什么使用？",
+      "answer": "通常需要配合 Image 等具有图形的组件使用。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-039",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Scrollbar 的 “Size” 属性作用？",
+      "answer": "控制滚动条滑块的大小，反映内容占可视区域的比例。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-040",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Slider 的 “Direction” 属性作用？",
+      "answer": "控制滑块的滑动方向。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-041",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "RectMask2d 的优势？",
+      "answer": "性能优于 Mask，适合移动端，只支持矩形遮罩。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U03-031",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Scroll Rect 的组成部分？",
+      "answer": "包括 Viewport（可视区域）、Content（滚动内容）、滚动条。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U03-035",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Scroll Rect 的 “Movement Type” 有哪些？",
+      "answer": "包括 Unrestricted、Elastic、Clamped。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U03-037",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Slider 的 “Direction” 属性作用？",
+      "answer": "控制滑块的滑动方向。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W3-U03-005",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何用 Slider 控制音量？",
+      "answer": "监听 Slider 的 onValueChanged 事件，将 Value 值映射到音频源 volume 属性。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W3-U03-006",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "RectMask2d 的优势？",
+      "answer": "性能优于 Mask，适合移动端，只支持矩形遮罩。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U03-005",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何用 Slider 控制音量？",
+      "answer": "监听 Slider 的 onValueChanged 事件，将 Value 值映射到音频源 volume 属性。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第三单元：常用控件（二）"
+      ]
+    }
+  ]
+}

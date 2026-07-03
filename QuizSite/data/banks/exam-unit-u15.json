@@ -1,0 +1,181 @@
+{
+  "id": "exam-unit-u15",
+  "name": "第十五单元：编辑器拓展 · 9题",
+  "track": "exam",
+  "type": "theory",
+  "source": "Tests\\元宇宙专业四题库.xlsx",
+  "count": 9,
+  "questions": [
+    {
+      "id": "EX-W3-U15-056",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何创建自定义脚本模板？",
+      "answer": "在 “Assets> Create” 中添加，修改模板默认内容。",
+      "category": "第十五单元：编辑器拓展",
+      "unitNum": 15,
+      "unitName": "第十五单元：编辑器拓展",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十五单元：编辑器拓展"
+      ]
+    },
+    {
+      "id": "EX-W3-U15-057",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何在自定义窗口添加按钮并绑定事件？",
+      "answer": "用 GUILayout.Button () 创建，if 判断点击并执行逻辑。",
+      "category": "第十五单元：编辑器拓展",
+      "unitNum": 15,
+      "unitName": "第十五单元：编辑器拓展",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十五单元：编辑器拓展"
+      ]
+    },
+    {
+      "id": "EX-W3-U15-058",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何获取项目场景列表？",
+      "answer": "通过 EditorBuildSettings.scenes 获取并筛选启用场景。",
+      "category": "第十五单元：编辑器拓展",
+      "unitNum": 15,
+      "unitName": "第十五单元：编辑器拓展",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十五单元：编辑器拓展"
+      ]
+    },
+    {
+      "id": "EX-W3-U15-059",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何创建自定义 Inspector 面板？",
+      "answer": "继承 Editor，重写 OnInspectorGUI ()，用 [CustomEditor] 关联组件。",
+      "category": "第十五单元：编辑器拓展",
+      "unitNum": 15,
+      "unitName": "第十五单元：编辑器拓展",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十五单元：编辑器拓展"
+      ]
+    },
+    {
+      "id": "EX-W3-U15-060",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何设置自定义菜单快捷键？",
+      "answer": "在 MenuItem 路径中加标识，如 %（Ctrl）、&（Alt）等。",
+      "category": "第十五单元：编辑器拓展",
+      "unitNum": 15,
+      "unitName": "第十五单元：编辑器拓展",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十五单元：编辑器拓展"
+      ]
+    },
+    {
+      "id": "EX-W3-U15-061",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何创建自定义窗口？",
+      "answer": "继承 EditorWindow，重写 OnGUI ()，用 GetWindow () 显示。",
+      "category": "第十五单元：编辑器拓展",
+      "unitNum": 15,
+      "unitName": "第十五单元：编辑器拓展",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十五单元：编辑器拓展"
+      ]
+    },
+    {
+      "id": "EX-W3-U15-062",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何保存自定义窗口用户设置？",
+      "answer": "用 EditorPrefs 类的 Set 和 Get 方法。",
+      "category": "第十五单元：编辑器拓展",
+      "unitNum": 15,
+      "unitName": "第十五单元：编辑器拓展",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十五单元：编辑器拓展"
+      ]
+    },
+    {
+      "id": "EX-W3-U15-063",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何实现自动打包流程？",
+      "answer": "调用 BuildPipeline.BuildPlayer () 传入相关参数。",
+      "category": "第十五单元：编辑器拓展",
+      "unitNum": 15,
+      "unitName": "第十五单元：编辑器拓展",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十五单元：编辑器拓展"
+      ]
+    },
+    {
+      "id": "EX-W3-U15-064",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "自定义面板的作用？",
+      "answer": "为特定组件显示自定义编辑界面，简化参数调整。",
+      "category": "第十五单元：编辑器拓展",
+      "unitNum": 15,
+      "unitName": "第十五单元：编辑器拓展",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十五单元：编辑器拓展"
+      ]
+    }
+  ]
+}

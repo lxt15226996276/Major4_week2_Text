@@ -1,0 +1,276 @@
+{
+  "id": "exam-unit-u17",
+  "name": "第十七单元 项目实例 RPG世界（二） · 14题",
+  "track": "exam",
+  "type": "theory",
+  "source": "Tests\\元宇宙专业四题库.xlsx",
+  "count": 14,
+  "questions": [
+    {
+      "id": "EX-W4-U17-029",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "Text 的 Draw Call 为何动态变化？",
+      "answer": "受文本数量、字体样式、效果影响，可能单独触发渲染。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-030",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "UI 优化中如何处理透明效果？",
+      "answer": "减少不必要透明 UI，避免多层重叠，优先用不透明材质。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-031",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "3D 模型在 UI 中显示如何简化优化？",
+      "answer": "1. 低多边形模型；2. LOD 技术；3. 移除细节部件和多余材质。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-032",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "对象池在 UI 优化中的作用？",
+      "answer": "复用 UI 对象，避免频繁创建 / 销毁，减 GC 和性能开销。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-033",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "UI 层级过深的问题及优化？",
+      "answer": "问题：增渲染负担、提 Draw Call；优化：简化层级、减嵌套、禁无用元素。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-034",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "CanvasGroup 的作用？",
+      "answer": "控一组 UI 的显示 / 交互，避免 SetActive 触发重绘。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-035",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何检测 UI 优化效果？",
+      "answer": "用 Profiler 监控 Draw Call、GC，确保帧率（如 60FPS+）和响应速度。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-036",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "图集（Sprite Atlas）的作用？",
+      "answer": "合并小纹理为大纹理，减材质切换和 Draw Call。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-037",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "UI 元素 “Raycast Target” 何时关闭？",
+      "answer": "无需射线检测的纯显示元素（如纯图、纯文本）。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-038",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "UGUI 的工作流程？",
+      "answer": "1. 创 Canvas；2. 加 UI 元素；3. 调布局；4. 绑脚本；5. 调试。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-039",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "合批（Batching）及原理？",
+      "answer": "合并同材质 / 纹理 UI 为一个 Draw Call；Unity 判断元素属性相同则一次性提交 GPU。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-040",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "Mask 为何增加 Draw Call？",
+      "answer": "分割遮罩内外 UI 为两部分，分别算 Draw Call。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-041",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何合理用 Mask 和 RectMask2D？",
+      "answer": "1. 矩形遮罩（如滚动列表）用 RectMask2D；2. 非矩形（如圆形头像）用 Mask；3. 避嵌套。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-042",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "UI 材质需适配哪些渲染管线？",
+      "answer": "URP、HDRP 等。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    }
+  ]
+}

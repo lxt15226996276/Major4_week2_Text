@@ -1,0 +1,215 @@
+WPS Office 专业版
+褦銁褦銁
+擆剂擆剂
+瞒吩瞒吩
+瀙捽瀙捽
+陻楪陻楪
+Unity 初级
+大厂主程完整成长路线文档（适配练习题驱动学习｜依据 Unity 官方文档 + 权威编程书籍｜内置遗忘曲线复习机制）文档基础信息适用人群：已有 3 个月 C
+基础、2 个月 Unity 实操，目标初级
+中级工程师
+高级工程师
+大厂主程 / 技术负责人学习核心模式：每周 10 套编程练习题驱动学习知识点分层规则：层级 1 基础落地层
+层级 2 原理深挖层
+层级 3 工业化落地层（由浅入深，禁止跳阶）遗忘循环复习强制规则 当日学完知识点：10 道专题练习题 + 最小可运行 Demo第 2 天：5 道底层复盘小题第 7 天：15 题综合试卷 + 独立复刻对应功能模块第 30 天：30 道混合题库 + 中型整合 Demo 开发每日开篇固定 20 分钟复盘初级底层知识点，防止基础遗忘权威参考库C
+权威书籍《CLR via C
+》Unity 官方文档Unity 2022LTS/Unity6 主手册、URP/TMP/Addressables/DOTS/Netcode 全套 Package 文档、Unity Performance 优化白皮书、Unity Learn 官方教程Unity 行业权威书籍《Game Programming Patterns》、《Unity Game Programming Cookbook》、《DOTS in Action》、《Shader Programming with Unity SRP》、《Unity Editor Scripting》第三方配套文档XLua 腾讯官方文档、ILRuntime 开源手册、Protobuf 官方规范目录第一部分 阶段划分与各层级晋升能力标准 第二部分 十大核心知识体系超详细知识点（分层 + 权威依据 + 习题训练方向） 体系一 C
+编程语言深度底层 体系二 Unity 引擎全模块底层精通 体系三 高性能框架与架构设计 体系四 网络客户端开发（单机 / 联机 / 热更下载） 体系五 DOTS 高性能技术栈（大厂高级岗加分核心） 体系六 全平台热更新技术（国内手游必备） 体系七 全维度性能优化（面试核心考核项） 体系八 跨平台打包、原生交互、上线适配 体系九 Editor 自动化工具开发
+CI/CD 流水线 体系十 大厂主程专属进阶拓展技能（架构 / 图形 / 服务端 / 安全 / 项目管理） 第三部分 AI 配套投喂执行指令（练习题解析专用） 第四部分 分阶段晋升学习校验清单第一部分 阶段划分与各层级晋升能力标准阶段 1：初级巩固期（当前起点，夯实底层地基）核心能力要求C
+：熟练基础语法、OOP 入门、基础集合、循环分支逻辑，独立编写简单游戏功能；Unity：掌握 GameObject、Transform、生命周期、基础物理、UGUI 基础、Resources 同步资源加载；项目产出：独立完成 2D 小型单机 Demo（平台跳跃、弹幕射击小游戏）。晋升中级工程师门槛可独立开发包含对象池、简易事件系统、动画状态控制的中型 2D 项目，初级题库答题正确率
+。阶段 2：中级工程师攻坚期（市面通用中级客户端标准）核心能力要求C
+：掌握泛型、委托事件、Lambda、协程、基础 GC 优化、简易反射使用；Unity：精通射线空间检测、Animator 动画、SpriteAtlas 图集、简易对象池、Addressables 基础用法；架构：单例、工厂模式、简易事件总线、五层分层基础框架；附加能力：基础 Http 文件下载、简易 Editor 工具、常规 Android/PC 打包流程。晋升高级工程师门槛独立搭建模块化可扩展项目框架，熟练使用官方资源管线，可自主排查常规卡顿、内存泄漏问题。阶段 3：高级工程师工业化期（大厂高级客户端标准）核心能力要求C
+底层：吃透 IL2CPP 编译机制、完整 GC 内存体系、多线程安全、UniTask 异步、反射缓存、asmdef 程序集分层；引擎深度精通：URP 完整渲染管线、TMP 高性能 UI、Addressables 增量热更管线、物理 Job 并行计算、Timeline 剧情系统；架构能力：MVVM 数据驱动、完整五层分层架构、自研配表 / 日志 / 本地存储全套工具框架、全套设计模式落地；行业刚需技能：XLua/ILRuntime 逻辑热更新、Netcode/Photon 联机同步、全维度性能调优、多渠道打包、大批量 Editor 自动化工具；加分能力：DOTS 基础 Mono 混合开发。晋升大厂主程门槛独立主导完整商业游戏项目框架搭建，可制定项目工程规范、性能标准、热更新流程，独立定位并解决线上疑难闪退、性能、同步 BUG。阶段 4：大厂主程 / 技术负责人拔高期（架构统筹、底层攻坚、团队管理）核心能力要求底层攻坚能力：计算机图形学理论、自定义高级 Shader、完整 DOTS ECS 大型项目落地；工程统筹能力：搭建完整 CI/CD 自动化流水线、单元测试体系、标准化代码评审规范、大型项目模块化拆分方案；跨领域能力：简易服务端开发、帧同步 / 状态同步底层联机实现；风险管控能力：游戏资源 / 协议安全加固、线上故障标准化排查流程、版本迭代与热更风险管控；团队管理能力：技术选型评审、新人培养路线搭建、需求拆解、工期评估、美术程序协作规范制定。第二部分 十大核心知识体系超详细知识点体系一 C
+编程语言深度底层（全阶段底层根基）权威依据《CLR via C
+》内存 / GC/IL、《C
+in Depth》泛型 / Lambda / 异步、《Effective C
+》工业编码规范、Unity 官方.NET
+IL2CPP 手册层级 1 基础落地层（初级巩固，每日强制复盘）基础数据类型与运算符 值类型：int/float/double/bool/char/struct；引用类型：string / 数组 /class算术、逻辑、位运算、三目运算符、隐式 / 显式类型转换习题方向：数值换算、条件逻辑判断、基础数学计算小题流程控制语法 if-else、字符串 / 枚举 switch、for/while/do-while 循环break、continue、return、多层循环嵌套逻辑习题方向：批量数据筛选、小游戏计分系统逻辑实现数组与基础集合 一维 / 二维数组初始化、遍历、长度获取List<T>基础增删查改、Find/Sort；Dictionary<K,V> 基础存取、判空面向对象入门 类、无参 / 有参构造函数、this 关键字作用public/private 访问修饰符、static 静态变量 / 静态方法继承、virtual/override 重写、base 父类调用abstract 抽象类、单 / 多 interface 接口实现字符串基础处理 Substring、IndexOf、Replace、Trim、字符串直接拼接缺陷StringBuilder 基础使用场景与代码示例协程基础语法 StartCoroutine/StopCoroutine 启停协程yield return null / WaitForSeconds / WaitForFixedUpdate 基础等待指令层级 2 原理深挖层（中级工程师核心考点）内存基础划分：栈内存、托管堆完整分配逻辑 值类型栈分配，引用类型栈存地址、堆存储实体数据装箱、拆箱 IL 中间代码生成过程，堆分配带来的 GC 停顿开销Nullable<T>可空类型、ValueTuple 无堆分配元组底层优势const /static/readonly 底层存储与生命周期差异 const：编译期常量，写入程序集元数据static：静态构造函数程序启动执行，常驻内存，静态引用物体极易造成内存泄漏readonly：运行时只读，构造函数内赋值完整泛型体系与七大泛型约束 约束清单：class、struct、new ()、基类约束、接口约束、unmanaged、Enum 泛型缓存机制，消除值类型反复装箱问题IL2CPP AOT 提前编译限制、泛型报错底层成因与修复方案委托、事件、多播调用链底层 Delegate 原生委托、Action 无返回委托、Func 带返回委托、Predicate 布尔委托event 事件封装规范，禁止外部直接赋值委托造成覆盖多播委托基于链表存储调用函数，会强引用持有场景对象Lambda 表达式与闭包经典陷阱 Lambda 编译为匿名方法，捕获外部变量 IL 底层存储逻辑for 循环变量共享栈地址 Bug，完整标准修复写法Attribute 特性与基础反射 自定义 Attribute 编译嵌入元数据，运行时反射读取标记信息Type、MethodInfo、FieldInfo 基础反射调用方式反射性能损耗根源：元数据检索、动态 IL 调用开销巨大GC 基础认知 Mono GC 标记清除算法、IL2CPP GC 分代回收机制GC 自动触发条件、STW 停顿对游戏帧率的负面影响高频产生 GC 的场景：循环内 new class、频繁字符串拼接、无必要装箱协程底层调度原理 yield 关键字编译生成独立状态机类，保存每一步执行上下文MonoBehaviour 内部维护协程队列，逐帧遍历执行基础异步逻辑 UniTask 基础资源加载、CancellationToken 取消、超时处理方案子线程禁止调用 Unity 引擎 API 底层安全原理层级 3 工业化落地层（高级工程师 / 主程必备）全场景 GC 泄漏解决方案（《CLR via C
+》第 19 章） 全部内存泄漏场景： 静态字段持有 Texture/Mesh/GameObject/Component；事件 / 多播委托未注销，长期持有场景实体；协程持有已销毁物体引用，未手动停止；Lambda 闭包捕获场景物体，延长对象生命周期；全局 List/Dictionary 容器长期缓存数据，切换场景不清空； 配套解决方案：泛型无 GC 对象池、弱事件总线、全局协程管理器、场景统一清理接口。弱引用体系完整封装 WeakReference<T>弱委托、全局弱事件总线，从底层消除委托内存泄漏。反射缓存工具框架 全局缓存 Type、MethodInfo、FieldInfo，消除重复反射开销； link.xml 完整配置模板，裁剪 IL2CPP 未使用元数据，缩小安装包体积。多线程安全全套实现方案 lock 监视器、Monitor、Interlocked 原子无锁数值操作、Mutex 互斥锁； 主线程消息投递队列：子线程完成计算后，安全将数据抛至主线程执行 UI / 引擎逻辑。Unity.Collections 非托管容器全套封装 NativeArray、NativeList、NativeHashMap、NativeQueue； using 自动释放模板、Dispose 兜底机制、非托管内存泄漏检测； unsafe 指针手动内存分配，适配 Burst 高性能批量数值运算。Assembly Definition 程序集四层分层规范 分层：通用框架层、业务逻辑层、热更层、Editor 工具层； 解决循环依赖、打包自动裁剪编辑器代码、分层编译提速。全局统一异步调度器 基于 UniTask 封装全局工具，资源加载、网络请求、文件读写统一异步管理。Burst 兼容高性能数学工具 基于 Unity.Mathematics 封装向量、矩阵批量计算静态类，零 GC、多线程加速。体系二 Unity 引擎全模块底层精通权威依据Unity 官方完整手册、URP/TMP/Addressables/DOTS Package 文档、《Unity Game Programming Cookbook》、《Shader Programming with Unity SRP》模块 2.1 变换系统
+MonoBehaviour 生命周期层级 1 基础落地（初级复盘）GameObject 创建、Find 查找、Tag/Layer 分层、SetActive 激活 / 失活；Transform Translate/Rotate/LookAt、本地 / 世界坐标基础转换；RectTransform 锚点、轴心、偏移，基础多分辨率适配；生命周期基础执行顺序：Awake
+OnDestroy；Instantiate、Destroy 基础用法，DontDestroyOnLoad 简单使用。 习题训练：角色移动控制、UI 自适应面板、物体延迟销毁、场景切换物体管理。层级 2 原理深挖（中级工程师）4
+4 变换矩阵线性代数底层运算，局部矩阵
+父矩阵 = 世界矩阵完整计算流程； TransformPoint / TransformDirection / InverseTransformPoint 矩阵转换底层逻辑；生命周期细分触发场景：预制体实例化、场景加载、物体激活 / 失活、手动 Destroy、场景卸载时序差异； Execution Order 脚本执行顺序自定义配置；DontDestroyOnLoad 底层机制：物体迁移至全局独立 DontDestroy 场景，常驻内存，天然存在内存泄漏风险；Time 全套时间体系底层逻辑 Time.time/ Time.unscaledTime/ Time.fixedTime 区别； Time.timeScale 仅影响 Update、协程，不干扰 FixedUpdate 物理步长； FixedUpdate 固定物理步长、帧率波动下插值平滑原理。层级 3 工业化落地（高级 / 主程）全局数学工具静态类：扇形攻击检测、两点朝向计算、批量坐标转换、距离判定工具；脚本执行顺序自动化 Editor 工具，一键批量配置项目所有脚本执行时序；场景统一销毁管理器：切换场景自动清理静态缓存、运行协程、事件订阅，杜绝内存残留。模块 2.2 物理系统 3D+2D层级 1 基础落地Rigidbody AddForce、Mass、Drag、FreezeRotation 参数配置；OnCollisionEnter/OnTriggerEnter 碰撞 / 触发事件区分；Raycast 射线检测、LayerMask 层级过滤、Rigidbody2D、Tilemap 碰撞基础配置。层级 2 原理深挖静态碰撞体自动合并规则、动态碰撞体逐帧参与物理迭代； SleepThreshold 刚体睡眠机制，闲置刚体停止物理计算降低 CPU 开销；CCD 连续碰撞检测底层原理，解决高速子弹、高速物体穿透问题；物理碰撞矩阵分层隔离，不同层级物体完全跳过碰撞计算；大量刚体逐帧迭代是主线程卡顿核心瓶颈。层级 3 工业化落地Physics Job 并行物理计算改造，大规模子弹、怪物物理逻辑多线程分担主线程压力；Editor 自动化工具：批量简化网格碰撞体、一键配置项目物理分层规范；物理性能监控工具，自定义 Profiler 标记统计物理迭代耗时。模块 2.3 URP 渲染管线
+VFX Graph层级 1 基础落地（中级起点）URP Pipeline Asset、Renderer Data、Renderer Feature 基础挂载配置；Shader Graph 基础节点搭建标准 PBR 材质；实时光、方向光 / 点光 / 聚光、Lightmap 烘焙、Bloom/FXAA 后处理组件；SpriteAtlas 图集打包，UI 合批基础规则；VFX Graph 基础粒子生成、生命周期参数配置。层级 2 原理深挖（高级核心）SRP Batcher 底层机制：材质属性存入 GPU 常量缓冲区，大幅降低 DrawCall； SRP Batcher 完整兼容材质限制清单，全部打断合批场景汇总；PBR 光照模型 BRDF 数学底层、金属 / 光滑工作流、法线 / 切线空间原理；透明 Blend 混合模式、ZTest 深度测试、ZWrite 深度写入渲染排序规则；移动端纹理压缩格式：ETC2 / ASTC / PVRTC 内存占用、平台性能差异； Mipmap、各向异性过滤内存翻倍，远距离物体渲染优化逻辑；Lightmap 光照烘焙存储格式、LightProbe 动态物体采样烘焙光照； ReflectionProbe 反射探针、环境反射实时更新规则；VFX Graph GPU 粒子实例渲染原理，OverDraw 过度填充率性能损耗； 粒子遮挡剔除、透明粒子分层渲染降低填充压力。层级 3 工业化落地（高级 / 主程）项目高低配自适应渲染系统：根据机型配置自动切换贴图精度、关闭后处理、减少粒子数量；自定义 Renderer Feature 渲染通道，实现全屏描边、全局雾效、角色描边等特效；Shader 变体自动化管理 Editor 工具，剔除未使用变体缩小安装包体积；LOD、遮挡剔除批量检测工具，一键优化场景渲染开销；自定义 URP 渲染调试工具，实时统计场景 DrawCall、OverDraw 数值。模块 2.4 UGUI
+TextMeshPro 高性能 UI 体系层级 1 基础落地Button/Image/TMP 文本交互、ScrollView 滚动列表、Horizontal/Vertical Layout 布局组件；Mask/RectMask2D 裁切、基础自适应弹窗制作。层级 2 原理深挖RectTransform 布局 Rebuild 触发条件：修改尺寸 / 锚点、动态增删 UI 元素； 逐帧频繁 Rebuild 是 UI 主线程卡顿主要来源；Canvas 独立渲染批次机制，拆分多 Canvas 降低单次重建开销；EventSystem 射线检测完整流程，GraphicRaycaster 层级筛选逻辑； Mask 裁切会打断 UI 合批，多层遮罩大幅提升 DrawCall；TMP SDF 矢量文字渲染底层、字体烘焙图集内存占用、富文本渲染开销。层级 3 工业化落地（高级必备）循环复用 ScrollView 高性能列表框架，仅渲染可视区域 Item，支持上万条数据无卡顿；多层弹窗栈管理框架，区分全屏界面 / 弹窗 / 提示层级，UI 资源异步加载、关闭自动释放依赖资源；TMP 字体自动化烘焙工具，批量生成多字号字体资源；UI 合批自动检测工具，定位打断合批的图集、材质、遮罩问题。模块 2.5 动画系统 Animator / Timeline / DoTween层级 1 基础落地Animator 状态机、Entry/AnyState、过渡条件、Float/Bool/Trigger 参数；1D/2D BlendTree 混合树，人物行走、奔跑平滑过渡；DoTween 基础位移、缩放、透明度补间动画编写。层级 2 原理深挖Humanoid 人形骨骼 Avatar 映射，动画重定向底层机制；IK 反向动力学计算逻辑，头部看向目标、手脚贴合地面实现原理；AnimationClip 关键帧采样率，高采样率增大内存占用，低采样出现动作抖动；DoTween Tween 未主动销毁会持续持有物体引用，造成内存泄漏。层级 3 工业化落地全局动画复用池，统一管理 Tween 创建 / 销毁，彻底杜绝泄漏；Timeline 自定义脚本轨道，拓展剧情 CG、相机运镜、技能时序控制；Editor 批量动画压缩工具，降低动画文件内存占用。模块 2.6 Addressables 官方资源管理管线（工业化标准）层级 1 基础落地（中级）Addressables 分组创建、Label 标签分类管理资源；LoadAssetAsync/LoadSceneAsync 异步加载、基础 Release 资源释放；简易远程 CDN 资源加载 Demo 开发。层级 2 原理深挖（高级核心）Addressables 引用计数底层机制，引用未清零资源无法完整卸载全部场景；Content Update 增量更新打包原理，仅打包变更资源，生成 content
+state.bin 版本快照；AssetBundle 依赖链追踪，冗余资源产生底层原因；CanChangePostRelease/CanNotChangePostRelease 分组规范，区分本地固定资源、远程更新资源。层级 3 工业化落地（高级 / 主程）完整项目资源重构规范，全资源迁移 Addressables，淘汰老旧原生 AB 包；Editor 资源冗余扫描自动清理工具，查找重复贴图 / 模型 / 音效；CCD 云分发配套下载框架、断点续传、本地缓存自动清理、灰度版本控制工具。模块 2.7 新 Input System 官方输入框架层级 1 基础落地输入映射配置、键鼠 / 触摸 / 手柄基础输入读取、虚拟摇杆制作。层级 2 原理深挖输入动作绑定、输入缓冲、输入重映射存储机制、多平台输入兼容逻辑。层级 3 工业化落地全局统一输入管理器，解耦角色逻辑与输入，一键切换操作模式。体系三 高性能框架与架构设计（中高级、主程分水岭）权威依据《Game Programming Patterns》、《DOTS in Action》、Unity 官方 Megacity 示例项目分支 3.1 游戏常用设计模式层级 1 基础落地（中级）创建型：泛型全局单例、场景单例、简易对象池、基础工厂模式； 行为型：简易事件总线、状态模式、简易 MVC 分离 UI 与逻辑； 习题训练：全局游戏管理器、道具工厂、角色待机 / 奔跑状态切换 Demo。层级 2 原理深挖（高级）单例优缺点：全局便捷访问 VS 静态内存污染、单元测试难以 Mock； 场景单例生命周期与全局单例适用边界区分；事件总线强引用 vs 弱引用底层差异，强引用导致模块高耦合、内存泄漏；MVC/MVVM 底层数据绑定通知机制，属性变更自动刷新界面；命令模式：操作回放、撤销、技能指令存储；装饰器模式动态叠加 Buff、拓展功能不修改原有类；外观 Facade 模式封装复杂底层（资源 / 网络），对外暴露简洁接口；适配器统一第三方 SDK 接口。层级 3 工业化落地（高级 / 主程）全项目通用无泄漏对象池套件：子弹池、特效池、UI Item 池、网络消息池、数值数据池；完整 MVVM 数据驱动 UI 框架，属性监听自动刷新，消除冗余 SetText 赋值代码；分层事件总线：全局事件、模块私有事件隔离，防止消息泛滥、跨模块干扰。分支 3.2 主流游戏架构层级 1 基础落地（中级）五层分层架构 Demo：表现层 UI、逻辑层 Game、数据层 Data、网络层 Net、资源层 Res； 事件驱动简易模块通信 Demo，模块间无直接引用。层级 2 原理深挖（高级）分层架构依赖倒置原则：高层模块依赖抽象接口，不依赖底层具体实现；杜绝双向强引用；传统 Mono 面向对象架构 vs DOTS ECS 数据驱动架构：内存布局、CPU 缓存利用率、GC 产生量全面对比；依赖注入 DI 容器底层实现逻辑，解耦硬编码实例化，便于单元测试。层级 3 工业化落地（主程）可热插拔模块化项目主框架，统一管理模块初始化、帧更新、销毁生命周期；Hybrid DOTS+Mono 混合架构适配方案，大规模实体使用 ECS、UI / 剧情使用 Mono；DI 全局容器框架，统一管理所有管理器、工具类实例。分支 3.3 自研通用工业化工具框架（大厂项目标配）层级 1 基础落地（中级）Excel 简易导表脚本、本地二进制存档读写、基础分级日志打印、简易计时器替代协程。层级 2 原理深挖（高级）Protobuf 二进制序列化配表，对比 Json 体积、性能优势；热更配表重载内存刷新机制；加密二进制存档、版本兼容校验、异或 / AES 简单防篡改逻辑；文件 IO 日志持久化磁盘写入开销，同步 IO 阻塞主线程解决方案（异步缓冲队列）。层级 3 工业化落地（高级 / 主程）完整配表工具链：Excel 导出二进制、自动生成 C
+数据类、数据合法性校验、热更重载接口；全局加密持久化存储框架，分块存储大容量存档、版本迁移工具；统一计时调度器：全局定时、循环计时、帧同步计时，游戏暂停自动停止所有计时；线上分级日志系统：Debug/Info/Warn/Error 分级、本地写入、远程上传、打包发布屏蔽 Debug 日志。体系四 网络客户端开发权威依据Netcode 官方文档、Protobuf 官方规范、Mirror 开源手册、HTTP/HTTPS 标准协议层级 1 基础落地（中级）HTTP GET/POST 封装、Json/Protobuf 基础序列化 / 反序列化；Netcode 基础 NetworkObject 同步、RPC 远程调用、玩家生成逻辑；文件分段下载、MD5 文件完整性校验基础实现。层级 2 原理深挖（高级）TCP 字节流无边界，粘包拆包底层成因；长度头分包协议完整数据流处理逻辑；心跳包、超时断开、断线重连、网络延迟插值补偿移动算法；服务端权威校验机制，防止客户端作弊；客户端预测 + 服务端回滚同步底层逻辑；状态同步 vs 帧同步适用场景、带宽消耗对比。层级 3 工业化落地（高级 / 主程）完整 TCP 长连接客户端框架：连接池、消息分发队列、超时自动重试、全局异常捕获；Addressables 远程资源热更新下载系统、差分补丁、灰度版本控制工具；全局网络加密框架：协议 AES 加密、统一全局错误码、接口自动重试机制；帧同步输入缓冲、快照存储、战斗回放系统工具。体系五 DOTS 高性能技术栈（大厂高级岗核心加分项）权威依据《DOTS in Action》、Unity DOTS 全套 Package 官方文档层级 1 基础落地（高级入门）JobSystem IJob 基础任务、Schedule 调度、Burst 简单数值计算；NativeArray 创建、读写、using/Dispose 释放基础写法；ECS Entity 生成、IComponentData 纯数据组件、基础 System 实体遍历。层级 2 原理深挖（高级核心）Archetype-Chunk 分块连续内存布局，大幅提升 CPU 缓存命中率底层逻辑；Job 读写屏障 ReadOnly/WriteOnly，规避多线程数据竞争、内存修改冲突；DynamicBuffer 可变数组组件存储原理、EntityQuery 多条件过滤实体机制；Burst 编译器优化逻辑：循环展开、常量折叠、unsafe 指针加速、消除边界检测开销。层级 3 工业化落地（主程）Hybrid 交互封装工具：DOTS 实体与 Mono GameObject、UGUI 双向数据互通；Entities Graphics 百万 GPU 实例渲染 Demo，大规模 RTS 单位无卡顿运行；DOTS 并行物理大规模怪物、子弹物理模拟，完全消除主线程物理卡顿；Netcode for Entities DOTS 原生高性能联机同步框架。体系六 热更新技术（国内手游高级工程师必考）权威依据XLua 腾讯官方文档、ILRuntime 开源完整手册、Addressables 官方资源热更文档分支 6.1 Addressables 资源热更（无第三方、原生官方）复用体系二 2.6 Addressables 三层完整知识点，仅负责资源补丁更新，无逻辑修改能力。分支 6.2 XLua Lua 逻辑热更层级 1 基础落地（高级）C
+调用 Lua、Lua 调用 C
+基础交互、[Hotfix] 函数线上补丁替换、自定义 Lua 加载器。层级 2 原理深挖Lua 栈交互机制、LuaJIT 安卓性能优化；Lua GC 与 Mono GC 双向引用泄漏根源； 原生层与 Lua 层接口隔离规范，禁止 Lua 直接持有 C
+场景实体。层级 3 工业化落地自动化 Lua 补丁打包流水线、Lua 内存监控工具、线上 Lua 崩溃捕获系统。分支 6.3 ILRuntime C
+字节码热更层级 1 基础落地三层工程隔离：原生层 / Model 模型层 / Hotfix 热更层；基础热更程序集加载、跨域委托适配。层级 2 原理深挖ILRuntime IL 字节码解释执行、跨域继承、完整泛型支持； 原生层与热更层依赖倒置，热更依赖原生抽象接口，原生层不引用热更层。层级 3 工业化落地自动化热更补丁生成、版本记录、一键回滚旧版本；ILRuntime 内存泄漏监控、区分原生 / 热更崩溃日志。体系七 全维度性能优化（面试核心考核）权威依据Unity 官方 Performance Optimization 白皮书、Profiler 官方手册层级 1 基础落地（中级）基础 GC 优化改造、对象池复用消除循环 new；Frame Debugger 查看 DrawCall，合并图集降低 OverDraw；Memory Profiler 查看 Texture/Mesh/Audio 内存占用。层级 2 原理深挖（高级）CPU 卡顿完整根源：空 Update 脚本逐帧遍历、大量反射、同步资源加载、物理迭代、GC STW 停顿；SRP Batcher 打断合批完整场景、贴图内存计算公式、Mipmap 内存翻倍规则；资源残留泄漏底层：引擎资源对象引用计数未归零，切换场景无法释放；移动端设备发热根源：高帧率、大量后处理、过高 DrawCall、频繁 GC。层级 3 工业化落地（高级 / 主程）全项目性能自动化排查工具、自定义 Profiler 性能标记框架，分段统计模块耗时；移动端自适应系统：动态调整渲染分辨率、锁定帧率 30/60、低配机型自动关闭特效与后处理；APK/IPA 包体瘦身自动化工具：资源去重、音频压缩、剔除冗余 Shader 变体、图集合并；线上性能监控系统，真机远程抓取 Profiler 快照，定位线上卡顿机型。体系八 跨平台适配与原生交互、上线打包权威依据Android/iOS/WebGL 官方打包文档、各平台原生交互手册层级 1 基础落地（中级）Android 基础打包、权限配置、签名流程；Unity 导出 Xcode 基础流程；PC 窗口 / 全屏适配、WebGL 加载进度条制作。层级 2 原理深挖（高级）Android Gradle 编译链路、aar 原生插件 C
+与 Java 互调 JNI 底层机制； 64 位 ABI 兼容、Android 高版本存储 / 隐私权限硬性限制；iOS OC 与 C
+消息传递、Info.plist 隐私权限上架规则、后台内存释放策略；WebGL 浏览器沙盒 IO 限制、内存池大小配置、多线程兼容开关规则。层级 3 工业化落地（高级 / 主程）多渠道一键打包脚本，自动替换渠道参数、签名、版本号；统一 SDK 适配框架：支付、推送、登录、相册、陀螺仪多平台统一接口；平台差异化渲染配置自动切换工具，一套工程适配安卓 / 苹果 / PC 高低配画质标准。体系九 Editor 自动化工具
+CI/CD 流水线权威依据《
+Unity Editor Scripting》、UI Toolkit 官方文档、GameCI 持续集成文档层级 1 基础落地（中级）MenuItem 自定义菜单、快捷键、资源一键修复工具；CustomInspector 重写检视面板、简易 EditorWindow 工具；OnDrawGizmos/OnSceneGUI 场景辅助绘制基础功能。层级 2 原理深挖（高级）AssetPostprocessor 资源导入管线，自动标准化贴图压缩、模型面数、动画压缩底层流程；UI Toolkit UXML/USS 布局渲染原理，类 HTML/CSS 可视化工具开发；Undo/Redo 操作序列化存储机制，编辑器操作可撤销规范。层级 3 工业化落地（主程必备）美术资源规范校验工具：自动检测贴图尺寸、模型三角面、骨骼数量、重复资源并自动修复；完整可视化编辑器：行为树编辑器、对话编辑器、配表编辑器；CI/CD Jenkins 自动化流水线：拉取代码
+单元测试
+自动打包
+输出安装包；Git LFS 大文件管理规范、分支开发策略、NUnit 单元测试框架集成。体系十 大厂主程专属进阶拓展技能（架构负责人拔高）权威依据《Real-Time Rendering》图形学经典、游戏安全行业规范、服务端开发标准文档计算机图形学底层 向量矩阵、透视 / 正交投影、光栅化完整流程、PBR BRDF 数学推导；法线切线空间、全局光照原理。高级自定义 Shader 开发 卡通描边、水面波动、布料模拟、体积雾 / 云、SSR 屏幕空间反射、简易光线追踪实现。游戏 AI 系统完整解决方案 NavMesh 寻路底层、动态障碍物、自定义 A * 寻路算法；可视化行为树编辑器；怪物 AI 调度、集群 AI、群体寻路逻辑。简易服务端开发能力 C
+/Go 逻辑服务、MySQL/Redis 基础增删改查；帧同步战斗网关、协议设计、房间匹配逻辑。游戏安全加固体系 AB/Addressables 资源加密、AES 协议加密、存档防篡改；内存反调试、内存篡改检测、热更脚本完整性校验。线上故障标准化排查体系 闪退（空引用 / IL2CPP 原生崩溃）、卡死（死锁 / 无限循环 / 主线程阻塞）、内存持续泄漏、联机同步异常完整定位流程； 符号文件还原崩溃堆栈、线上紧急补丁下发、版本回滚机制。大型项目工程管理能力 标准化代码评审 CR 清单、模块化拆分方案、需求拆解与工期评估； 热更风险评估规范、美术程序协作标准、新人技术培养路线搭建。第三部分 AI 配套投喂执行指令（练习题解析专用）你将接收用户每周 10 套 C
+/Unity 编程练习题，严格遵循以下规则输出知识点内容：第一步：解析每套练习题，自动匹配上文十大知识体系，提取全部涉及知识点；第二步：分层输出，严格遵循「层级 1 基础落地
+层级 2 原理深挖
+层级 3 工业化落地」由浅入深顺序，禁止跳阶；第三步：每个知识点标注权威来源（对应书籍名称 / Unity 官方文档链接）；第四步：每套知识点输出末尾，自动生成对应底层初级 / 中级复盘习题，遵循艾宾浩斯遗忘曲线对抗基础遗忘；第五步：同一知识点多次出现在不同练习题时，不再重复输出浅层基础层，仅补充深挖层、工业层拓展内容；第六步：单套习题讲解完成后，提供 3 道同类型拓展巩固练习题；每周 10 套全部解析完毕后，生成本周综合复盘试卷（混合初级、中级、本周高阶题目）；全部代码案例兼容 Unity2022LTS/Unity6、IL2CPP 打包，剔除废弃 API，贴合手游工业化标准；用户全程以练习题驱动学习，不主动推送无关知识点，仅根据习题涉及范围投喂对应详细内容。第四部分 分阶段晋升学习校验清单1. 初级
+中级工程师校验清单C
+：泛型、委托事件、协程、基础 GC 优化、简单反射全部习题正确率
+；Unity：射线检测、Animator、SpriteAtlas、简易对象池、Addressables 基础无文档独立实现；项目产出：模块化 2D 闯关项目，包含对象池、简易事件总线、动画状态机；底层复盘：任意初级语法 / Unity 基础 API 无卡顿，不存在知识遗忘。2. 中级
+高级工程师校验清单C
+底层：GC 完整优化、多线程安全、asmdef 分层、反射缓存、弱事件可独立完整封装；引擎：URP 完整管线、TMP 高性能列表、Addressables 增量热更、物理 Job 性能调优；架构：MVVM、五层分层框架、自研配表 / 日志 / 计时器完整工具链；刚需技能：XLua/ILRuntime 完整热更 Demo、Netcode 联机、多渠道打包、全维度性能排查；项目产出：可直接商用的完整单机 / 联网 Demo，自带资源热更、性能优化、自动化 Editor 工具。3. 高级
+大厂主程 / 技术负责人校验清单底层攻坚：DOTS ECS 混合项目落地、自定义 Renderer Feature、高级 Shader 开发；工程统筹：完整 CI/CD 流水线、资源自动化校验工具、全项目标准化代码规范文档；跨域能力：简易服务端、AI 可视化行为树编辑器、游戏安全加密体系；项目统筹：可独立输出完整项目架构方案、技术选型文档、线上故障标准化处理流程；团队能力：可输出新人成长路线、标准化代码评审规范、美术程序协作规范文档。
+标题 1
+标题 2
+标题 3
+标题 4
+默认段落字体
+普通表格
+骣歴偙K
+＄.寠x
+＀哿椀洀攀猀
+刀漀洀愀渀
+愀氀椀戀爀椀
+^Xe6^Xe6
+Rf[`N\
+zfNM|\
+~Y`N:g6R
+f[`N8h
+Rf[`N
+1uEmeQ
+sY`N:_6R
+ZfNM|
+AS'Y8h
+dhQ!jWW
+kKfGSf[`N!h
+WUS:g
+KfGS-N
+SibU\y
+,g0WX[
+KfGS'Y
+^B\;eZW
+0USCQKm
+e:_6RY
+W@xpenc{|
+pe<Pbc
+W@xpef[
+0W[&{2N
+sL]WY;
+penc[{
+0$Rzz
+W[\O(u
+W[&{2N
+O(u:Wof
+/T\POS
+hX[0W@W
+[SOpenc
+CQpenc
+_(uirSO
+X[:g6R
+c	g:Wof
+:N?ST
+h0W@W
+L]eQCQpenc
+V6e:g6R
+A~W[&{2N
+NekgbL
+hQ:Wof
+:WofirSO
+X[penc
+Rbc:WofN
+0hQ@\OS
+0hQ@\1_
+O(uCQpenc
+[hQhQWY
+[hVhQWY
+0,g0W
+W@xgbL
+RbcirSO
+0:WofxS}
+^B\:g6R
+)Y6qX[(W
+Nr^pb
+hQ@\pef[
+Gbb_;e
+Rbc:Wof
+RSOaw w:g6R
+RSO\Pbkir
+!jP[9_
+0*`irir
+^\'`X[eQ
+Tyb:WofGl;`
+IQgq!j
+QX[`S(u
+yirSO2n
+NOkXEQ
+9hnc:g
+I{yrHe
+S:Wof2n
+gyb!k:g6R
+NOUS!k
+sY(u
+Nagpenc
+RhQO\Lub
+SW[SOD
+c	girSO
+R;uY(u`l
+[texS}
+bGdFg6R\O
+WhQ@\US
+0:WofUS
+hQ@\8n
+:WofUS
+NhQ@\US
+^B\penc
+P[9_`l
+0yrHe`l
+0pe<Ppenc`l
+!jWWr^pb
+;NAm8n
+0pencB\
+B\!jWW
+^B\wQSO
+X[)R(u
+NUSCQKm
+6RX[ch
+0Hr,g|Q
+penc{|
+R\Pbk@b	g
+[te'`!h
+[tepencAm
+(u:Wof
+{USpe<P
+X[}T-N
+[SO:g6R
+!j*`ir
+0P[9_ir
+Y(uSO
+`lY(u
+[te:Wof
+pe*gR_
+0~{TAm
+^ag6R\O
+Hr,gX[
+>eV{eu
+QX[`l'Y
+fbc nS
+!USCQKm
+USCQKm
+0hQ@\IQgq
+O\U^zz
+0X[ch2
+~
+N'}%`e
+c6e(u7b
+0W01uEmeQ
+,{	Nek
+^fNM|T
+,{mQek
+USWY`N
+(u7bhQ
+N9hnc`N
+NX[(W
+[teUS:g
+mdRI7.
+tkE<*!
+tkYP>5#
+vd[I@.
+xo]TB9
+xf]KB0
+tkYP*!

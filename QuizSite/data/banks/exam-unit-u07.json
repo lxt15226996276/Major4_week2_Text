@@ -1,0 +1,200 @@
+{
+  "id": "exam-unit-u07",
+  "name": "第七单元：Animator 动画 · 10题",
+  "track": "exam",
+  "type": "theory",
+  "source": "Tests\\元宇宙专业四题库.xlsx",
+  "count": 10,
+  "questions": [
+    {
+      "id": "EX-W2-U07-013",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Animator 与 Animation 组件的区别？",
+      "answer": "Animator 支持复杂状态机和动画混合，Animation 仅支持简单的动画剪辑播放。",
+      "category": "第七单元：Animator 动画",
+      "unitNum": 7,
+      "unitName": "第七单元：Animator 动画",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第七单元：Animator 动画"
+      ]
+    },
+    {
+      "id": "EX-W2-U07-015",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何为对象添加 Animator 组件？",
+      "answer": "选中对象后在 Inspector 面板点击 “Add Component”，搜索并添加 “Animator” 组件。",
+      "category": "第七单元：Animator 动画",
+      "unitNum": 7,
+      "unitName": "第七单元：Animator 动画",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第七单元：Animator 动画"
+      ]
+    },
+    {
+      "id": "EX-W2-U07-016",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Animator 组件中 “Controller” 属性的作用？",
+      "answer": "指定关联的 Animator Controller，用于定义动画状态机逻辑。",
+      "category": "第七单元：Animator 动画",
+      "unitNum": 7,
+      "unitName": "第七单元：Animator 动画",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第七单元：Animator 动画"
+      ]
+    },
+    {
+      "id": "EX-W2-U07-018",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Animator 组件中 “Update Mode” 的选项？",
+      "answer": "包括 Normal（正常更新）、Animate Physics（物理更新）、Unscaled Time（不受时间缩放影响）。",
+      "category": "第七单元：Animator 动画",
+      "unitNum": 7,
+      "unitName": "第七单元：Animator 动画",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第七单元：Animator 动画"
+      ]
+    },
+    {
+      "id": "EX-W2-U07-019",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何设置 Animator 的默认动画？",
+      "answer": "在 Animator Controller 中设置某个状态为 “Default State”，进入时自动播放。",
+      "category": "第七单元：Animator 动画",
+      "unitNum": 7,
+      "unitName": "第七单元：Animator 动画",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第七单元：Animator 动画"
+      ]
+    },
+    {
+      "id": "EX-W2-U07-021",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Animator 组件中 “Culling Mode” 的作用？",
+      "answer": "控制对象不可见时是否停止动画更新，优化性能。",
+      "category": "第七单元：Animator 动画",
+      "unitNum": 7,
+      "unitName": "第七单元：Animator 动画",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第七单元：Animator 动画"
+      ]
+    },
+    {
+      "id": "EX-W3-U07-016",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何为对象添加 Animator 组件？",
+      "answer": "选中对象后在 Inspector 面板点击 “Add Component”，搜索并添加 “Animator” 组件。",
+      "category": "第七单元：Animator 动画",
+      "unitNum": 7,
+      "unitName": "第七单元：Animator 动画",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第七单元：Animator 动画"
+      ]
+    },
+    {
+      "id": "EX-W3-U07-017",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "“Avatar” 属性在 Animator 中的用途？",
+      "answer": "用于人形模型，关联骨骼映射信息，支持动画重定向。",
+      "category": "第七单元：Animator 动画",
+      "unitNum": 7,
+      "unitName": "第七单元：Animator 动画",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第七单元：Animator 动画"
+      ]
+    },
+    {
+      "id": "EX-W4-U07-010",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何为对象添加 Animator 组件？",
+      "answer": "选中对象后在 Inspector 面板点击 “Add Component”，搜索并添加 “Animator” 组件。",
+      "category": "第七单元：Animator 动画",
+      "unitNum": 7,
+      "unitName": "第七单元：Animator 动画",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第七单元：Animator 动画"
+      ]
+    },
+    {
+      "id": "EX-W4-U07-011",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "“Avatar” 属性在 Animator 中的用途？",
+      "answer": "用于人形模型，关联骨骼映射信息，支持动画重定向。",
+      "category": "第七单元：Animator 动画",
+      "unitNum": 7,
+      "unitName": "第七单元：Animator 动画",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第七单元：Animator 动画"
+      ]
+    }
+  ]
+}

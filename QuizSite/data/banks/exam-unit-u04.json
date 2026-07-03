@@ -1,0 +1,447 @@
+{
+  "id": "exam-unit-u04",
+  "name": "第四单元：常用控件（三） · 23题",
+  "track": "exam",
+  "type": "theory",
+  "source": "Tests\\元宇宙专业四题库.xlsx",
+  "count": 23,
+  "questions": [
+    {
+      "id": "EX-W1-U04-042",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Dropdown 控件的组成？",
+      "answer": "包括 Label（显示选中项）、Template（下拉列表模板）、Item（列表项）。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-043",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Input Field 的 “Content Type” 常见类型？",
+      "answer": "有 Standard、Integer、Decimal、Password、Email Address 等。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-044",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "raycast target 属性的作用？",
+      "answer": "决定 UI 元素是否能接收射线检测，影响交互响应。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-045",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "动态给 Dropdown 添加选项的方法？",
+      "answer": "通过代码调用 AddOptions () 方法，传入选项列表。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-046",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "限制 Input Field 输入长度的方式？",
+      "answer": "设置 “Character Limit” 属性，0 表示无限制。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-047",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "关闭不必要 raycast target 的原因？",
+      "answer": "减少射线检测计算量，提高 UI 交互性能，避免误触发。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-048",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Dropdown 的 “Value” 属性含义？",
+      "answer": "表示选中项在选项列表中的索引（从 0 开始）。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-049",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Dropdown 的 “Caption Text” 和 “Item Text” 区别？",
+      "answer": "Caption Text 显示当前选中项；Item Text 是列表项的文本模板。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-050",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Dropdown 的 “On Value Changed” 事件作用？",
+      "answer": "当选中项变化时触发，可获取新选中项的索引。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-051",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Input Field 的 “Read Only” 属性作用？",
+      "answer": "设为 true 时，输入框不可编辑，仅可查看。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-052",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "处理 Input Field 输入验证的方法？",
+      "answer": "可通过 “Content Type” 限制，或监听事件自定义验证。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-053",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Dropdown 的 “Template” 属性作用？",
+      "answer": "作为下拉列表的模板，定义列表项的样式。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-054",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "为什么要合理设置 Input Field 的 “Content Type”？",
+      "answer": "确保输入内容符合预期格式，减少错误输入。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W2-U04-040",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "raycast target 属性的作用？",
+      "answer": "决定 UI 元素是否能接收射线检测，影响交互响应。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W2-U04-042",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "动态给 Dropdown 添加选项的方法？",
+      "answer": "通过代码调用 AddOptions () 方法，传入选项列表。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W2-U04-045",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "限制 Input Field 输入长度的方式？",
+      "answer": "设置 “Character Limit” 属性，0 表示无限制。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W2-U04-048",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Dropdown 的 “Value” 属性含义？",
+      "answer": "表示选中项在选项列表中的索引（从 0 开始）。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W2-U04-052",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Dropdown 的 “Template” 属性作用？",
+      "answer": "作为下拉列表的模板，定义列表项的样式。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W2-U04-056",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "为什么要合理设置 Input Field 的 “Content Type”？",
+      "answer": "确保输入内容符合预期格式，减少错误输入。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W3-U04-007",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "限制 Input Field 输入长度的方式？",
+      "answer": "设置 “Character Limit” 属性，0 表示无限制。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W3-U04-008",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "Input Field 的 “On End Edit” 事件触发时机？",
+      "answer": "当输入框失去焦点或按下回车键时。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W3-U04-009",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "Input Field 的 “Content Type” 常见类型？",
+      "answer": "有 Standard、Integer、Decimal、Password、Email Address 等。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U04-006",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "Input Field 的 “Content Type” 常见类型？",
+      "answer": "有 Standard、Integer、Decimal、Password、Email Address 等。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第四单元：常用控件（三）"
+      ]
+    }
+  ]
+}

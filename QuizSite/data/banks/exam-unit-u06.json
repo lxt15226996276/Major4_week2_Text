@@ -1,0 +1,295 @@
+{
+  "id": "exam-unit-u06",
+  "name": "第六单元：Animation 动画深入 · 15题",
+  "track": "exam",
+  "type": "theory",
+  "source": "Tests\\元宇宙专业四题库.xlsx",
+  "count": 15,
+  "questions": [
+    {
+      "id": "EX-W2-U06-001",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "什么是动画剪辑（Animation Clip）？",
+      "answer": "存储对象动画数据的文件，包含时间轴上的位置、旋转、缩放等属性变化信息。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W2-U06-002",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "动画剪辑的 “Wrap Mode” 有哪些常见类型？",
+      "answer": "包括 Once（单次播放）、Loop（循环）、PingPong（来回播放）、Clamp Forever（停在最后一帧）。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W2-U06-004",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何创建动画剪辑？",
+      "answer": "选中对象后打开 Animation 窗口，点击 “Create” 按钮并命名保存，通过添加关键帧编辑动画。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W2-U06-006",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "动画剪辑中 “Curves” 视图的用途？",
+      "answer": "用于编辑属性随时间变化的曲线，可调整切线类型（如线性、平滑）优化动画过渡。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W2-U06-007",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Animation 窗口的主要功能？",
+      "answer": "用于创建、编辑动画剪辑，添加 / 删除关键帧，预览动画效果，调整动画曲线。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W2-U06-009",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "“Dopesheet” 视图与 “Curves” 视图的区别？",
+      "answer": "Dopesheet 视图显示关键帧的时间分布，Curves 视图显示属性随时间变化的曲线形态。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W2-U06-010",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何复制动画剪辑中的关键帧？",
+      "answer": "选中关键帧后按住 Ctrl 键拖动到目标时间点，或通过右键菜单 “Copy” 和 “Paste” 操作。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W2-U06-012",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "优化坦克大战动画性能的方法？",
+      "answer": "减少动画剪辑中的关键帧数量，合并重复动画，使用对象池管理动画对象。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W3-U06-011",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "镜头漫游中实现景深变化的方法？",
+      "answer": "在动画剪辑中为摄像机的 “Field of View” 或 “Depth of Field” 属性添加关键帧。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W3-U06-012",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "动画剪辑中 “Curves” 视图的用途？",
+      "answer": "用于编辑属性随时间变化的曲线，可调整切线类型（如线性、平滑）优化动画过渡。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W3-U06-013",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "什么是动画剪辑（Animation Clip）？",
+      "answer": "存储对象动画数据的文件，包含时间轴上的位置、旋转、缩放等属性变化信息。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W3-U06-014",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "坦克爆炸动画的优化技巧？",
+      "answer": "使用简化的爆炸模型，减少粒子数量，设置动画播放完成后自动销毁对象。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W3-U06-015",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "制作镜头漫游效果的核心思路？",
+      "answer": "为摄像机添加动画剪辑，通过关键帧记录不同时间点的位置和旋转信息，模拟镜头移动路径。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W4-U06-008",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "镜头漫游中实现景深变化的方法？",
+      "answer": "在动画剪辑中为摄像机的 “Field of View” 或 “Depth of Field” 属性添加关键帧。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W4-U06-009",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "坦克爆炸动画的优化技巧？",
+      "answer": "使用简化的爆炸模型，减少粒子数量，设置动画播放完成后自动销毁对象。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第六单元：Animation 动画深入"
+      ]
+    }
+  ]
+}

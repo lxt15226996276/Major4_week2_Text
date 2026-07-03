@@ -1,0 +1,181 @@
+{
+  "id": "exam-unit-u14",
+  "name": "第十四单元：怪物 AI · 9题",
+  "track": "exam",
+  "type": "theory",
+  "source": "Tests\\元宇宙专业四题库.xlsx",
+  "count": 9,
+  "questions": [
+    {
+      "id": "EX-W3-U14-048",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何关联怪物动画与行为逻辑？",
+      "answer": "脚本获取行为状态，设置 Animator 参数控制动画切换。",
+      "category": "第十四单元：怪物 AI",
+      "unitNum": 14,
+      "unitName": "第十四单元：怪物 AI",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十四单元：怪物 AI"
+      ]
+    },
+    {
+      "id": "EX-W3-U14-049",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何随机改变巡逻等待时间？",
+      "answer": "用 Random.Range () 生成随机时间。",
+      "category": "第十四单元：怪物 AI",
+      "unitNum": 14,
+      "unitName": "第十四单元：怪物 AI",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十四单元：怪物 AI"
+      ]
+    },
+    {
+      "id": "EX-W3-U14-050",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "怪物行为测试内容？",
+      "answer": "巡逻路径、追击触发、攻击范围冷却、死亡状态等。",
+      "category": "第十四单元：怪物 AI",
+      "unitNum": 14,
+      "unitName": "第十四单元：怪物 AI",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十四单元：怪物 AI"
+      ]
+    },
+    {
+      "id": "EX-W3-U14-051",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何实现怪物攻击行为？",
+      "answer": "距离小于攻击范围且不在冷却时，播放动画并判定伤害。",
+      "category": "第十四单元：怪物 AI",
+      "unitNum": 14,
+      "unitName": "第十四单元：怪物 AI",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十四单元：怪物 AI"
+      ]
+    },
+    {
+      "id": "EX-W3-U14-052",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "怪物感知范围实现方式？",
+      "answer": "添加球形碰撞器（触发器）或用 Vector3.Distance () 计算距离。",
+      "category": "第十四单元：怪物 AI",
+      "unitNum": 14,
+      "unitName": "第十四单元：怪物 AI",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十四单元：怪物 AI"
+      ]
+    },
+    {
+      "id": "EX-W3-U14-053",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何实现怪物群体协作攻击？",
+      "answer": "一个怪物检测到玩家后，通知附近怪物共同攻击。",
+      "category": "第十四单元：怪物 AI",
+      "unitNum": 14,
+      "unitName": "第十四单元：怪物 AI",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十四单元：怪物 AI"
+      ]
+    },
+    {
+      "id": "EX-W3-U14-054",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "怪物动画状态机基本状态？",
+      "answer": "待机、巡逻、追击、攻击、死亡等。",
+      "category": "第十四单元：怪物 AI",
+      "unitNum": 14,
+      "unitName": "第十四单元：怪物 AI",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十四单元：怪物 AI"
+      ]
+    },
+    {
+      "id": "EX-W3-U14-055",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何防止怪物穿墙？",
+      "answer": "用 NavMeshAgent 导航或添加碰撞检测重算路径。",
+      "category": "第十四单元：怪物 AI",
+      "unitNum": 14,
+      "unitName": "第十四单元：怪物 AI",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十四单元：怪物 AI"
+      ]
+    },
+    {
+      "id": "EX-W4-U14-019",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "怪物感知范围实现方式？",
+      "answer": "添加球形碰撞器（触发器）或用 Vector3.Distance () 计算距离。",
+      "category": "第十四单元：怪物 AI",
+      "unitNum": 14,
+      "unitName": "第十四单元：怪物 AI",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十四单元：怪物 AI"
+      ]
+    }
+  ]
+}

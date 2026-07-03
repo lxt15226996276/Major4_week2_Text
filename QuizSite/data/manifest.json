@@ -1,0 +1,220 @@
+{
+  "version": 3,
+  "generatedAt": "2026-06-29T01:15:53.479962+00:00",
+  "tracks": [
+    {
+      "id": "exam",
+      "name": "考试及格 · 理论题库",
+      "subtitle": "元宇宙专业四题库.xlsx · 与面试轨分开",
+      "defaultMode": "week",
+      "defaultSelection": "exam-week-1",
+      "modes": {
+        "week": {
+          "label": "按周次",
+          "hint": "对应 Excel 四个工作表，每卷约 64 题",
+          "options": [
+            {
+              "id": "exam-week-1",
+              "name": "第一周 · 64题",
+              "count": 64,
+              "file": "banks/exam-week-1.json",
+              "weekNum": 1,
+              "sheetName": "第一周"
+            },
+            {
+              "id": "exam-week-2",
+              "name": "第二周 · 64题",
+              "count": 64,
+              "file": "banks/exam-week-2.json",
+              "weekNum": 2,
+              "sheetName": "第二周"
+            },
+            {
+              "id": "exam-week-3",
+              "name": "第三周 · 64题",
+              "count": 64,
+              "file": "banks/exam-week-3.json",
+              "weekNum": 3,
+              "sheetName": "第三周"
+            },
+            {
+              "id": "exam-week-4",
+              "name": "第四周 · 63题",
+              "count": 63,
+              "file": "banks/exam-week-4.json",
+              "weekNum": 4,
+              "sheetName": "第四周"
+            }
+          ]
+        },
+        "unit": {
+          "label": "按单元",
+          "hint": "仅列出 Excel「对应单元」列中实际有题的单元",
+          "options": [
+            {
+              "id": "exam-unit-u01",
+              "name": "第一单元：画布和基础布局 · 23题",
+              "count": 23,
+              "file": "banks/exam-unit-u01.json",
+              "unitNum": 1,
+              "unitName": "第一单元：画布和基础布局"
+            },
+            {
+              "id": "exam-unit-u02",
+              "name": "第二单元：常用控件（一） · 21题",
+              "count": 21,
+              "file": "banks/exam-unit-u02.json",
+              "unitNum": 2,
+              "unitName": "第二单元：常用控件（一）"
+            },
+            {
+              "id": "exam-unit-u03",
+              "name": "第三单元：常用控件（二） · 19题",
+              "count": 19,
+              "file": "banks/exam-unit-u03.json",
+              "unitNum": 3,
+              "unitName": "第三单元：常用控件（二）"
+            },
+            {
+              "id": "exam-unit-u04",
+              "name": "第四单元：常用控件（三） · 23题",
+              "count": 23,
+              "file": "banks/exam-unit-u04.json",
+              "unitNum": 4,
+              "unitName": "第四单元：常用控件（三）"
+            },
+            {
+              "id": "exam-unit-u05",
+              "name": "第五单元：选服面板 UI · 14题",
+              "count": 14,
+              "file": "banks/exam-unit-u05.json",
+              "unitNum": 5,
+              "unitName": "第五单元：选服面板 UI"
+            },
+            {
+              "id": "exam-unit-u06",
+              "name": "第六单元：Animation 动画深入 · 15题",
+              "count": 15,
+              "file": "banks/exam-unit-u06.json",
+              "unitNum": 6,
+              "unitName": "第六单元：Animation 动画深入"
+            },
+            {
+              "id": "exam-unit-u07",
+              "name": "第七单元：Animator 动画 · 10题",
+              "count": 10,
+              "file": "banks/exam-unit-u07.json",
+              "unitNum": 7,
+              "unitName": "第七单元：Animator 动画"
+            },
+            {
+              "id": "exam-unit-u08",
+              "name": "第八单元：动画状态机（一） · 15题",
+              "count": 15,
+              "file": "banks/exam-unit-u08.json",
+              "unitNum": 8,
+              "unitName": "第八单元：动画状态机（一）"
+            },
+            {
+              "id": "exam-unit-u09",
+              "name": "第九单元：动画状态机（二） · 9题",
+              "count": 9,
+              "file": "banks/exam-unit-u09.json",
+              "unitNum": 9,
+              "unitName": "第九单元：动画状态机（二）"
+            },
+            {
+              "id": "exam-unit-u10",
+              "name": "第十单元：常见游戏动画设置 · 12题",
+              "count": 12,
+              "file": "banks/exam-unit-u10.json",
+              "unitNum": 10,
+              "unitName": "第十单元：常见游戏动画设置"
+            },
+            {
+              "id": "exam-unit-u11",
+              "name": "第十一单元：角色控制器 · 13题",
+              "count": 13,
+              "file": "banks/exam-unit-u11.json",
+              "unitNum": 11,
+              "unitName": "第十一单元：角色控制器"
+            },
+            {
+              "id": "exam-unit-u12",
+              "name": "第十二单元：摇杆插件 · 9题",
+              "count": 9,
+              "file": "banks/exam-unit-u12.json",
+              "unitNum": 12,
+              "unitName": "第十二单元：摇杆插件"
+            },
+            {
+              "id": "exam-unit-u13",
+              "name": "第十三单元：状态机 · 9题",
+              "count": 9,
+              "file": "banks/exam-unit-u13.json",
+              "unitNum": 13,
+              "unitName": "第十三单元：状态机"
+            },
+            {
+              "id": "exam-unit-u14",
+              "name": "第十四单元：怪物 AI · 9题",
+              "count": 9,
+              "file": "banks/exam-unit-u14.json",
+              "unitNum": 14,
+              "unitName": "第十四单元：怪物 AI"
+            },
+            {
+              "id": "exam-unit-u15",
+              "name": "第十五单元：编辑器拓展 · 9题",
+              "count": 9,
+              "file": "banks/exam-unit-u15.json",
+              "unitNum": 15,
+              "unitName": "第十五单元：编辑器拓展"
+            },
+            {
+              "id": "exam-unit-u16",
+              "name": "第十六单元 项目实例 RPG世界（一） · 9题",
+              "count": 9,
+              "file": "banks/exam-unit-u16.json",
+              "unitNum": 16,
+              "unitName": "第十六单元 项目实例 RPG世界（一）"
+            },
+            {
+              "id": "exam-unit-u17",
+              "name": "第十七单元 项目实例 RPG世界（二） · 14题",
+              "count": 14,
+              "file": "banks/exam-unit-u17.json",
+              "unitNum": 17,
+              "unitName": "第十七单元 项目实例 RPG世界（二）"
+            },
+            {
+              "id": "exam-unit-u18",
+              "name": "第十八单元 项目实例 RPG世界（三） · 14题",
+              "count": 14,
+              "file": "banks/exam-unit-u18.json",
+              "unitNum": 18,
+              "unitName": "第十八单元 项目实例 RPG世界（三）"
+            },
+            {
+              "id": "exam-unit-u19",
+              "name": "第十九单元 项目实例 RPG世界（四） · 8题",
+              "count": 8,
+              "file": "banks/exam-unit-u19.json",
+              "unitNum": 19,
+              "unitName": "第十九单元 项目实例 RPG世界（四）"
+            }
+          ]
+        }
+      },
+      "customBanks": []
+    },
+    {
+      "id": "interview",
+      "name": "大厂面试 · 成长路线",
+      "subtitle": "口述面试轨 · 不进考试及格线",
+      "file": "banks/interview.json",
+      "count": 79,
+      "bankId": "interview"
+    }
+  ]
+}

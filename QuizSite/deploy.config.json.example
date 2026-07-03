@@ -1,0 +1,6 @@
+{
+  "publicUrl": "https://你的用户名.github.io/你的仓库名",
+  "githubRemote": "origin",
+  "githubBranch": "gh-pages",
+  "commitMessage": "Deploy quiz site"
+}

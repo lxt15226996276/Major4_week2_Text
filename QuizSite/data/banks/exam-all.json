@@ -1,0 +1,4855 @@
+{
+  "id": "exam-all",
+  "name": "全部理论题 · 255题",
+  "track": "exam",
+  "type": "theory",
+  "source": "Tests\\元宇宙专业四题库.xlsx",
+  "count": 255,
+  "questions": [
+    {
+      "id": "EX-W1-U01-001",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "什么是游戏 UI？",
+      "answer": "游戏中玩家与系统交互的视觉界面，如菜单、血条、按钮等。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-002",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "游戏 UI 和普通应用 UI 的核心区别？",
+      "answer": "游戏 UI 需贴合游戏风格，动态效果更强，适配多输入设备，性能要求更高。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-003",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Canvas 的主要作用？",
+      "answer": "是所有 UI 元素的容器，所有 UI 组件必须依附于 Canvas 存在。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-004",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Canvas 有哪几种渲染模式？",
+      "answer": "屏幕覆盖模式、屏幕相机模式、世界空间模式；",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-005",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Rect Transform 的特点？",
+      "answer": "专为 UI 设计，支持锚点和轴心，可随父级自动调整大小和位置。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-006",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "普通 Transform 和 Rect Transform 的适用对象？",
+      "answer": "普通 Transform 用于 3D/2D 对象；Rect Transform 用于 UI 元素。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-007",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "实现 UI 屏幕自适应的关键组件？",
+      "answer": "Canvas Scaler 组件是实现 UI 屏幕自适应的核心。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-008",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "锚点（Anchors）的作用？",
+      "answer": "决定 UI 元素与父级边缘的连接方式，影响元素随父级变化的调整方式。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-009",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Pivot（轴心）对 UI 元素的影响？",
+      "answer": "是元素旋转、缩放的中心点，也影响位置计算。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-010",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Text 控件的核心属性？",
+      "answer": "包括字体、字号、颜色、对齐方式、文本内容等。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-011",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "EventSystem 的主要功能？",
+      "answer": "负责检测和处理用户输入，如点击、滑动等交互操作。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-012",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "“Scale With Screen Size” 模式的参考是什么？",
+      "answer": "按设定的参考分辨率缩放 UI，保持元素比例。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-013",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "为什么要设置合理的 UI 锚点？",
+      "answer": "确保 UI 元素在屏幕尺寸变化时能正确显示在预期位置。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-014",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Image 控件的主要用途？",
+      "answer": "用于显示 Sprite 图片，支持切片、九宫格等效果。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-015",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "RawImage 与 Image 的核心区别？",
+      "answer": "RawImage 显示原始纹理，Image 显示 Sprite；RawImage 更适合动态纹理。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-016",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Button 控件有哪些常见状态？",
+      "answer": "正常、高亮、按下、禁用四种状态。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-017",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何给 Button 添加点击事件？",
+      "answer": "可在 Inspector 面板绑定脚本方法，或通过代码 AddListener 添加。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-018",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Toggle 控件的作用？",
+      "answer": "实现开关功能或多选功能，可通过 isOn 获取选中状态。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-019",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Toggle Group 的功能？",
+      "answer": "管理多个 Toggle，实现单选效果（同一时间仅一个被选中）。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-020",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "RawImage 的适用场景？",
+      "answer": "显示相机渲染纹理、动态生成的纹理等。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-021",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Button 的 “Transition” 属性有哪些选项？",
+      "answer": "包括 None、Color Tint、Sprite Swap、Animation。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-022",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "让 Image 显示为圆形的方法？",
+      "answer": "使用带透明通道的圆形 Sprite，或添加 Mask 组件配合圆形遮罩。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-023",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Button 点击无响应的可能原因？",
+      "answer": "无 EventSystem、未勾选 Raycast Target、被遮挡、脚本错误等。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-024",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Toggle 的组成部分？",
+      "answer": "包括背景、勾选图标、Label 等元素。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-025",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Image 的 “Type” 属性有哪些？",
+      "answer": "如 Simple、Sliced、Tiled、Filled 等。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-026",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "RawImage 的 “Texture” 属性作用？",
+      "answer": "用于指定要显示的原始纹理。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-027",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何设置 Button 的高亮状态颜色？",
+      "answer": "在 Button 的 Color Tint 过渡模式下设置 Highlighted Color。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-028",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Toggle 状态变化时会触发什么事件？",
+      "answer": "会触发 onValue Changed 事件，可监听该事件做相应处理。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-029",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Slider 控件的主要属性？",
+      "answer": "包括 Min Value、Max Value、Value、Whole Numbers 等。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-030",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Scrollbar 与 Scroll Rect 的关系？",
+      "answer": "Scrollbar 可作为 Scroll Rect 的滚动控制器，两者状态同步。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-031",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Mask 与 RectMask2d 的区别？",
+      "answer": "Mask 支持任意形状，性能较差；RectMask2d 仅支持矩形，性能更好。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-032",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Scroll Rect 的组成部分？",
+      "answer": "包括 Viewport（可视区域）、Content（滚动内容）、滚动条。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-033",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Mask 组件的工作原理？",
+      "answer": "通过模板测试，只显示遮罩范围内的内容，隐藏超出部分。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-034",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Scrollbar 的 “Number Of Steps” 属性作用？",
+      "answer": "设置滚动条的步长，使 Value 值按固定间隔变化。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-035",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "优化 Scroll Rect 性能的方法？",
+      "answer": "使用 RectMask2d 替代 Mask，开启对象池，限制子物体数量。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-036",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Slider 的 “On Value Changed” 事件触发时机？",
+      "answer": "当 Slider 的 Value 值发生变化时（拖动或代码修改）。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-037",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Scroll Rect 的 “Movement Type” 有哪些？",
+      "answer": "包括 Unrestricted、Elastic、Clamped。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-038",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Mask 组件需要配合什么使用？",
+      "answer": "通常需要配合 Image 等具有图形的组件使用。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-039",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Scrollbar 的 “Size” 属性作用？",
+      "answer": "控制滚动条滑块的大小，反映内容占可视区域的比例。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-040",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Slider 的 “Direction” 属性作用？",
+      "answer": "控制滑块的滑动方向。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-041",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "RectMask2d 的优势？",
+      "answer": "性能优于 Mask，适合移动端，只支持矩形遮罩。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-042",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Dropdown 控件的组成？",
+      "answer": "包括 Label（显示选中项）、Template（下拉列表模板）、Item（列表项）。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-043",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Input Field 的 “Content Type” 常见类型？",
+      "answer": "有 Standard、Integer、Decimal、Password、Email Address 等。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-044",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "raycast target 属性的作用？",
+      "answer": "决定 UI 元素是否能接收射线检测，影响交互响应。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-045",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "动态给 Dropdown 添加选项的方法？",
+      "answer": "通过代码调用 AddOptions () 方法，传入选项列表。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-046",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "限制 Input Field 输入长度的方式？",
+      "answer": "设置 “Character Limit” 属性，0 表示无限制。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-047",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "关闭不必要 raycast target 的原因？",
+      "answer": "减少射线检测计算量，提高 UI 交互性能，避免误触发。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-048",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Dropdown 的 “Value” 属性含义？",
+      "answer": "表示选中项在选项列表中的索引（从 0 开始）。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-049",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Dropdown 的 “Caption Text” 和 “Item Text” 区别？",
+      "answer": "Caption Text 显示当前选中项；Item Text 是列表项的文本模板。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-050",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Dropdown 的 “On Value Changed” 事件作用？",
+      "answer": "当选中项变化时触发，可获取新选中项的索引。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-051",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Input Field 的 “Read Only” 属性作用？",
+      "answer": "设为 true 时，输入框不可编辑，仅可查看。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-052",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "处理 Input Field 输入验证的方法？",
+      "answer": "可通过 “Content Type” 限制，或监听事件自定义验证。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-053",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Dropdown 的 “Template” 属性作用？",
+      "answer": "作为下拉列表的模板，定义列表项的样式。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-054",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "为什么要合理设置 Input Field 的 “Content Type”？",
+      "answer": "确保输入内容符合预期格式，减少错误输入。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U05-055",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "选服面板 UI 搭建的基本步骤？",
+      "answer": "创建 Canvas，添加背景、标题，设计服务器列表（用 Scroll Rect），添加按钮。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W1-U05-056",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "控制面板显示与隐藏的方法？",
+      "answer": "调用 SetActive () 方法，或修改 Canvas Group 的 alpha 和 interactable 属性。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W1-U05-057",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "子面板控制的常用方式？",
+      "answer": "利用父子对象层级管理，通过单例模式获取实例，用事件通知。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W1-U05-058",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "选服面板自适应设置的要点？",
+      "answer": "服务器列表用 Scroll Rect 适配数量，按钮和文本用锚点固定位置。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W1-U05-059",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "防止子面板点击穿透父面板的方法？",
+      "answer": "给子面板添加 Panel 组件并勾选 “Block Raycasts”，或提高子面板 Sort Order。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W1-U05-060",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "选服面板加载服务器列表时显示加载动画的方式？",
+      "answer": "请求数据时显示旋转图标，加载完成后隐藏。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W1-U05-061",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "实现选服面板淡入淡出效果的方法？",
+      "answer": "调整 Canvas Group 的 alpha 值，配合动画插件实现过渡。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W1-U05-062",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "选服面板中 “返回” 按钮的功能实现？",
+      "answer": "绑定事件，点击时隐藏当前面板，显示上一级面板。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W1-U05-063",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "选服面板适配不同屏幕尺寸的关键？",
+      "answer": "合理设置 Canvas Scaler 和各元素的锚点、布局组件。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W1-U05-064",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "选服面板中批量创建服务器项的方法？",
+      "answer": "通过代码动态实例化服务器项预制体，添加到 Content 中。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W2-U06-001",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "什么是动画剪辑（Animation Clip）？",
+      "answer": "存储对象动画数据的文件，包含时间轴上的位置、旋转、缩放等属性变化信息。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W2-U06-002",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "动画剪辑的 “Wrap Mode” 有哪些常见类型？",
+      "answer": "包括 Once（单次播放）、Loop（循环）、PingPong（来回播放）、Clamp Forever（停在最后一帧）。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W2-U01-003",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Canvas 的主要作用？",
+      "answer": "是所有 UI 元素的容器，所有 UI 组件必须依附于 Canvas 存在。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W2-U06-004",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何创建动画剪辑？",
+      "answer": "选中对象后打开 Animation 窗口，点击 “Create” 按钮并命名保存，通过添加关键帧编辑动画。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W2-U01-005",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Rect Transform 的特点？",
+      "answer": "专为 UI 设计，支持锚点和轴心，可随父级自动调整大小和位置。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W2-U06-006",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "动画剪辑中 “Curves” 视图的用途？",
+      "answer": "用于编辑属性随时间变化的曲线，可调整切线类型（如线性、平滑）优化动画过渡。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W2-U06-007",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Animation 窗口的主要功能？",
+      "answer": "用于创建、编辑动画剪辑，添加 / 删除关键帧，预览动画效果，调整动画曲线。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W2-U01-008",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Pivot（轴心）对 UI 元素的影响？",
+      "answer": "是元素旋转、缩放的中心点，也影响位置计算。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W2-U06-009",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "“Dopesheet” 视图与 “Curves” 视图的区别？",
+      "answer": "Dopesheet 视图显示关键帧的时间分布，Curves 视图显示属性随时间变化的曲线形态。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W2-U06-010",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何复制动画剪辑中的关键帧？",
+      "answer": "选中关键帧后按住 Ctrl 键拖动到目标时间点，或通过右键菜单 “Copy” 和 “Paste” 操作。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W2-U01-011",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Text 控件的核心属性？",
+      "answer": "包括字体、字号、颜色、对齐方式、文本内容等。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W2-U06-012",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "优化坦克大战动画性能的方法？",
+      "answer": "减少动画剪辑中的关键帧数量，合并重复动画，使用对象池管理动画对象。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W2-U07-013",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Animator 与 Animation 组件的区别？",
+      "answer": "Animator 支持复杂状态机和动画混合，Animation 仅支持简单的动画剪辑播放。",
+      "category": "第七单元：Animator 动画",
+      "unitNum": 7,
+      "unitName": "第七单元：Animator 动画",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第七单元：Animator 动画"
+      ]
+    },
+    {
+      "id": "EX-W2-U01-014",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "EventSystem 的主要功能？",
+      "answer": "负责检测和处理用户输入，如点击、滑动等交互操作。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W2-U07-015",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何为对象添加 Animator 组件？",
+      "answer": "选中对象后在 Inspector 面板点击 “Add Component”，搜索并添加 “Animator” 组件。",
+      "category": "第七单元：Animator 动画",
+      "unitNum": 7,
+      "unitName": "第七单元：Animator 动画",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第七单元：Animator 动画"
+      ]
+    },
+    {
+      "id": "EX-W2-U07-016",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Animator 组件中 “Controller” 属性的作用？",
+      "answer": "指定关联的 Animator Controller，用于定义动画状态机逻辑。",
+      "category": "第七单元：Animator 动画",
+      "unitNum": 7,
+      "unitName": "第七单元：Animator 动画",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第七单元：Animator 动画"
+      ]
+    },
+    {
+      "id": "EX-W2-U02-017",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Button 控件有哪些常见状态？",
+      "answer": "正常、高亮、按下、禁用四种状态。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U07-018",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Animator 组件中 “Update Mode” 的选项？",
+      "answer": "包括 Normal（正常更新）、Animate Physics（物理更新）、Unscaled Time（不受时间缩放影响）。",
+      "category": "第七单元：Animator 动画",
+      "unitNum": 7,
+      "unitName": "第七单元：Animator 动画",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第七单元：Animator 动画"
+      ]
+    },
+    {
+      "id": "EX-W2-U07-019",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何设置 Animator 的默认动画？",
+      "answer": "在 Animator Controller 中设置某个状态为 “Default State”，进入时自动播放。",
+      "category": "第七单元：Animator 动画",
+      "unitNum": 7,
+      "unitName": "第七单元：Animator 动画",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第七单元：Animator 动画"
+      ]
+    },
+    {
+      "id": "EX-W2-U02-020",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "RawImage 的适用场景？",
+      "answer": "显示相机渲染纹理、动态生成的纹理等。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U07-021",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Animator 组件中 “Culling Mode” 的作用？",
+      "answer": "控制对象不可见时是否停止动画更新，优化性能。",
+      "category": "第七单元：Animator 动画",
+      "unitNum": 7,
+      "unitName": "第七单元：Animator 动画",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第七单元：Animator 动画"
+      ]
+    },
+    {
+      "id": "EX-W2-U08-022",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何添加动画状态间的过渡？",
+      "answer": "在 Animator 窗口中从源状态拖动到目标状态，创建过渡线并设置条件。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U02-023",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Image 的 “Type” 属性有哪些？",
+      "answer": "如 Simple、Sliced、Tiled、Filled 等。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U08-024",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "“Exit Time” 在过渡中的作用？",
+      "answer": "设置源状态播放到指定比例（0-1）时允许过渡，确保动画播放完整。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U08-025",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何实现动画的立即过渡？",
+      "answer": "取消勾选 “Has Exit Time”，并设置过渡的 “Duration” 为 0。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U08-026",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "多状态切换中 “Interruption Source” 的作用？",
+      "answer": "设置过渡的中断源，如 “None”（不可中断）、“Current State”（当前状态可被中断）。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U08-027",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "“Transition Duration” 的含义？",
+      "answer": "控制两个动画状态过渡的时间长度，影响混合平滑度。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U02-028",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "RawImage 的 “Texture” 属性作用？",
+      "answer": "用于指定要显示的原始纹理。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U08-029",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何在代码中设置 Animator 参数？",
+      "answer": "使用 Animator.SetBool ()、SetTrigger ()、SetFloat () 等方法设置对应参数。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U08-030",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "子状态机的作用？",
+      "answer": "将多个相关状态归类管理，简化复杂状态机的结构，提高可读性。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U03-031",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Scroll Rect 的组成部分？",
+      "answer": "包括 Viewport（可视区域）、Content（滚动内容）、滚动条。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U08-032",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "动画层（Layers）的用途？",
+      "answer": "用于混合多个动画（如基础动作 + 表情动画），通过权重控制各层影响程度。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U08-033",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何调整动画层的权重？",
+      "answer": "在 Animator 窗口的 Layers 面板中拖动权重滑块，范围为 0（无影响）到 1（完全影响）。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U08-034",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "“Layer Sync” 选项的作用？",
+      "answer": "使子层与基础层同步状态，确保动画时间线一致。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U03-035",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Scroll Rect 的 “Movement Type” 有哪些？",
+      "answer": "包括 Unrestricted、Elastic、Clamped。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U08-036",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "动画层的 “IK Pass” 选项用途？",
+      "answer": "允许该层使用反向动力学（IK），用于骨骼目标定位（如角色看向目标）。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U03-037",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Slider 的 “Direction” 属性作用？",
+      "answer": "控制滑块的滑动方向。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U09-038",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "人型模型动画重定向的条件？",
+      "answer": "模型需带有 Avatar，且骨骼结构相似，动画剪辑为人类动画。",
+      "category": "第九单元：动画状态机（二）",
+      "unitNum": 9,
+      "unitName": "第九单元：动画状态机（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第九单元：动画状态机（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U09-039",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何实现人型模型动画重定向？",
+      "answer": "为模型添加相同的 Avatar，将动画剪辑拖入 Animator Controller 即可复用。",
+      "category": "第九单元：动画状态机（二）",
+      "unitNum": 9,
+      "unitName": "第九单元：动画状态机（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第九单元：动画状态机（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U04-040",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "raycast target 属性的作用？",
+      "answer": "决定 UI 元素是否能接收射线检测，影响交互响应。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W2-U09-041",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Blend Tree（混合树）的作用？",
+      "answer": "用于平滑混合多个相似动画（如不同速度的行走、跑步），基于参数值自动过渡。",
+      "category": "第九单元：动画状态机（二）",
+      "unitNum": 9,
+      "unitName": "第九单元：动画状态机（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第九单元：动画状态机（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U04-042",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "动态给 Dropdown 添加选项的方法？",
+      "answer": "通过代码调用 AddOptions () 方法，传入选项列表。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W2-U09-043",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何创建 Blend Tree？",
+      "answer": "在 Animator 窗口右键选择 “Create State> From New Blend Tree”，并添加子动画。",
+      "category": "第九单元：动画状态机（二）",
+      "unitNum": 9,
+      "unitName": "第九单元：动画状态机（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第九单元：动画状态机（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U09-044",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Animator IK（反向动力学）的用途？",
+      "answer": "用于动态调整骨骼末端位置（如手、脚），使角色与场景交互（如手触墙壁）。",
+      "category": "第九单元：动画状态机（二）",
+      "unitNum": 9,
+      "unitName": "第九单元：动画状态机（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第九单元：动画状态机（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U04-045",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "限制 Input Field 输入长度的方式？",
+      "answer": "设置 “Character Limit” 属性，0 表示无限制。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W2-U09-046",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "IK 中 “Look At” 的实现方法？",
+      "answer": "在 OnAnimatorIK () 回调中设置 Animator.SetLookAtPosition ()，并启用 IK Pass。",
+      "category": "第九单元：动画状态机（二）",
+      "unitNum": 9,
+      "unitName": "第九单元：动画状态机（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第九单元：动画状态机（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U09-047",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "目标匹配（Match Target）的作用？",
+      "answer": "使角色某个身体部位（如手）在动画播放时精确匹配目标位置（如拾取物品）。",
+      "category": "第九单元：动画状态机（二）",
+      "unitNum": 9,
+      "unitName": "第九单元：动画状态机（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第九单元：动画状态机（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U04-048",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Dropdown 的 “Value” 属性含义？",
+      "answer": "表示选中项在选项列表中的索引（从 0 开始）。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W2-U09-049",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Match Target 的参数包括哪些？",
+      "answer": "目标位置、身体部位（如 HandLeft）、权重、开始和结束时间。",
+      "category": "第九单元：动画状态机（二）",
+      "unitNum": 9,
+      "unitName": "第九单元：动画状态机（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第九单元：动画状态机（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U09-050",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何触发目标匹配？",
+      "answer": "在动画播放过程中调用 Animator.MatchTarget () 方法，指定目标参数。",
+      "category": "第九单元：动画状态机（二）",
+      "unitNum": 9,
+      "unitName": "第九单元：动画状态机（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第九单元：动画状态机（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U10-051",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "射击游戏中枪口火焰动画的优化？",
+      "answer": "使用粒子系统制作火焰效果，设置短生命周期，通过对象池复用。",
+      "category": "第十单元：常见游戏动画设置",
+      "unitNum": 10,
+      "unitName": "第十单元：常见游戏动画设置",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第十单元：常见游戏动画设置"
+      ]
+    },
+    {
+      "id": "EX-W2-U04-052",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Dropdown 的 “Template” 属性作用？",
+      "answer": "作为下拉列表的模板，定义列表项的样式。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W2-U10-053",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "RPG 游戏中角色技能动画的触发？",
+      "answer": "通过技能按钮事件设置 Animator 触发器，播放对应技能动画，同时关联特效播放。",
+      "category": "第十单元：常见游戏动画设置",
+      "unitNum": 10,
+      "unitName": "第十单元：常见游戏动画设置",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第十单元：常见游戏动画设置"
+      ]
+    },
+    {
+      "id": "EX-W2-U10-054",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "2D 游戏中骨骼动画与帧动画的区别？",
+      "answer": "骨骼动画通过骨骼驱动贴图，文件小且灵活；帧动画是序列帧切换，适合简单效果。",
+      "category": "第十单元：常见游戏动画设置",
+      "unitNum": 10,
+      "unitName": "第十单元：常见游戏动画设置",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第十单元：常见游戏动画设置"
+      ]
+    },
+    {
+      "id": "EX-W2-U10-055",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "2D 骨骼动画的制作工具？",
+      "answer": "Unity 的 2D Animation 包、Spine、DragonBones 等。",
+      "category": "第十单元：常见游戏动画设置",
+      "unitNum": 10,
+      "unitName": "第十单元：常见游戏动画设置",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第十单元：常见游戏动画设置"
+      ]
+    },
+    {
+      "id": "EX-W2-U04-056",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "为什么要合理设置 Input Field 的 “Content Type”？",
+      "answer": "确保输入内容符合预期格式，减少错误输入。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W2-U10-057",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "2D 游戏中角色转身动画的实现？",
+      "answer": "通过 ScaleX 翻转角色贴图，或制作左右两个方向的动画剪辑。",
+      "category": "第十单元：常见游戏动画设置",
+      "unitNum": 10,
+      "unitName": "第十单元：常见游戏动画设置",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第十单元：常见游戏动画设置"
+      ]
+    },
+    {
+      "id": "EX-W2-U10-058",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "多人游戏中动画同步的方式？",
+      "answer": "服务器权威模式：服务器计算动画状态，客户端同步播放；或客户端预测 + 服务器修正。",
+      "category": "第十单元：常见游戏动画设置",
+      "unitNum": 10,
+      "unitName": "第十单元：常见游戏动画设置",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第十单元：常见游戏动画设置"
+      ]
+    },
+    {
+      "id": "EX-W2-U05-059",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "子面板控制的常用方式？",
+      "answer": "利用父子对象层级管理，通过单例模式获取实例，用事件通知。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W2-U10-060",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "角色死亡动画的处理逻辑？",
+      "answer": "播放死亡动画时禁用移动和攻击，动画结束后触发角色消失或重生逻辑。",
+      "category": "第十单元：常见游戏动画设置",
+      "unitNum": 10,
+      "unitName": "第十单元：常见游戏动画设置",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第十单元：常见游戏动画设置"
+      ]
+    },
+    {
+      "id": "EX-W2-U10-061",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "天气动画（如雨水、雪花）的实现？",
+      "answer": "使用粒子系统配合动画曲线控制粒子密度，通过参数切换天气状态。",
+      "category": "第十单元：常见游戏动画设置",
+      "unitNum": 10,
+      "unitName": "第十单元：常见游戏动画设置",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第十单元：常见游戏动画设置"
+      ]
+    },
+    {
+      "id": "EX-W2-U05-062",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "选服面板中 “返回” 按钮的功能实现？",
+      "answer": "绑定事件，点击时隐藏当前面板，显示上一级面板。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W2-U10-063",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "3D 游戏中角色与地面的贴合方法？",
+      "answer": "使用 Animator IK 调整脚部位置，或通过射线检测动态修改角色 Y 轴位置。",
+      "category": "第十单元：常见游戏动画设置",
+      "unitNum": 10,
+      "unitName": "第十单元：常见游戏动画设置",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第十单元：常见游戏动画设置"
+      ]
+    },
+    {
+      "id": "EX-W2-U10-064",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "2D 骨骼动画中 “皮肤切换” 的实现？",
+      "answer": "通过 Spine 等工具的皮肤系统，或在 Unity 中动态更换 SpriteRenderer 的 Sprite。",
+      "category": "第十单元：常见游戏动画设置",
+      "unitNum": 10,
+      "unitName": "第十单元：常见游戏动画设置",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第十单元：常见游戏动画设置"
+      ]
+    },
+    {
+      "id": "EX-W3-U01-001",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "Rect Transform 的特点？",
+      "answer": "专为 UI 设计，支持锚点和轴心，可随父级自动调整大小和位置。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W3-U01-002",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "Canvas Scaler 的 “Constant Pixel Size” 模式特点？",
+      "answer": "保持 UI 元素像素大小不变，屏幕越大显示内容越多。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W3-U01-003",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "什么是游戏 UI？",
+      "answer": "游戏中玩家与系统交互的视觉界面，如菜单、血条、按钮等。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W3-U02-004",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "Image 的 “Type” 属性有哪些？",
+      "answer": "如 Simple、Sliced、Tiled、Filled 等。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W3-U03-005",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何用 Slider 控制音量？",
+      "answer": "监听 Slider 的 onValueChanged 事件，将 Value 值映射到音频源 volume 属性。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W3-U03-006",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "RectMask2d 的优势？",
+      "answer": "性能优于 Mask，适合移动端，只支持矩形遮罩。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W3-U04-007",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "限制 Input Field 输入长度的方式？",
+      "answer": "设置 “Character Limit” 属性，0 表示无限制。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W3-U04-008",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "Input Field 的 “On End Edit” 事件触发时机？",
+      "answer": "当输入框失去焦点或按下回车键时。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W3-U04-009",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "Input Field 的 “Content Type” 常见类型？",
+      "answer": "有 Standard、Integer、Decimal、Password、Email Address 等。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W3-U05-010",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "保存玩家所选服务器的方法？",
+      "answer": "用 PlayerPrefs 存储服务器 ID，或上传至后端数据库。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W3-U06-011",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "镜头漫游中实现景深变化的方法？",
+      "answer": "在动画剪辑中为摄像机的 “Field of View” 或 “Depth of Field” 属性添加关键帧。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W3-U06-012",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "动画剪辑中 “Curves” 视图的用途？",
+      "answer": "用于编辑属性随时间变化的曲线，可调整切线类型（如线性、平滑）优化动画过渡。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W3-U06-013",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "什么是动画剪辑（Animation Clip）？",
+      "answer": "存储对象动画数据的文件，包含时间轴上的位置、旋转、缩放等属性变化信息。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W3-U06-014",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "坦克爆炸动画的优化技巧？",
+      "answer": "使用简化的爆炸模型，减少粒子数量，设置动画播放完成后自动销毁对象。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W3-U06-015",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "制作镜头漫游效果的核心思路？",
+      "answer": "为摄像机添加动画剪辑，通过关键帧记录不同时间点的位置和旋转信息，模拟镜头移动路径。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W3-U07-016",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何为对象添加 Animator 组件？",
+      "answer": "选中对象后在 Inspector 面板点击 “Add Component”，搜索并添加 “Animator” 组件。",
+      "category": "第七单元：Animator 动画",
+      "unitNum": 7,
+      "unitName": "第七单元：Animator 动画",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第七单元：Animator 动画"
+      ]
+    },
+    {
+      "id": "EX-W3-U07-017",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "“Avatar” 属性在 Animator 中的用途？",
+      "answer": "用于人形模型，关联骨骼映射信息，支持动画重定向。",
+      "category": "第七单元：Animator 动画",
+      "unitNum": 7,
+      "unitName": "第七单元：Animator 动画",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第七单元：Animator 动画"
+      ]
+    },
+    {
+      "id": "EX-W3-U08-018",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何添加动画状态间的过渡？",
+      "answer": "在 Animator 窗口中从源状态拖动到目标状态，创建过渡线并设置条件。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W3-U08-019",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "多状态 Controller 中状态切换的条件？",
+      "answer": "通过 Animator 参数（如布尔值、触发器、浮点数）控制过渡条件。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W3-U10-020",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "3D 游戏中角色与地面的贴合方法？",
+      "answer": "使用 Animator IK 调整脚部位置，或通过射线检测动态修改角色 Y 轴位置。",
+      "category": "第十单元：常见游戏动画设置",
+      "unitNum": 10,
+      "unitName": "第十单元：常见游戏动画设置",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十单元：常见游戏动画设置"
+      ]
+    },
+    {
+      "id": "EX-W3-U11-021",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何检测 CharacterController 碰撞？",
+      "answer": "通过 Move () 返回的 CollisionFlags 判断。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W3-U11-022",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "CharacterController 组件的核心功能是什么？",
+      "answer": "处理角色移动与碰撞，无需依赖刚体。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W3-U11-023",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何用 CharacterController 实现移动？",
+      "answer": "调用 Move () 方法，传入基于输入的位移向量（乘 Time.deltaTime）。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W3-U11-024",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "实现跳跃功能的关键步骤？",
+      "answer": "检测跳跃输入，通过 isGrounded 判断在地面时施加向上位移。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W3-U11-025",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何实现角色下蹲？",
+      "answer": "修改 Height 和 Center 属性，播放下蹲动画。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W3-U11-026",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何处理重力对 CharacterController 的影响？",
+      "answer": "不在地面时，移动向量加向下重力加速度。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W3-U11-027",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何让角色移动方向与摄像机朝向一致？",
+      "answer": "将输入向量转换为摄像机参考的世界方向。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W3-U11-028",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "“Step Offset” 属性影响？",
+      "answer": "控制角色可跨越的最大台阶高度。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W3-U11-029",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "“Radius” 和 “Height” 属性影响？",
+      "answer": "前者控制碰撞体半径，后者控制碰撞体高度。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W3-U11-030",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "跳跃动画的触发条件？",
+      "answer": "检测到跳跃输入且角色在地面时，设置 Animator 触发器。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W3-U11-031",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何关联移动速度与动画？",
+      "answer": "获取移动速度，用 Animator.SetFloat () 传给状态机控制动画切换。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W3-U12-032",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何实现摇杆振动反馈？",
+      "answer": "结合设备振动 API，输入达阈值时触发。",
+      "category": "第十二单元：摇杆插件",
+      "unitNum": 12,
+      "unitName": "第十二单元：摇杆插件",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十二单元：摇杆插件"
+      ]
+    },
+    {
+      "id": "EX-W3-U12-033",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "摇杆如何配合摄像机控制漫游？",
+      "answer": "左摇杆控移动，右摇杆控摄像机旋转。",
+      "category": "第十二单元：摇杆插件",
+      "unitNum": 12,
+      "unitName": "第十二单元：摇杆插件",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十二单元：摇杆插件"
+      ]
+    },
+    {
+      "id": "EX-W3-U12-034",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何通过摇杆控制角色转向？",
+      "answer": "让角色 forward 方向跟随摇杆水平方向或移动方向。",
+      "category": "第十二单元：摇杆插件",
+      "unitNum": 12,
+      "unitName": "第十二单元：摇杆插件",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十二单元：摇杆插件"
+      ]
+    },
+    {
+      "id": "EX-W3-U12-035",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "摇杆输入平滑处理方法？",
+      "answer": "用 Mathf.Lerp () 或 SmoothDamp () 减少抖动。",
+      "category": "第十二单元：摇杆插件",
+      "unitNum": 12,
+      "unitName": "第十二单元：摇杆插件",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十二单元：摇杆插件"
+      ]
+    },
+    {
+      "id": "EX-W3-U12-036",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何用 EasyTouch 创建虚拟摇杆？",
+      "answer": "添加 Joystick 控件，设置位置、外观和轴映射，关联移动脚本。",
+      "category": "第十二单元：摇杆插件",
+      "unitNum": 12,
+      "unitName": "第十二单元：摇杆插件",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十二单元：摇杆插件"
+      ]
+    },
+    {
+      "id": "EX-W3-U12-037",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何获取摇杆输入力度？",
+      "answer": "用 Joystick.GetAxisValue () 获取 0-1 范围值。",
+      "category": "第十二单元：摇杆插件",
+      "unitNum": 12,
+      "unitName": "第十二单元：摇杆插件",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十二单元：摇杆插件"
+      ]
+    },
+    {
+      "id": "EX-W3-U12-038",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "摇杆 “Axis Options” 通常包含哪些轴？",
+      "answer": "X 轴（水平）和 Y 轴（垂直）。",
+      "category": "第十二单元：摇杆插件",
+      "unitNum": 12,
+      "unitName": "第十二单元：摇杆插件",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十二单元：摇杆插件"
+      ]
+    },
+    {
+      "id": "EX-W3-U12-039",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "导入摇杆插件的步骤？",
+      "answer": "下载插件，通过 “Assets> Import Package” 导入项目。",
+      "category": "第十二单元：摇杆插件",
+      "unitNum": 12,
+      "unitName": "第十二单元：摇杆插件",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十二单元：摇杆插件"
+      ]
+    },
+    {
+      "id": "EX-W3-U13-040",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何处理并发状态？",
+      "answer": "用并行状态机，允许多状态同时运行。",
+      "category": "第十三单元：状态机",
+      "unitNum": 13,
+      "unitName": "第十三单元：状态机",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十三单元：状态机"
+      ]
+    },
+    {
+      "id": "EX-W3-U13-041",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何定义状态切换关系？",
+      "answer": "为源状态添加过渡条件，满足时执行退出和进入逻辑。",
+      "category": "第十三单元：状态机",
+      "unitNum": 13,
+      "unitName": "第十三单元：状态机",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十三单元：状态机"
+      ]
+    },
+    {
+      "id": "EX-W3-U13-042",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "状态机测试方法？",
+      "answer": "单元测试单状态逻辑，场景模拟条件检测过渡。",
+      "category": "第十三单元：状态机",
+      "unitNum": 13,
+      "unitName": "第十三单元：状态机",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十三单元：状态机"
+      ]
+    },
+    {
+      "id": "EX-W3-U13-043",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "“超状态” 和 “子状态” 是什么？",
+      "answer": "超状态包含多个子状态，子状态是其下具体状态。",
+      "category": "第十三单元：状态机",
+      "unitNum": 13,
+      "unitName": "第十三单元：状态机",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十三单元：状态机"
+      ]
+    },
+    {
+      "id": "EX-W3-U13-044",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何实现状态延迟切换？",
+      "answer": "在 OnUpdate 中加计时器，达标且条件满足时切换。",
+      "category": "第十三单元：状态机",
+      "unitNum": 13,
+      "unitName": "第十三单元：状态机",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十三单元：状态机"
+      ]
+    },
+    {
+      "id": "EX-W3-U13-045",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "“全局过渡” 含义？",
+      "answer": "可从任何状态过渡到目标状态的规则。",
+      "category": "第十三单元：状态机",
+      "unitNum": 13,
+      "unitName": "第十三单元：状态机",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十三单元：状态机"
+      ]
+    },
+    {
+      "id": "EX-W3-U13-046",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "什么是状态机？",
+      "answer": "通过定义状态及切换规则，管理对象在不同条件下的行为。",
+      "category": "第十三单元：状态机",
+      "unitNum": 13,
+      "unitName": "第十三单元：状态机",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十三单元：状态机"
+      ]
+    },
+    {
+      "id": "EX-W3-U13-047",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "状态机的优势？",
+      "answer": "代码清晰、逻辑模块化，便于维护扩展，减少冗余。",
+      "category": "第十三单元：状态机",
+      "unitNum": 13,
+      "unitName": "第十三单元：状态机",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十三单元：状态机"
+      ]
+    },
+    {
+      "id": "EX-W3-U14-048",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何关联怪物动画与行为逻辑？",
+      "answer": "脚本获取行为状态，设置 Animator 参数控制动画切换。",
+      "category": "第十四单元：怪物 AI",
+      "unitNum": 14,
+      "unitName": "第十四单元：怪物 AI",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十四单元：怪物 AI"
+      ]
+    },
+    {
+      "id": "EX-W3-U14-049",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何随机改变巡逻等待时间？",
+      "answer": "用 Random.Range () 生成随机时间。",
+      "category": "第十四单元：怪物 AI",
+      "unitNum": 14,
+      "unitName": "第十四单元：怪物 AI",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十四单元：怪物 AI"
+      ]
+    },
+    {
+      "id": "EX-W3-U14-050",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "怪物行为测试内容？",
+      "answer": "巡逻路径、追击触发、攻击范围冷却、死亡状态等。",
+      "category": "第十四单元：怪物 AI",
+      "unitNum": 14,
+      "unitName": "第十四单元：怪物 AI",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十四单元：怪物 AI"
+      ]
+    },
+    {
+      "id": "EX-W3-U14-051",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何实现怪物攻击行为？",
+      "answer": "距离小于攻击范围且不在冷却时，播放动画并判定伤害。",
+      "category": "第十四单元：怪物 AI",
+      "unitNum": 14,
+      "unitName": "第十四单元：怪物 AI",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十四单元：怪物 AI"
+      ]
+    },
+    {
+      "id": "EX-W3-U14-052",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "怪物感知范围实现方式？",
+      "answer": "添加球形碰撞器（触发器）或用 Vector3.Distance () 计算距离。",
+      "category": "第十四单元：怪物 AI",
+      "unitNum": 14,
+      "unitName": "第十四单元：怪物 AI",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十四单元：怪物 AI"
+      ]
+    },
+    {
+      "id": "EX-W3-U14-053",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何实现怪物群体协作攻击？",
+      "answer": "一个怪物检测到玩家后，通知附近怪物共同攻击。",
+      "category": "第十四单元：怪物 AI",
+      "unitNum": 14,
+      "unitName": "第十四单元：怪物 AI",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十四单元：怪物 AI"
+      ]
+    },
+    {
+      "id": "EX-W3-U14-054",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "怪物动画状态机基本状态？",
+      "answer": "待机、巡逻、追击、攻击、死亡等。",
+      "category": "第十四单元：怪物 AI",
+      "unitNum": 14,
+      "unitName": "第十四单元：怪物 AI",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十四单元：怪物 AI"
+      ]
+    },
+    {
+      "id": "EX-W3-U14-055",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何防止怪物穿墙？",
+      "answer": "用 NavMeshAgent 导航或添加碰撞检测重算路径。",
+      "category": "第十四单元：怪物 AI",
+      "unitNum": 14,
+      "unitName": "第十四单元：怪物 AI",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十四单元：怪物 AI"
+      ]
+    },
+    {
+      "id": "EX-W3-U15-056",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何创建自定义脚本模板？",
+      "answer": "在 “Assets> Create” 中添加，修改模板默认内容。",
+      "category": "第十五单元：编辑器拓展",
+      "unitNum": 15,
+      "unitName": "第十五单元：编辑器拓展",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十五单元：编辑器拓展"
+      ]
+    },
+    {
+      "id": "EX-W3-U15-057",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何在自定义窗口添加按钮并绑定事件？",
+      "answer": "用 GUILayout.Button () 创建，if 判断点击并执行逻辑。",
+      "category": "第十五单元：编辑器拓展",
+      "unitNum": 15,
+      "unitName": "第十五单元：编辑器拓展",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十五单元：编辑器拓展"
+      ]
+    },
+    {
+      "id": "EX-W3-U15-058",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何获取项目场景列表？",
+      "answer": "通过 EditorBuildSettings.scenes 获取并筛选启用场景。",
+      "category": "第十五单元：编辑器拓展",
+      "unitNum": 15,
+      "unitName": "第十五单元：编辑器拓展",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十五单元：编辑器拓展"
+      ]
+    },
+    {
+      "id": "EX-W3-U15-059",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何创建自定义 Inspector 面板？",
+      "answer": "继承 Editor，重写 OnInspectorGUI ()，用 [CustomEditor] 关联组件。",
+      "category": "第十五单元：编辑器拓展",
+      "unitNum": 15,
+      "unitName": "第十五单元：编辑器拓展",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十五单元：编辑器拓展"
+      ]
+    },
+    {
+      "id": "EX-W3-U15-060",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何设置自定义菜单快捷键？",
+      "answer": "在 MenuItem 路径中加标识，如 %（Ctrl）、&（Alt）等。",
+      "category": "第十五单元：编辑器拓展",
+      "unitNum": 15,
+      "unitName": "第十五单元：编辑器拓展",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十五单元：编辑器拓展"
+      ]
+    },
+    {
+      "id": "EX-W3-U15-061",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何创建自定义窗口？",
+      "answer": "继承 EditorWindow，重写 OnGUI ()，用 GetWindow () 显示。",
+      "category": "第十五单元：编辑器拓展",
+      "unitNum": 15,
+      "unitName": "第十五单元：编辑器拓展",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十五单元：编辑器拓展"
+      ]
+    },
+    {
+      "id": "EX-W3-U15-062",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何保存自定义窗口用户设置？",
+      "answer": "用 EditorPrefs 类的 Set 和 Get 方法。",
+      "category": "第十五单元：编辑器拓展",
+      "unitNum": 15,
+      "unitName": "第十五单元：编辑器拓展",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十五单元：编辑器拓展"
+      ]
+    },
+    {
+      "id": "EX-W3-U15-063",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何实现自动打包流程？",
+      "answer": "调用 BuildPipeline.BuildPlayer () 传入相关参数。",
+      "category": "第十五单元：编辑器拓展",
+      "unitNum": 15,
+      "unitName": "第十五单元：编辑器拓展",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十五单元：编辑器拓展"
+      ]
+    },
+    {
+      "id": "EX-W3-U15-064",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "自定义面板的作用？",
+      "answer": "为特定组件显示自定义编辑界面，简化参数调整。",
+      "category": "第十五单元：编辑器拓展",
+      "unitNum": 15,
+      "unitName": "第十五单元：编辑器拓展",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十五单元：编辑器拓展"
+      ]
+    },
+    {
+      "id": "EX-W4-U01-001",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "Rect Transform 的特点？",
+      "answer": "专为 UI 设计，支持锚点和轴心，可随父级自动调整大小和位置。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W4-U01-003",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "什么是游戏 UI？",
+      "answer": "游戏中玩家与系统交互的视觉界面，如菜单、血条、按钮等。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W4-U02-004",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "Image 的 “Type” 属性有哪些？",
+      "answer": "如 Simple、Sliced、Tiled、Filled 等。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U03-005",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何用 Slider 控制音量？",
+      "answer": "监听 Slider 的 onValueChanged 事件，将 Value 值映射到音频源 volume 属性。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U04-006",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "Input Field 的 “Content Type” 常见类型？",
+      "answer": "有 Standard、Integer、Decimal、Password、Email Address 等。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U05-007",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "保存玩家所选服务器的方法？",
+      "answer": "用 PlayerPrefs 存储服务器 ID，或上传至后端数据库。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W4-U06-008",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "镜头漫游中实现景深变化的方法？",
+      "answer": "在动画剪辑中为摄像机的 “Field of View” 或 “Depth of Field” 属性添加关键帧。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W4-U06-009",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "坦克爆炸动画的优化技巧？",
+      "answer": "使用简化的爆炸模型，减少粒子数量，设置动画播放完成后自动销毁对象。",
+      "category": "第六单元：Animation 动画深入",
+      "unitNum": 6,
+      "unitName": "第六单元：Animation 动画深入",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第六单元：Animation 动画深入"
+      ]
+    },
+    {
+      "id": "EX-W4-U07-010",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何为对象添加 Animator 组件？",
+      "answer": "选中对象后在 Inspector 面板点击 “Add Component”，搜索并添加 “Animator” 组件。",
+      "category": "第七单元：Animator 动画",
+      "unitNum": 7,
+      "unitName": "第七单元：Animator 动画",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第七单元：Animator 动画"
+      ]
+    },
+    {
+      "id": "EX-W4-U07-011",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "“Avatar” 属性在 Animator 中的用途？",
+      "answer": "用于人形模型，关联骨骼映射信息，支持动画重定向。",
+      "category": "第七单元：Animator 动画",
+      "unitNum": 7,
+      "unitName": "第七单元：Animator 动画",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第七单元：Animator 动画"
+      ]
+    },
+    {
+      "id": "EX-W4-U08-012",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "多状态 Controller 中状态切换的条件？",
+      "answer": "通过 Animator 参数（如布尔值、触发器、浮点数）控制过渡条件。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U08-013",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何添加动画状态间的过渡？",
+      "answer": "在 Animator 窗口中从源状态拖动到目标状态，创建过渡线并设置条件。",
+      "category": "第八单元：动画状态机（一）",
+      "unitNum": 8,
+      "unitName": "第八单元：动画状态机（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第八单元：动画状态机（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U10-014",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "3D 游戏中角色与地面的贴合方法？",
+      "answer": "使用 Animator IK 调整脚部位置，或通过射线检测动态修改角色 Y 轴位置。",
+      "category": "第十单元：常见游戏动画设置",
+      "unitNum": 10,
+      "unitName": "第十单元：常见游戏动画设置",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十单元：常见游戏动画设置"
+      ]
+    },
+    {
+      "id": "EX-W4-U11-015",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何用 CharacterController 实现移动？",
+      "answer": "调用 Move () 方法，传入基于输入的位移向量（乘 Time.deltaTime）。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W4-U11-016",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何关联移动速度与动画？",
+      "answer": "获取移动速度，用 Animator.SetFloat () 传给状态机控制动画切换。",
+      "category": "第十一单元：角色控制器",
+      "unitNum": 11,
+      "unitName": "第十一单元：角色控制器",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十一单元：角色控制器"
+      ]
+    },
+    {
+      "id": "EX-W4-U12-017",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "导入摇杆插件的步骤？",
+      "answer": "下载插件，通过 “Assets> Import Package” 导入项目。",
+      "category": "第十二单元：摇杆插件",
+      "unitNum": 12,
+      "unitName": "第十二单元：摇杆插件",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十二单元：摇杆插件"
+      ]
+    },
+    {
+      "id": "EX-W4-U13-018",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何处理并发状态？",
+      "answer": "用并行状态机，允许多状态同时运行。",
+      "category": "第十三单元：状态机",
+      "unitNum": 13,
+      "unitName": "第十三单元：状态机",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十三单元：状态机"
+      ]
+    },
+    {
+      "id": "EX-W4-U14-019",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "怪物感知范围实现方式？",
+      "answer": "添加球形碰撞器（触发器）或用 Vector3.Distance () 计算距离。",
+      "category": "第十四单元：怪物 AI",
+      "unitNum": 14,
+      "unitName": "第十四单元：怪物 AI",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十四单元：怪物 AI"
+      ]
+    },
+    {
+      "id": "EX-W4-U16-020",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "TextMeshPro 自动合批的原理是什么？",
+      "answer": "自动合并字体纹理，整合文本字体信息。",
+      "category": "第十六单元 项目实例 RPG世界（一）",
+      "unitNum": 16,
+      "unitName": "第十六单元 项目实例 RPG世界（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十六单元 项目实例 RPG世界（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U16-021",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "滚动列表优化中，对象池的实现逻辑是什么？",
+      "answer": "初始化少量 Item，滑动时回收移出 Item 并复用。",
+      "category": "第十六单元 项目实例 RPG世界（一）",
+      "unitNum": 16,
+      "unitName": "第十六单元 项目实例 RPG世界（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十六单元 项目实例 RPG世界（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U16-022",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "锚点的设置方式及适用场景？",
+      "answer": "1. 固定父对象角落：按钮等固定元素；2. 拉伸父对象边缘：背景等自适应元素；3. 居中：标题等居中元素。",
+      "category": "第十六单元 项目实例 RPG世界（一）",
+      "unitNum": 16,
+      "unitName": "第十六单元 项目实例 RPG世界（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十六单元 项目实例 RPG世界（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U16-023",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "协程与 Update 的执行顺序？",
+      "answer": "每帧先执行 Update，再执行协程 yield return 后逻辑。",
+      "category": "第十六单元 项目实例 RPG世界（一）",
+      "unitNum": 16,
+      "unitName": "第十六单元 项目实例 RPG世界（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十六单元 项目实例 RPG世界（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U16-024",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "合批为何需保证 UI 元素深度相同？",
+      "answer": "深度不同破坏渲染顺序，Unity 无法合批。",
+      "category": "第十六单元 项目实例 RPG世界（一）",
+      "unitNum": 16,
+      "unitName": "第十六单元 项目实例 RPG世界（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十六单元 项目实例 RPG世界（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U16-025",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "UI 元素 “Static” 标记的作用？",
+      "answer": "避免动态操作打断合批，保证静态 UI 合批效果。",
+      "category": "第十六单元 项目实例 RPG世界（一）",
+      "unitNum": 16,
+      "unitName": "第十六单元 项目实例 RPG世界（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十六单元 项目实例 RPG世界（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U16-026",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何处理大量同屏角色的 HUD 性能问题？",
+      "answer": "1. 分帧更新；2. 视距剔除；3. 同一图集合并渲染。",
+      "category": "第十六单元 项目实例 RPG世界（一）",
+      "unitNum": 16,
+      "unitName": "第十六单元 项目实例 RPG世界（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十六单元 项目实例 RPG世界（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U16-027",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "Canvas 分多层级的好处？",
+      "answer": "1. 减少重绘范围；2. 便于逻辑管理（如弹窗单独控制）。",
+      "category": "第十六单元 项目实例 RPG世界（一）",
+      "unitNum": 16,
+      "unitName": "第十六单元 项目实例 RPG世界（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十六单元 项目实例 RPG世界（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U16-028",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "动态 UI 和静态 UI 为何放不同 Canvas？",
+      "answer": "动态 UI 变化仅影响自身 Canvas，避免静态 UI 连带重绘。",
+      "category": "第十六单元 项目实例 RPG世界（一）",
+      "unitNum": 16,
+      "unitName": "第十六单元 项目实例 RPG世界（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十六单元 项目实例 RPG世界（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-029",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "Text 的 Draw Call 为何动态变化？",
+      "answer": "受文本数量、字体样式、效果影响，可能单独触发渲染。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-030",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "UI 优化中如何处理透明效果？",
+      "answer": "减少不必要透明 UI，避免多层重叠，优先用不透明材质。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-031",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "3D 模型在 UI 中显示如何简化优化？",
+      "answer": "1. 低多边形模型；2. LOD 技术；3. 移除细节部件和多余材质。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-032",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "对象池在 UI 优化中的作用？",
+      "answer": "复用 UI 对象，避免频繁创建 / 销毁，减 GC 和性能开销。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-033",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "UI 层级过深的问题及优化？",
+      "answer": "问题：增渲染负担、提 Draw Call；优化：简化层级、减嵌套、禁无用元素。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-034",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "CanvasGroup 的作用？",
+      "answer": "控一组 UI 的显示 / 交互，避免 SetActive 触发重绘。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-035",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何检测 UI 优化效果？",
+      "answer": "用 Profiler 监控 Draw Call、GC，确保帧率（如 60FPS+）和响应速度。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-036",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "图集（Sprite Atlas）的作用？",
+      "answer": "合并小纹理为大纹理，减材质切换和 Draw Call。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-037",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "UI 元素 “Raycast Target” 何时关闭？",
+      "answer": "无需射线检测的纯显示元素（如纯图、纯文本）。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-038",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "UGUI 的工作流程？",
+      "answer": "1. 创 Canvas；2. 加 UI 元素；3. 调布局；4. 绑脚本；5. 调试。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-039",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "合批（Batching）及原理？",
+      "answer": "合并同材质 / 纹理 UI 为一个 Draw Call；Unity 判断元素属性相同则一次性提交 GPU。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-040",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "Mask 为何增加 Draw Call？",
+      "answer": "分割遮罩内外 UI 为两部分，分别算 Draw Call。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-041",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何合理用 Mask 和 RectMask2D？",
+      "answer": "1. 矩形遮罩（如滚动列表）用 RectMask2D；2. 非矩形（如圆形头像）用 Mask；3. 避嵌套。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U17-042",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "UI 材质需适配哪些渲染管线？",
+      "answer": "URP、HDRP 等。",
+      "category": "第十七单元 项目实例 RPG世界（二）",
+      "unitNum": 17,
+      "unitName": "第十七单元 项目实例 RPG世界（二）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十七单元 项目实例 RPG世界（二）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-043",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "多线程渲染在 UI 优化中的作用？",
+      "answer": "分担 CPU 渲染压力，提效率。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-044",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "LOD 技术的原理？",
+      "answer": "按相机距离切换模型精度（远低近高）。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-045",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "场景中不移动模型如何优化？",
+      "answer": "合批、复用纹理、移除无用碰撞体。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-046",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "动画优化中减少关键帧的原则？",
+      "answer": "不影响效果下，移除无用关键帧。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-047",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "UI 透明度和重叠的问题？",
+      "answer": "增渲染复杂度，打断合批，提 Draw Call。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-048",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何处理 UI 图文交叉？",
+      "answer": "避免交叉排列，防合批失败。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-049",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "UGUI 多平台优势？",
+      "answer": "无需额外适配，多平台显示 / 操作一致。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-050",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "移动设备 UI 适配注意点？",
+      "answer": "1. 设安全区域；2. 区分背景与异形屏适配元素；3. 异形屏算比例留空间。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-051",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "文本长度不定时如何让文本框自适应？",
+      "answer": "加 Content Size Fitter，设 Horizontal/Vertical Fit 为 Preferred Size。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-052",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "全球化版本适配注意点？",
+      "answer": "1. 文本留 1.5 倍空间；2. 特殊字符 / 日期；3. 文化禁忌（如日本忌绿）。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-053",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "UI 优化中减 Draw Call 的方法？",
+      "answer": "1. 合批（同材质 / 纹理）；2. 用图集；3. 控层级和透明度。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-054",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "UGUI 的核心组件？",
+      "answer": "Canvas、UI 元素、RectTransform、Event System、Layout Groups。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-055",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "Canvas 的渲染模式？",
+      "answer": "1. Screen Space - Overlay；2. Screen Space - Camera；3. World Space。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-056",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何优化背包道具显示性能？",
+      "answer": "对象池管理道具图标，复用防频繁创建 / 销毁。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U19-057",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "UI 材质的作用？",
+      "answer": "定义外观，控颜色 / 纹理 / 透明度，适配渲染管线。",
+      "category": "第十九单元 项目实例 RPG世界（四）",
+      "unitNum": 19,
+      "unitName": "第十九单元 项目实例 RPG世界（四）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十九单元 项目实例 RPG世界（四）"
+      ]
+    },
+    {
+      "id": "EX-W4-U19-058",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "Canvas 重绘的触发条件？",
+      "answer": "Canvas 内元素（位置 / 大小 / 内容）变化。",
+      "category": "第十九单元 项目实例 RPG世界（四）",
+      "unitNum": 19,
+      "unitName": "第十九单元 项目实例 RPG世界（四）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十九单元 项目实例 RPG世界（四）"
+      ]
+    },
+    {
+      "id": "EX-W4-U19-059",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何减 Canvas 重绘频率？",
+      "answer": "1. 动静分 Canvas；2. CanvasGroup 控显隐；3. 减动态元素更新。",
+      "category": "第十九单元 项目实例 RPG世界（四）",
+      "unitNum": 19,
+      "unitName": "第十九单元 项目实例 RPG世界（四）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十九单元 项目实例 RPG世界（四）"
+      ]
+    },
+    {
+      "id": "EX-W4-U19-060",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "Event System 的作用？",
+      "answer": "处理用户输入，分发点击 / 滑动等事件。",
+      "category": "第十九单元 项目实例 RPG世界（四）",
+      "unitNum": 19,
+      "unitName": "第十九单元 项目实例 RPG世界（四）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十九单元 项目实例 RPG世界（四）"
+      ]
+    },
+    {
+      "id": "EX-W4-U19-061",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "对象池在 UI 优化中的作用？",
+      "answer": "复用 UI 对象，减 GC 和性能开销。",
+      "category": "第十九单元 项目实例 RPG世界（四）",
+      "unitNum": 19,
+      "unitName": "第十九单元 项目实例 RPG世界（四）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十九单元 项目实例 RPG世界（四）"
+      ]
+    },
+    {
+      "id": "EX-W4-U19-062",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "什么是状态模式？核心意图？",
+      "answer": "对象行为随内部状态变；核心：状态变则行为变。",
+      "category": "第十九单元 项目实例 RPG世界（四）",
+      "unitNum": 19,
+      "unitName": "第十九单元 项目实例 RPG世界（四）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十九单元 项目实例 RPG世界（四）"
+      ]
+    },
+    {
+      "id": "EX-W4-U19-063",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "状态模式的核心？",
+      "answer": "抽象状态类、具体状态类、含状态属性的状态对象。",
+      "category": "第十九单元 项目实例 RPG世界（四）",
+      "unitNum": 19,
+      "unitName": "第十九单元 项目实例 RPG世界（四）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十九单元 项目实例 RPG世界（四）"
+      ]
+    },
+    {
+      "id": "EX-W4-U19-064",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "Unity UI 性能优化重点？",
+      "answer": "减 Canvas 重绘频率和 Draw Call 数量。",
+      "category": "第十九单元 项目实例 RPG世界（四）",
+      "unitNum": 19,
+      "unitName": "第十九单元 项目实例 RPG世界（四）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十九单元 项目实例 RPG世界（四）"
+      ]
+    }
+  ]
+}

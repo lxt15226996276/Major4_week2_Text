@@ -1,0 +1,48 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Visual Studio / Rider
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Project temp / secrets
+_doc_extract_output.txt
+QuizSite/deploy.config.json
+QuizSite/bin/
+QuizSite/dist/
+
+# PPT pipeline temp (keep final outputs and originals)
+PPT/_work_*/
+PPT/_new_*.pptx
+PPT/*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/

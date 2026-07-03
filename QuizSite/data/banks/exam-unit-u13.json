@@ -1,0 +1,181 @@
+{
+  "id": "exam-unit-u13",
+  "name": "第十三单元：状态机 · 9题",
+  "track": "exam",
+  "type": "theory",
+  "source": "Tests\\元宇宙专业四题库.xlsx",
+  "count": 9,
+  "questions": [
+    {
+      "id": "EX-W3-U13-040",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何处理并发状态？",
+      "answer": "用并行状态机，允许多状态同时运行。",
+      "category": "第十三单元：状态机",
+      "unitNum": 13,
+      "unitName": "第十三单元：状态机",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十三单元：状态机"
+      ]
+    },
+    {
+      "id": "EX-W3-U13-041",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何定义状态切换关系？",
+      "answer": "为源状态添加过渡条件，满足时执行退出和进入逻辑。",
+      "category": "第十三单元：状态机",
+      "unitNum": 13,
+      "unitName": "第十三单元：状态机",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十三单元：状态机"
+      ]
+    },
+    {
+      "id": "EX-W3-U13-042",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "状态机测试方法？",
+      "answer": "单元测试单状态逻辑，场景模拟条件检测过渡。",
+      "category": "第十三单元：状态机",
+      "unitNum": 13,
+      "unitName": "第十三单元：状态机",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十三单元：状态机"
+      ]
+    },
+    {
+      "id": "EX-W3-U13-043",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "“超状态” 和 “子状态” 是什么？",
+      "answer": "超状态包含多个子状态，子状态是其下具体状态。",
+      "category": "第十三单元：状态机",
+      "unitNum": 13,
+      "unitName": "第十三单元：状态机",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十三单元：状态机"
+      ]
+    },
+    {
+      "id": "EX-W3-U13-044",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何实现状态延迟切换？",
+      "answer": "在 OnUpdate 中加计时器，达标且条件满足时切换。",
+      "category": "第十三单元：状态机",
+      "unitNum": 13,
+      "unitName": "第十三单元：状态机",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十三单元：状态机"
+      ]
+    },
+    {
+      "id": "EX-W3-U13-045",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "“全局过渡” 含义？",
+      "answer": "可从任何状态过渡到目标状态的规则。",
+      "category": "第十三单元：状态机",
+      "unitNum": 13,
+      "unitName": "第十三单元：状态机",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十三单元：状态机"
+      ]
+    },
+    {
+      "id": "EX-W3-U13-046",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "什么是状态机？",
+      "answer": "通过定义状态及切换规则，管理对象在不同条件下的行为。",
+      "category": "第十三单元：状态机",
+      "unitNum": 13,
+      "unitName": "第十三单元：状态机",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十三单元：状态机"
+      ]
+    },
+    {
+      "id": "EX-W3-U13-047",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "状态机的优势？",
+      "answer": "代码清晰、逻辑模块化，便于维护扩展，减少冗余。",
+      "category": "第十三单元：状态机",
+      "unitNum": 13,
+      "unitName": "第十三单元：状态机",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第十三单元：状态机"
+      ]
+    },
+    {
+      "id": "EX-W4-U13-018",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何处理并发状态？",
+      "answer": "用并行状态机，允许多状态同时运行。",
+      "category": "第十三单元：状态机",
+      "unitNum": 13,
+      "unitName": "第十三单元：状态机",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十三单元：状态机"
+      ]
+    }
+  ]
+}

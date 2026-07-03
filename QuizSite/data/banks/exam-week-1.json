@@ -1,0 +1,1226 @@
+{
+  "id": "exam-week-1",
+  "name": "第一周 · 64题",
+  "track": "exam",
+  "type": "theory",
+  "source": "Tests\\元宇宙专业四题库.xlsx",
+  "count": 64,
+  "questions": [
+    {
+      "id": "EX-W1-U01-001",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "什么是游戏 UI？",
+      "answer": "游戏中玩家与系统交互的视觉界面，如菜单、血条、按钮等。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-002",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "游戏 UI 和普通应用 UI 的核心区别？",
+      "answer": "游戏 UI 需贴合游戏风格，动态效果更强，适配多输入设备，性能要求更高。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-003",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Canvas 的主要作用？",
+      "answer": "是所有 UI 元素的容器，所有 UI 组件必须依附于 Canvas 存在。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-004",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Canvas 有哪几种渲染模式？",
+      "answer": "屏幕覆盖模式、屏幕相机模式、世界空间模式；",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-005",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Rect Transform 的特点？",
+      "answer": "专为 UI 设计，支持锚点和轴心，可随父级自动调整大小和位置。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-006",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "普通 Transform 和 Rect Transform 的适用对象？",
+      "answer": "普通 Transform 用于 3D/2D 对象；Rect Transform 用于 UI 元素。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-007",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "实现 UI 屏幕自适应的关键组件？",
+      "answer": "Canvas Scaler 组件是实现 UI 屏幕自适应的核心。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-008",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "锚点（Anchors）的作用？",
+      "answer": "决定 UI 元素与父级边缘的连接方式，影响元素随父级变化的调整方式。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-009",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Pivot（轴心）对 UI 元素的影响？",
+      "answer": "是元素旋转、缩放的中心点，也影响位置计算。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-010",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Text 控件的核心属性？",
+      "answer": "包括字体、字号、颜色、对齐方式、文本内容等。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-011",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "EventSystem 的主要功能？",
+      "answer": "负责检测和处理用户输入，如点击、滑动等交互操作。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-012",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "“Scale With Screen Size” 模式的参考是什么？",
+      "answer": "按设定的参考分辨率缩放 UI，保持元素比例。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-013",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "为什么要设置合理的 UI 锚点？",
+      "answer": "确保 UI 元素在屏幕尺寸变化时能正确显示在预期位置。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-014",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Image 控件的主要用途？",
+      "answer": "用于显示 Sprite 图片，支持切片、九宫格等效果。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-015",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "RawImage 与 Image 的核心区别？",
+      "answer": "RawImage 显示原始纹理，Image 显示 Sprite；RawImage 更适合动态纹理。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-016",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Button 控件有哪些常见状态？",
+      "answer": "正常、高亮、按下、禁用四种状态。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-017",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何给 Button 添加点击事件？",
+      "answer": "可在 Inspector 面板绑定脚本方法，或通过代码 AddListener 添加。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-018",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Toggle 控件的作用？",
+      "answer": "实现开关功能或多选功能，可通过 isOn 获取选中状态。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-019",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Toggle Group 的功能？",
+      "answer": "管理多个 Toggle，实现单选效果（同一时间仅一个被选中）。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-020",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "RawImage 的适用场景？",
+      "answer": "显示相机渲染纹理、动态生成的纹理等。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-021",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Button 的 “Transition” 属性有哪些选项？",
+      "answer": "包括 None、Color Tint、Sprite Swap、Animation。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-022",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "让 Image 显示为圆形的方法？",
+      "answer": "使用带透明通道的圆形 Sprite，或添加 Mask 组件配合圆形遮罩。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-023",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Button 点击无响应的可能原因？",
+      "answer": "无 EventSystem、未勾选 Raycast Target、被遮挡、脚本错误等。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-024",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Toggle 的组成部分？",
+      "answer": "包括背景、勾选图标、Label 等元素。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-025",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Image 的 “Type” 属性有哪些？",
+      "answer": "如 Simple、Sliced、Tiled、Filled 等。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-026",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "RawImage 的 “Texture” 属性作用？",
+      "answer": "用于指定要显示的原始纹理。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-027",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何设置 Button 的高亮状态颜色？",
+      "answer": "在 Button 的 Color Tint 过渡模式下设置 Highlighted Color。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-028",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Toggle 状态变化时会触发什么事件？",
+      "answer": "会触发 onValue Changed 事件，可监听该事件做相应处理。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-029",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Slider 控件的主要属性？",
+      "answer": "包括 Min Value、Max Value、Value、Whole Numbers 等。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-030",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Scrollbar 与 Scroll Rect 的关系？",
+      "answer": "Scrollbar 可作为 Scroll Rect 的滚动控制器，两者状态同步。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-031",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Mask 与 RectMask2d 的区别？",
+      "answer": "Mask 支持任意形状，性能较差；RectMask2d 仅支持矩形，性能更好。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-032",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Scroll Rect 的组成部分？",
+      "answer": "包括 Viewport（可视区域）、Content（滚动内容）、滚动条。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-033",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Mask 组件的工作原理？",
+      "answer": "通过模板测试，只显示遮罩范围内的内容，隐藏超出部分。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-034",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Scrollbar 的 “Number Of Steps” 属性作用？",
+      "answer": "设置滚动条的步长，使 Value 值按固定间隔变化。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-035",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "优化 Scroll Rect 性能的方法？",
+      "answer": "使用 RectMask2d 替代 Mask，开启对象池，限制子物体数量。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-036",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Slider 的 “On Value Changed” 事件触发时机？",
+      "answer": "当 Slider 的 Value 值发生变化时（拖动或代码修改）。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-037",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Scroll Rect 的 “Movement Type” 有哪些？",
+      "answer": "包括 Unrestricted、Elastic、Clamped。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-038",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Mask 组件需要配合什么使用？",
+      "answer": "通常需要配合 Image 等具有图形的组件使用。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-039",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Scrollbar 的 “Size” 属性作用？",
+      "answer": "控制滚动条滑块的大小，反映内容占可视区域的比例。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-040",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Slider 的 “Direction” 属性作用？",
+      "answer": "控制滑块的滑动方向。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U03-041",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "RectMask2d 的优势？",
+      "answer": "性能优于 Mask，适合移动端，只支持矩形遮罩。",
+      "category": "第三单元：常用控件（二）",
+      "unitNum": 3,
+      "unitName": "第三单元：常用控件（二）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第三单元：常用控件（二）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-042",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Dropdown 控件的组成？",
+      "answer": "包括 Label（显示选中项）、Template（下拉列表模板）、Item（列表项）。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-043",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Input Field 的 “Content Type” 常见类型？",
+      "answer": "有 Standard、Integer、Decimal、Password、Email Address 等。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-044",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "raycast target 属性的作用？",
+      "answer": "决定 UI 元素是否能接收射线检测，影响交互响应。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-045",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "动态给 Dropdown 添加选项的方法？",
+      "answer": "通过代码调用 AddOptions () 方法，传入选项列表。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-046",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "限制 Input Field 输入长度的方式？",
+      "answer": "设置 “Character Limit” 属性，0 表示无限制。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-047",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "关闭不必要 raycast target 的原因？",
+      "answer": "减少射线检测计算量，提高 UI 交互性能，避免误触发。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-048",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Dropdown 的 “Value” 属性含义？",
+      "answer": "表示选中项在选项列表中的索引（从 0 开始）。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-049",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Dropdown 的 “Caption Text” 和 “Item Text” 区别？",
+      "answer": "Caption Text 显示当前选中项；Item Text 是列表项的文本模板。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-050",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Dropdown 的 “On Value Changed” 事件作用？",
+      "answer": "当选中项变化时触发，可获取新选中项的索引。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-051",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Input Field 的 “Read Only” 属性作用？",
+      "answer": "设为 true 时，输入框不可编辑，仅可查看。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-052",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "处理 Input Field 输入验证的方法？",
+      "answer": "可通过 “Content Type” 限制，或监听事件自定义验证。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-053",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Dropdown 的 “Template” 属性作用？",
+      "answer": "作为下拉列表的模板，定义列表项的样式。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U04-054",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "为什么要合理设置 Input Field 的 “Content Type”？",
+      "answer": "确保输入内容符合预期格式，减少错误输入。",
+      "category": "第四单元：常用控件（三）",
+      "unitNum": 4,
+      "unitName": "第四单元：常用控件（三）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第四单元：常用控件（三）"
+      ]
+    },
+    {
+      "id": "EX-W1-U05-055",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "选服面板 UI 搭建的基本步骤？",
+      "answer": "创建 Canvas，添加背景、标题，设计服务器列表（用 Scroll Rect），添加按钮。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W1-U05-056",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "控制面板显示与隐藏的方法？",
+      "answer": "调用 SetActive () 方法，或修改 Canvas Group 的 alpha 和 interactable 属性。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W1-U05-057",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "子面板控制的常用方式？",
+      "answer": "利用父子对象层级管理，通过单例模式获取实例，用事件通知。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W1-U05-058",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "选服面板自适应设置的要点？",
+      "answer": "服务器列表用 Scroll Rect 适配数量，按钮和文本用锚点固定位置。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W1-U05-059",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "防止子面板点击穿透父面板的方法？",
+      "answer": "给子面板添加 Panel 组件并勾选 “Block Raycasts”，或提高子面板 Sort Order。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W1-U05-060",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "选服面板加载服务器列表时显示加载动画的方式？",
+      "answer": "请求数据时显示旋转图标，加载完成后隐藏。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W1-U05-061",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "实现选服面板淡入淡出效果的方法？",
+      "answer": "调整 Canvas Group 的 alpha 值，配合动画插件实现过渡。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W1-U05-062",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "选服面板中 “返回” 按钮的功能实现？",
+      "answer": "绑定事件，点击时隐藏当前面板，显示上一级面板。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W1-U05-063",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "选服面板适配不同屏幕尺寸的关键？",
+      "answer": "合理设置 Canvas Scaler 和各元素的锚点、布局组件。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第五单元：选服面板 UI"
+      ]
+    },
+    {
+      "id": "EX-W1-U05-064",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "选服面板中批量创建服务器项的方法？",
+      "answer": "通过代码动态实例化服务器项预制体，添加到 Content 中。",
+      "category": "第五单元：选服面板 UI",
+      "unitNum": 5,
+      "unitName": "第五单元：选服面板 UI",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第五单元：选服面板 UI"
+      ]
+    }
+  ]
+}
