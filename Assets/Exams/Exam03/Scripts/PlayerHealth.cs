@@ -21,7 +21,7 @@ namespace Exam.Exam03
         /// 加血逻辑
         /// </summary>
         /// <param name="hp"></param>
-        private void AddHealth(int hp)
+        public void AddHealth(int hp)
         {
             currentHp += hp;
             if (currentHp > maxHp)
