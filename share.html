@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>分享刷题链接</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.4/build/qrcode.min.js"></script>
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="share-page">
+    <a href="index.html" class="back-link">← 去刷题</a>
+    <h1>分享给同学</h1>
+
+    <div class="share-notice">
+      <strong id="share-mode-title">不要发 start.bat 文件！</strong>
+      <p id="share-mode-local"><code>.bat</code> 是 Windows 电脑脚本，<strong>手机打不开</strong>。</p>
+      <p id="share-mode-local2">正确做法：你在<strong>自己电脑</strong>上双击运行 <code>start.bat</code>，然后把下面的<strong>网页链接</strong>发到微信，别人点链接就能刷题。</p>
+      <p id="share-mode-static" class="hidden">这是<strong>永久站点</strong>，链接不会变，可直接收藏或发微信群。</p>
+    </div>
+
+    <div class="share-card" id="share-ready">
+      <p class="share-label">公网链接（复制或扫码）</p>
+      <div class="qr-box"><canvas id="qr"></canvas></div>
+      <code class="share-url" id="share-url">加载中…</code>
+      <div class="share-btns">
+        <button class="btn btn-primary" id="btn-copy">复制链接</button>
+        <button class="btn btn-accent" id="btn-open">打开刷题</button>
+      </div>
+    </div>
+
+    <div class="share-card share-wait hidden" id="share-wait">
+      <p>服务器未启动或公网链接尚未就绪</p>
+      <ol class="share-steps">
+        <li>在 <strong>Windows 电脑</strong> 上双击 <code>QuizSite/start.bat</code></li>
+        <li>等终端出现 <code>https://xxx.trycloudflare.com</code></li>
+        <li>刷新本页，或直接把那个链接发到微信</li>
+      </ol>
+    </div>
+
+    <div class="share-card">
+      <h2>微信里怎么发？</h2>
+      <ol class="share-steps">
+        <li>复制上面的链接</li>
+        <li>微信 → 发给好友 → 粘贴链接发送</li>
+        <li>对方<strong>点击链接</strong>，用浏览器打开即可（手机/平板/电脑都行）</li>
+      </ol>
+      <p class="hint">也可以截图本页的二维码，发到微信群，让别人扫码打开。</p>
+    </div>
+  </div>
+  <script src="js/site-info.js"></script>
+  <script>
+    async function init() {
+      const staticSite = await isStaticSite();
+      if (staticSite) {
+        document.getElementById("share-mode-title").textContent = "永久刷题链接";
+        document.getElementById("share-mode-local").classList.add("hidden");
+        document.getElementById("share-mode-local2").classList.add("hidden");
+        document.getElementById("share-mode-static").classList.remove("hidden");
+      }
+      try {
+        const url = await getShareUrl();
+        if (!url || url.includes("127.0.0.1")) {
+          document.getElementById("share-ready").classList.add("hidden");
+          document.getElementById("share-wait").classList.remove("hidden");
+          return;
+        }
+        document.getElementById("share-url").textContent = url;
+        QRCode.toCanvas(document.getElementById("qr"), url, { width: 220, margin: 2 });
+        document.getElementById("btn-copy").onclick = () => {
+          navigator.clipboard?.writeText(url);
+          document.getElementById("btn-copy").textContent = "已复制";
+          setTimeout(() => (document.getElementById("btn-copy").textContent = "复制链接"), 1500);
+        };
+        document.getElementById("btn-open").onclick = () => (location.href = url);
+      } catch {
+        document.getElementById("share-ready").classList.add("hidden");
+        document.getElementById("share-wait").classList.remove("hidden");
+      }
+    }
+    init();
+  </script>
+</body>
+</html>

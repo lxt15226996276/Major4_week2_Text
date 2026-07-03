@@ -1,0 +1,162 @@
+{
+  "id": "exam-unit-u19",
+  "name": "第十九单元 项目实例 RPG世界（四） · 8题",
+  "track": "exam",
+  "type": "theory",
+  "source": "Tests/元宇宙专业四题库.xlsx",
+  "count": 8,
+  "questions": [
+    {
+      "id": "EX-W4-U19-057",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "UI 材质的作用？",
+      "answer": "定义外观，控颜色 / 纹理 / 透明度，适配渲染管线。",
+      "category": "第十九单元 项目实例 RPG世界（四）",
+      "unitNum": 19,
+      "unitName": "第十九单元 项目实例 RPG世界（四）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十九单元 项目实例 RPG世界（四）"
+      ]
+    },
+    {
+      "id": "EX-W4-U19-058",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "Canvas 重绘的触发条件？",
+      "answer": "Canvas 内元素（位置 / 大小 / 内容）变化。",
+      "category": "第十九单元 项目实例 RPG世界（四）",
+      "unitNum": 19,
+      "unitName": "第十九单元 项目实例 RPG世界（四）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十九单元 项目实例 RPG世界（四）"
+      ]
+    },
+    {
+      "id": "EX-W4-U19-059",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何减 Canvas 重绘频率？",
+      "answer": "1. 动静分 Canvas；2. CanvasGroup 控显隐；3. 减动态元素更新。",
+      "category": "第十九单元 项目实例 RPG世界（四）",
+      "unitNum": 19,
+      "unitName": "第十九单元 项目实例 RPG世界（四）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十九单元 项目实例 RPG世界（四）"
+      ]
+    },
+    {
+      "id": "EX-W4-U19-060",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "Event System 的作用？",
+      "answer": "处理用户输入，分发点击 / 滑动等事件。",
+      "category": "第十九单元 项目实例 RPG世界（四）",
+      "unitNum": 19,
+      "unitName": "第十九单元 项目实例 RPG世界（四）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十九单元 项目实例 RPG世界（四）"
+      ]
+    },
+    {
+      "id": "EX-W4-U19-061",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "对象池在 UI 优化中的作用？",
+      "answer": "复用 UI 对象，减 GC 和性能开销。",
+      "category": "第十九单元 项目实例 RPG世界（四）",
+      "unitNum": 19,
+      "unitName": "第十九单元 项目实例 RPG世界（四）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十九单元 项目实例 RPG世界（四）"
+      ]
+    },
+    {
+      "id": "EX-W4-U19-062",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "什么是状态模式？核心意图？",
+      "answer": "对象行为随内部状态变；核心：状态变则行为变。",
+      "category": "第十九单元 项目实例 RPG世界（四）",
+      "unitNum": 19,
+      "unitName": "第十九单元 项目实例 RPG世界（四）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十九单元 项目实例 RPG世界（四）"
+      ]
+    },
+    {
+      "id": "EX-W4-U19-063",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "状态模式的核心？",
+      "answer": "抽象状态类、具体状态类、含状态属性的状态对象。",
+      "category": "第十九单元 项目实例 RPG世界（四）",
+      "unitNum": 19,
+      "unitName": "第十九单元 项目实例 RPG世界（四）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十九单元 项目实例 RPG世界（四）"
+      ]
+    },
+    {
+      "id": "EX-W4-U19-064",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "Unity UI 性能优化重点？",
+      "answer": "减 Canvas 重绘频率和 Draw Call 数量。",
+      "category": "第十九单元 项目实例 RPG世界（四）",
+      "unitNum": 19,
+      "unitName": "第十九单元 项目实例 RPG世界（四）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十九单元 项目实例 RPG世界（四）"
+      ]
+    }
+  ]
+}

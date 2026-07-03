@@ -1,0 +1,1559 @@
+{
+  "id": "interview",
+  "name": "大厂面试 · 成长路线",
+  "track": "interview",
+  "type": "interview",
+  "source": "Docs/04-教练参考/大厂面试题映射.md",
+  "count": 79,
+  "questions": [
+    {
+      "id": "INT-1-001",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "值类型和引用类型区别？struct 适用场景？",
+      "answer": "栈/堆、拷贝语义、小数据不可变；Unity 中 Vector3 是 struct",
+      "domain": 1,
+      "domainName": "C# 与面向对象进阶",
+      "level": "中级",
+      "focus": "L2 内存",
+      "category": "C# 与面向对象进阶",
+      "examRef": "↔ Exam02",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": "string 是值类型还是引用类型？为何 immutable？"
+    },
+    {
+      "id": "INT-1-002",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "装箱拆箱是什么？对 GC 影响？",
+      "answer": "IL 层面、值类型→object、循环内避免",
+      "domain": 1,
+      "domainName": "C# 与面向对象进阶",
+      "level": "中级",
+      "focus": "L2 GC",
+      "category": "C# 与面向对象进阶",
+      "examRef": "↔ Exam02",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-1-003",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "委托和 event 区别？为何 public delegate 危险？",
+      "answer": "event 禁止外部 =；多播链；泄漏",
+      "domain": 1,
+      "domainName": "C# 与面向对象进阶",
+      "level": "中级",
+      "focus": "L2",
+      "category": "C# 与面向对象进阶",
+      "examRef": "↔ Exam07",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-1-004",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "Lambda 闭包捕获 for 循环变量 Bug？",
+      "answer": "共享同一变量地址；局部拷贝 fix",
+      "domain": 1,
+      "domainName": "C# 与面向对象进阶",
+      "level": "高级",
+      "focus": "L2",
+      "category": "C# 与面向对象进阶",
+      "examRef": null,
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-1-005",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "Dictionary 原理？线程安全吗？",
+      "answer": "哈希桶、O(1) 均摊；ConcurrentDictionary",
+      "domain": 1,
+      "domainName": "C# 与面向对象进阶",
+      "level": "高级",
+      "focus": "L2",
+      "category": "C# 与面向对象进阶",
+      "examRef": "↔ Exam02/07",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": "Dictionary 遍历中 Remove 会怎样？"
+    },
+    {
+      "id": "INT-1-006",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "async/await 和协程怎么选？",
+      "answer": "主线程上下文、UniTask、CancellationToken",
+      "domain": 1,
+      "domainName": "C# 与面向对象进阶",
+      "level": "高级",
+      "focus": "L2/L3",
+      "category": "C# 与面向对象进阶",
+      "examRef": "↔ Exam02",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-1-007",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "接口 vs 抽象类？组合优于继承举例？",
+      "answer": "多继承接口；GamePlay 模块解耦",
+      "domain": 1,
+      "domainName": "C# 与面向对象进阶",
+      "level": "高级",
+      "focus": "L2",
+      "category": "C# 与面向对象进阶",
+      "examRef": "↔ Exam06 架构",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-1-008",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "如何设计弱引用事件总线防泄漏？",
+      "answer": "WeakReference、注销清单、域隔离",
+      "domain": 1,
+      "domainName": "C# 与面向对象进阶",
+      "level": "主程",
+      "focus": "L3",
+      "category": "C# 与面向对象进阶",
+      "examRef": "📋",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-1-009",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "如何定位一次 GC Alloc 来源？",
+      "answer": "Profiler GC Alloc、Deep Profile",
+      "domain": 1,
+      "domainName": "C# 与面向对象进阶",
+      "level": "高级",
+      "focus": "L2/L3",
+      "category": "C# 与面向对象进阶",
+      "examRef": "↔ Exam05 UI",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "需演示"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-1-010",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "asmdef 如何拆程序集？解决什么问题？",
+      "answer": "编译速度、循环依赖、Editor 剥离",
+      "domain": 1,
+      "domainName": "C# 与面向对象进阶",
+      "level": "主程",
+      "focus": "L3",
+      "category": "C# 与面向对象进阶",
+      "examRef": "📋",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-2-001",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "Awake/Start/OnEnable 顺序与调用时机？",
+      "answer": "脚本顺序、对象激活、实例化",
+      "domain": 2,
+      "domainName": "Unity 核心机制深入",
+      "level": "中级",
+      "focus": "L2",
+      "category": "Unity 核心机制深入",
+      "examRef": "全 Exam",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-2-002",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "场景 A 跳 B，A 上物体何时销毁？",
+      "answer": "LoadScene 默认 Single 卸载",
+      "domain": 2,
+      "domainName": "Unity 核心机制深入",
+      "level": "中级",
+      "focus": "L2",
+      "category": "Unity 核心机制深入",
+      "examRef": "↔ Exam01",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-2-003",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "LoadScene 和 LoadSceneAsync 区别？",
+      "answer": "主线程阻塞、progress、allowSceneActivation",
+      "domain": 2,
+      "domainName": "Unity 核心机制深入",
+      "level": "中级",
+      "focus": "L2",
+      "category": "Unity 核心机制深入",
+      "examRef": "↔ Exam02",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": "为什么 progress 有时到不了 0.9？"
+    },
+    {
+      "id": "INT-2-004",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "Instantiate 和 Destroy 的性能注意？",
+      "answer": "GC、帧峰值；池化",
+      "domain": 2,
+      "domainName": "Unity 核心机制深入",
+      "level": "中级",
+      "focus": "L2",
+      "category": "Unity 核心机制深入",
+      "examRef": "↔ Exam01",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-2-005",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "DontDestroyOnLoad 用途与风险？",
+      "answer": "DDOL 场景、静态引用泄漏",
+      "domain": 2,
+      "domainName": "Unity 核心机制深入",
+      "level": "高级",
+      "focus": "L2",
+      "category": "Unity 核心机制深入",
+      "examRef": null,
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-2-006",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "协程底层原理？yield 是什么？",
+      "answer": "状态机、 IEnumerator",
+      "domain": 2,
+      "domainName": "Unity 核心机制深入",
+      "level": "高级",
+      "focus": "L2",
+      "category": "Unity 核心机制深入",
+      "examRef": "↔ Exam04/05",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": "协程在物体 SetActive(false) 时还跑吗？"
+    },
+    {
+      "id": "INT-2-007",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "Script Execution Order 解决什么问题？",
+      "answer": "初始化依赖、Input→Logic→Camera",
+      "domain": 2,
+      "domainName": "Unity 核心机制深入",
+      "level": "高级",
+      "focus": "L2",
+      "category": "Unity 核心机制深入",
+      "examRef": null,
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-2-008",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "FixedUpdate 和 Update 区别？timeScale 影响？",
+      "answer": "固定步长 0.02s；物理在 Fixed",
+      "domain": 2,
+      "domainName": "Unity 核心机制深入",
+      "level": "高级",
+      "focus": "L2",
+      "category": "Unity 核心机制深入",
+      "examRef": "↔ Exam04",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-2-009",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "设计一个 SceneLoader 模块要哪些 API？",
+      "answer": "同步/异步、进度、回调、错误重试",
+      "domain": 2,
+      "domainName": "Unity 核心机制深入",
+      "level": "主程",
+      "focus": "L3",
+      "category": "Unity 核心机制深入",
+      "examRef": "↔ Exam02/08",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "偏架构"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-2-010",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "简述 PlayerLoop 与脚本调用的关系",
+      "answer": "原生循环各阶段；Update 插入点",
+      "domain": 2,
+      "domainName": "Unity 核心机制深入",
+      "level": "主程",
+      "focus": "L3",
+      "category": "Unity 核心机制深入",
+      "examRef": null,
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-3-001",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "Canvas 三种 Render Mode 区别？",
+      "answer": "Overlay/Camera/World",
+      "domain": 3,
+      "domainName": "渲染与图形（偏进阶）",
+      "level": "中级",
+      "focus": "L2",
+      "category": "渲染与图形（偏进阶）",
+      "examRef": "↔ Exam01",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-3-002",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "Canvas Scaler 如何做分辨率适配？",
+      "answer": "Scale With Screen Size、Match",
+      "domain": 3,
+      "domainName": "渲染与图形（偏进阶）",
+      "level": "中级",
+      "focus": "L2",
+      "category": "渲染与图形（偏进阶）",
+      "examRef": "↔ Exam01",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-3-003",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "UI 点击无响应排查步骤？",
+      "answer": "EventSystem、Raycast Target、遮挡",
+      "domain": 3,
+      "domainName": "渲染与图形（偏进阶）",
+      "level": "中级",
+      "focus": "L2",
+      "category": "渲染与图形（偏进阶）",
+      "examRef": "↔ Exam01",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": "多个 Canvas 时 Sort Order 怎么设？"
+    },
+    {
+      "id": "INT-3-004",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "UI 卡顿常见原因？",
+      "answer": "Rebuild、Overdraw、频繁 SetActive",
+      "domain": 3,
+      "domainName": "渲染与图形（偏进阶）",
+      "level": "高级",
+      "focus": "L2/L3",
+      "category": "渲染与图形（偏进阶）",
+      "examRef": "↔ Exam05",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-3-005",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "什么是 DrawCall？如何降低 UI DrawCall？",
+      "answer": "合批、图集、同材质",
+      "domain": 3,
+      "domainName": "渲染与图形（偏进阶）",
+      "level": "高级",
+      "focus": "L2",
+      "category": "渲染与图形（偏进阶）",
+      "examRef": "↔ Exam05",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-3-006",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "Mask 为何打断合批？",
+      "answer": "Stencil、额外 Draw",
+      "domain": 3,
+      "domainName": "渲染与图形（偏进阶）",
+      "level": "高级",
+      "focus": "L2",
+      "category": "渲染与图形（偏进阶）",
+      "examRef": null,
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-3-007",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "Built-in 和 URP 选型差异？",
+      "answer": "SRP Batcher、可编程管线",
+      "domain": 3,
+      "domainName": "渲染与图形（偏进阶）",
+      "level": "高级",
+      "focus": "L3",
+      "category": "渲染与图形（偏进阶）",
+      "examRef": "专题",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-3-008",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "SRP Batcher 生效条件？",
+      "answer": "Shader 兼容、CBUFFER 一致",
+      "domain": 3,
+      "domainName": "渲染与图形（偏进阶）",
+      "level": "高级",
+      "focus": "L3",
+      "category": "渲染与图形（偏进阶）",
+      "examRef": "专题",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "需演示"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-3-009",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "如何做高低配画质切换？",
+      "answer": "后处理、分辨率、LOD",
+      "domain": 3,
+      "domainName": "渲染与图形（偏进阶）",
+      "level": "主程",
+      "focus": "L3",
+      "category": "渲染与图形（偏进阶）",
+      "examRef": "📋",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-3-010",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "PBR 中 Metallic/Roughness 含义？",
+      "answer": "能量守恒、BRDF 概念",
+      "domain": 3,
+      "domainName": "渲染与图形（偏进阶）",
+      "level": "主程",
+      "focus": "L3",
+      "category": "渲染与图形（偏进阶）",
+      "examRef": "专题",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-4-001",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "OnCollisionEnter 和 OnTriggerEnter 区别？",
+      "answer": "IsTrigger、Rigidbody 组合",
+      "domain": 4,
+      "domainName": "物理与动画",
+      "level": "中级",
+      "focus": "L2",
+      "category": "物理与动画",
+      "examRef": "↔ Exam03",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-4-002",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "Raycast 参数 LayerMask 作用？",
+      "answer": "位掩码过滤",
+      "domain": 4,
+      "domainName": "物理与动画",
+      "level": "中级",
+      "focus": "L2",
+      "category": "物理与动画",
+      "examRef": "↔ Exam03",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-4-003",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "CharacterController vs Rigidbody 移动？",
+      "answer": "kinematic、台阶、物理交互",
+      "domain": 4,
+      "domainName": "物理与动画",
+      "level": "中级",
+      "focus": "L2",
+      "category": "物理与动画",
+      "examRef": "↔ Exam04",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-4-004",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "子弹穿透怎么解决？",
+      "answer": "CCD、射线检测、减小 Fixed Timestep",
+      "domain": 4,
+      "domainName": "物理与动画",
+      "level": "高级",
+      "focus": "L2",
+      "category": "物理与动画",
+      "examRef": "↔ Exam03",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-4-005",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "Animator 中 Trigger/Bool 使用场景？",
+      "answer": "一次性 Trigger；状态 Bool",
+      "domain": 4,
+      "domainName": "物理与动画",
+      "level": "高级",
+      "focus": "L2",
+      "category": "物理与动画",
+      "examRef": "↔ Exam04",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-4-006",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "Blend Tree 解决什么问题？",
+      "answer": "2D 混合、平滑过渡",
+      "domain": 4,
+      "domainName": "物理与动画",
+      "level": "高级",
+      "focus": "L2",
+      "category": "物理与动画",
+      "examRef": "↔ Exam04",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-4-007",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "物理模块 CPU 高怎么查？",
+      "answer": "Profiler Physics、Sleep、Layer 矩阵",
+      "domain": 4,
+      "domainName": "物理与动画",
+      "level": "高级",
+      "focus": "L2/L3",
+      "category": "物理与动画",
+      "examRef": null,
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "需演示"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-4-008",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "Physics Job / DOTS 物理适用场景？",
+      "answer": "大量刚体、与 Mono 混合",
+      "domain": 4,
+      "domainName": "物理与动画",
+      "level": "主程",
+      "focus": "L3",
+      "category": "物理与动画",
+      "examRef": "专题",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-5-001",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "Update 里为什么避免 Find/GetComponent？",
+      "answer": "字符串查找、缓存引用",
+      "domain": 5,
+      "domainName": "性能优化（高级重点）",
+      "level": "中级",
+      "focus": "L2",
+      "category": "性能优化（高级重点）",
+      "examRef": "全 Exam",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-5-002",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "对象池解决什么问题？如何实现？",
+      "answer": "复用、峰值 GC",
+      "domain": 5,
+      "domainName": "性能优化（高级重点）",
+      "level": "中级",
+      "focus": "L2",
+      "category": "性能优化（高级重点）",
+      "examRef": "↔ Exam01 列表",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-5-003",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "说一次你（或假设）用 Profiler 查卡顿经历",
+      "answer": "CPU/GC/Rendering 分工",
+      "domain": 5,
+      "domainName": "性能优化（高级重点）",
+      "level": "高级",
+      "focus": "L2/L3",
+      "category": "性能优化（高级重点）",
+      "examRef": "🔧",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-5-004",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "UI 列表 1000 条怎么优化？",
+      "answer": "虚拟列表、只渲染可见项",
+      "domain": 5,
+      "domainName": "性能优化（高级重点）",
+      "level": "高级",
+      "focus": "L3",
+      "category": "性能优化（高级重点）",
+      "examRef": "↔ Exam01 B2",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-5-005",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "内存泄漏在 Unity 中常见原因？",
+      "answer": "静态引用、事件未注销、DDOL",
+      "domain": 5,
+      "domainName": "性能优化（高级重点）",
+      "level": "高级",
+      "focus": "L2/L3",
+      "category": "性能优化（高级重点）",
+      "examRef": "↔ Exam07",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-5-006",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "GC 和 IL2CPP 关系？",
+      "answer": "分代回收、STW",
+      "domain": 5,
+      "domainName": "性能优化（高级重点）",
+      "level": "高级",
+      "focus": "L2",
+      "category": "性能优化（高级重点）",
+      "examRef": "域9 联动",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-5-007",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "如何优化启动时间？",
+      "answer": "首包、异步、场景拆分",
+      "domain": 5,
+      "domainName": "性能优化（高级重点）",
+      "level": "高级",
+      "focus": "L3",
+      "category": "性能优化（高级重点）",
+      "examRef": "↔ Exam02",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "需演示"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-5-008",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "线上卡顿如何远程定位？",
+      "answer": "日志、快照、符号表",
+      "domain": 5,
+      "domainName": "性能优化（高级重点）",
+      "level": "主程",
+      "focus": "L3",
+      "category": "性能优化（高级重点）",
+      "examRef": "📋",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-5-009",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "包体瘦身有哪些手段？",
+      "answer": "纹理压缩、Audio、Shader 变体",
+      "domain": 5,
+      "domainName": "性能优化（高级重点）",
+      "level": "主程",
+      "focus": "L3",
+      "category": "性能优化（高级重点）",
+      "examRef": "📋",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-6-001",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "单例优缺点？Unity 中单例写法注意？",
+      "answer": "全局访问 vs 测试性、DontDestroy",
+      "domain": 6,
+      "domainName": "架构与工程化",
+      "level": "中级",
+      "focus": "L2",
+      "category": "架构与工程化",
+      "examRef": "↔ Exam07",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-6-002",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "MVC 在 Unity UI 中怎么分？",
+      "answer": "View 纯显示、Controller 协调",
+      "domain": 6,
+      "domainName": "架构与工程化",
+      "level": "中级",
+      "focus": "L2",
+      "category": "架构与工程化",
+      "examRef": "↔ Exam01",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-6-003",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "场景间如何传递登录用户名？",
+      "answer": "静态会话、SO、PlayerPrefs 对比",
+      "domain": 6,
+      "domainName": "架构与工程化",
+      "level": "高级",
+      "focus": "L2",
+      "category": "架构与工程化",
+      "examRef": "↔ Exam08",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-6-004",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "事件总线和直接引用的取舍？",
+      "answer": "解耦 vs 调试难度",
+      "domain": 6,
+      "domainName": "架构与工程化",
+      "level": "高级",
+      "focus": "L2/L3",
+      "category": "架构与工程化",
+      "examRef": "↔ Exam02",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-6-005",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "五层架构哪五层？依赖方向？",
+      "answer": "UI/Logic/Data/Net/Res",
+      "domain": 6,
+      "domainName": "架构与工程化",
+      "level": "高级",
+      "focus": "L3",
+      "category": "架构与工程化",
+      "examRef": "专题",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "偏架构"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-6-006",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "MVVM 和数据绑定好处？",
+      "answer": "减少手动 SetText",
+      "domain": 6,
+      "domainName": "架构与工程化",
+      "level": "高级",
+      "focus": "L3",
+      "category": "架构与工程化",
+      "examRef": "专题",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-6-007",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "模块如何热插拔初始化？",
+      "answer": "ModuleManager、IGameModule",
+      "domain": 6,
+      "domainName": "架构与工程化",
+      "level": "主程",
+      "focus": "L3",
+      "category": "架构与工程化",
+      "examRef": "📋",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-6-008",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "如何做 Code Review 关注 Unity 项目？",
+      "answer": "生命周期、空引用、资源释放",
+      "domain": 6,
+      "domainName": "架构与工程化",
+      "level": "主程",
+      "focus": "L3",
+      "category": "架构与工程化",
+      "examRef": "↔ Exam10 域10",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-7-001",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "TCP 和 UDP 区别？游戏常用哪个？",
+      "answer": "可靠有序 vs 低延迟",
+      "domain": 7,
+      "domainName": "网络与多人",
+      "level": "中级",
+      "focus": "L2",
+      "category": "网络与多人",
+      "examRef": "专题",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-7-002",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "状态同步 vs 帧同步？",
+      "answer": "带宽、确定性、回滚",
+      "domain": 7,
+      "domainName": "网络与多人",
+      "level": "高级",
+      "focus": "L2/L3",
+      "category": "网络与多人",
+      "examRef": "专题",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-7-003",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "客户端预测和服务端回滚？",
+      "answer": "延迟补偿",
+      "domain": 7,
+      "domainName": "网络与多人",
+      "level": "高级",
+      "focus": "L3",
+      "category": "网络与多人",
+      "examRef": "专题",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-7-004",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "TCP 粘包怎么处理？",
+      "answer": "长度头、分包协议",
+      "domain": 7,
+      "domainName": "网络与多人",
+      "level": "高级",
+      "focus": "L2",
+      "category": "网络与多人",
+      "examRef": "专题",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-7-005",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "心跳、重连怎么设计？",
+      "answer": "超时、指数退避",
+      "domain": 7,
+      "domainName": "网络与多人",
+      "level": "高级",
+      "focus": "L3",
+      "category": "网络与多人",
+      "examRef": "专题",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-7-006",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "如何防加速器/改包？",
+      "answer": "服务端权威、校验",
+      "domain": 7,
+      "domainName": "网络与多人",
+      "level": "主程",
+      "focus": "L3",
+      "category": "网络与多人",
+      "examRef": "📋",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-7-007",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "UnityWebRequest 下载大文件注意？",
+      "answer": "断点、MD5、缓存",
+      "domain": 7,
+      "domainName": "网络与多人",
+      "level": "中级",
+      "focus": "L2",
+      "category": "网络与多人",
+      "examRef": "↔ Exam02 延伸",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-8-001",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "[SerializeField] 和 public 区别？",
+      "answer": "封装、Inspector 暴露",
+      "domain": 8,
+      "domainName": "编辑器扩展与工具链",
+      "level": "中级",
+      "focus": "L2",
+      "category": "编辑器扩展与工具链",
+      "examRef": "全 Exam",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-8-002",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "如何写 Custom Inspector？",
+      "answer": "Editor 文件夹、OnInspectorGUI",
+      "domain": 8,
+      "domainName": "编辑器扩展与工具链",
+      "level": "高级",
+      "focus": "L2",
+      "category": "编辑器扩展与工具链",
+      "examRef": "专题",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-8-003",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "MenuItem 和 EditorWindow 使用场景？",
+      "answer": "一次性工具 vs 面板",
+      "domain": 8,
+      "domainName": "编辑器扩展与工具链",
+      "level": "高级",
+      "focus": "L2",
+      "category": "编辑器扩展与工具链",
+      "examRef": "专题",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-8-004",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "AssetPostprocessor 能做什么？",
+      "answer": "导入规范、自动压缩",
+      "domain": 8,
+      "domainName": "编辑器扩展与工具链",
+      "level": "高级",
+      "focus": "L3",
+      "category": "编辑器扩展与工具链",
+      "examRef": "专题",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-8-005",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "CI 打包 Unity 流程要点？",
+      "answer": "headless、License、版本号",
+      "domain": 8,
+      "domainName": "编辑器扩展与工具链",
+      "level": "主程",
+      "focus": "L3",
+      "category": "编辑器扩展与工具链",
+      "examRef": "专题",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "偏架构"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-8-006",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "如何做资源规范自动检查？",
+      "answer": "贴图尺寸、只读、重复资源",
+      "domain": 8,
+      "domainName": "编辑器扩展与工具链",
+      "level": "高级",
+      "focus": "L3",
+      "category": "编辑器扩展与工具链",
+      "examRef": "专题",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "需演示"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-9-001",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "Mono 和 IL2CPP 区别？",
+      "answer": "AOT、启动、调试",
+      "domain": 9,
+      "domainName": "底层与引擎原理",
+      "level": "高级",
+      "focus": "L2",
+      "category": "",
+      "examRef": null,
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-9-002",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "Unity 为什么大部分 API 只能主线程？",
+      "answer": "引擎非线程安全",
+      "domain": 9,
+      "domainName": "底层与引擎原理",
+      "level": "高级",
+      "focus": "L2",
+      "category": "",
+      "examRef": null,
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-9-003",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "协程是线程吗？",
+      "answer": "主线程分帧、状态机",
+      "domain": 9,
+      "domainName": "底层与引擎原理",
+      "level": "高级",
+      "focus": "L2",
+      "category": "",
+      "examRef": "↔ Exam05",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-9-004",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "GameObject 和 Component 关系？",
+      "answer": "实体-组件、Transform 特殊",
+      "domain": 9,
+      "domainName": "底层与引擎原理",
+      "level": "高级",
+      "focus": "L2",
+      "category": "",
+      "examRef": null,
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-9-005",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "Burst/Job 解决什么问题？",
+      "answer": "SIMD、多核、无 GC",
+      "domain": 9,
+      "domainName": "底层与引擎原理",
+      "level": "主程",
+      "focus": "L3",
+      "category": "",
+      "examRef": "专题",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-9-006",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "ECS 和 OOP 架构对比？",
+      "answer": "缓存友好、数据导向",
+      "domain": 9,
+      "domainName": "底层与引擎原理",
+      "level": "主程",
+      "focus": "L3",
+      "category": "",
+      "examRef": "专题",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-10-001",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "说一个你解决过的 Bug（STAR）",
+      "answer": "情境-任务-行动-结果",
+      "domain": 10,
+      "domainName": "跨领域能力",
+      "level": "中级",
+      "focus": "L2",
+      "category": "",
+      "examRef": "自检",
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "高频"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-10-002",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "Prefab 规范如何和美术协作？",
+      "answer": "命名、层级、变体",
+      "domain": 10,
+      "domainName": "跨领域能力",
+      "level": "高级",
+      "focus": "L2",
+      "category": "",
+      "examRef": "↔ Exam01 Prefab",
+      "tags": [
+        "成长路线",
+        "面试轨"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-10-003",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "需求工期评估怎么做？",
+      "answer": "拆分、风险缓冲",
+      "domain": 10,
+      "domainName": "跨领域能力",
+      "level": "高级",
+      "focus": "L3",
+      "category": "",
+      "examRef": null,
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "偏架构"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-10-004",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "线上闪退如何查？",
+      "answer": "符号表、空引用、Native 崩溃",
+      "domain": 10,
+      "domainName": "跨领域能力",
+      "level": "主程",
+      "focus": "L3",
+      "category": "",
+      "examRef": null,
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "偏架构"
+      ],
+      "followUp": null
+    },
+    {
+      "id": "INT-10-005",
+      "bankId": "interview",
+      "track": "interview",
+      "type": "interview",
+      "question": "技术选型你会考虑哪些维度？",
+      "answer": "团队、维护、性能、包体",
+      "domain": 10,
+      "domainName": "跨领域能力",
+      "level": "主程",
+      "focus": "L3",
+      "category": "",
+      "examRef": null,
+      "tags": [
+        "成长路线",
+        "面试轨",
+        "偏架构"
+      ],
+      "followUp": null
+    }
+  ]
+}

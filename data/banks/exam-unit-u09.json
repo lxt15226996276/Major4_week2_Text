@@ -1,0 +1,181 @@
+{
+  "id": "exam-unit-u09",
+  "name": "第九单元：动画状态机（二） · 9题",
+  "track": "exam",
+  "type": "theory",
+  "source": "Tests/元宇宙专业四题库.xlsx",
+  "count": 9,
+  "questions": [
+    {
+      "id": "EX-W2-U09-038",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "人型模型动画重定向的条件？",
+      "answer": "模型需带有 Avatar，且骨骼结构相似，动画剪辑为人类动画。",
+      "category": "第九单元：动画状态机（二）",
+      "unitNum": 9,
+      "unitName": "第九单元：动画状态机（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第九单元：动画状态机（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U09-039",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何实现人型模型动画重定向？",
+      "answer": "为模型添加相同的 Avatar，将动画剪辑拖入 Animator Controller 即可复用。",
+      "category": "第九单元：动画状态机（二）",
+      "unitNum": 9,
+      "unitName": "第九单元：动画状态机（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第九单元：动画状态机（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U09-041",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Blend Tree（混合树）的作用？",
+      "answer": "用于平滑混合多个相似动画（如不同速度的行走、跑步），基于参数值自动过渡。",
+      "category": "第九单元：动画状态机（二）",
+      "unitNum": 9,
+      "unitName": "第九单元：动画状态机（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第九单元：动画状态机（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U09-043",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何创建 Blend Tree？",
+      "answer": "在 Animator 窗口右键选择 “Create State> From New Blend Tree”，并添加子动画。",
+      "category": "第九单元：动画状态机（二）",
+      "unitNum": 9,
+      "unitName": "第九单元：动画状态机（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第九单元：动画状态机（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U09-044",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Animator IK（反向动力学）的用途？",
+      "answer": "用于动态调整骨骼末端位置（如手、脚），使角色与场景交互（如手触墙壁）。",
+      "category": "第九单元：动画状态机（二）",
+      "unitNum": 9,
+      "unitName": "第九单元：动画状态机（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第九单元：动画状态机（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U09-046",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "IK 中 “Look At” 的实现方法？",
+      "answer": "在 OnAnimatorIK () 回调中设置 Animator.SetLookAtPosition ()，并启用 IK Pass。",
+      "category": "第九单元：动画状态机（二）",
+      "unitNum": 9,
+      "unitName": "第九单元：动画状态机（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第九单元：动画状态机（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U09-047",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "目标匹配（Match Target）的作用？",
+      "answer": "使角色某个身体部位（如手）在动画播放时精确匹配目标位置（如拾取物品）。",
+      "category": "第九单元：动画状态机（二）",
+      "unitNum": 9,
+      "unitName": "第九单元：动画状态机（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第九单元：动画状态机（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U09-049",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Match Target 的参数包括哪些？",
+      "answer": "目标位置、身体部位（如 HandLeft）、权重、开始和结束时间。",
+      "category": "第九单元：动画状态机（二）",
+      "unitNum": 9,
+      "unitName": "第九单元：动画状态机（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第九单元：动画状态机（二）"
+      ]
+    },
+    {
+      "id": "EX-W2-U09-050",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何触发目标匹配？",
+      "answer": "在动画播放过程中调用 Animator.MatchTarget () 方法，指定目标参数。",
+      "category": "第九单元：动画状态机（二）",
+      "unitNum": 9,
+      "unitName": "第九单元：动画状态机（二）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第九单元：动画状态机（二）"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "id": "exam-unit-u02",
+  "name": "第二单元：常用控件（一） · 21题",
+  "track": "exam",
+  "type": "theory",
+  "source": "Tests/元宇宙专业四题库.xlsx",
+  "count": 21,
+  "questions": [
+    {
+      "id": "EX-W1-U02-014",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Image 控件的主要用途？",
+      "answer": "用于显示 Sprite 图片，支持切片、九宫格等效果。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-015",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "RawImage 与 Image 的核心区别？",
+      "answer": "RawImage 显示原始纹理，Image 显示 Sprite；RawImage 更适合动态纹理。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-016",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Button 控件有哪些常见状态？",
+      "answer": "正常、高亮、按下、禁用四种状态。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-017",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何给 Button 添加点击事件？",
+      "answer": "可在 Inspector 面板绑定脚本方法，或通过代码 AddListener 添加。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-018",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Toggle 控件的作用？",
+      "answer": "实现开关功能或多选功能，可通过 isOn 获取选中状态。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-019",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Toggle Group 的功能？",
+      "answer": "管理多个 Toggle，实现单选效果（同一时间仅一个被选中）。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-020",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "RawImage 的适用场景？",
+      "answer": "显示相机渲染纹理、动态生成的纹理等。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-021",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Button 的 “Transition” 属性有哪些选项？",
+      "answer": "包括 None、Color Tint、Sprite Swap、Animation。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-022",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "让 Image 显示为圆形的方法？",
+      "answer": "使用带透明通道的圆形 Sprite，或添加 Mask 组件配合圆形遮罩。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-023",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Button 点击无响应的可能原因？",
+      "answer": "无 EventSystem、未勾选 Raycast Target、被遮挡、脚本错误等。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-024",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Toggle 的组成部分？",
+      "answer": "包括背景、勾选图标、Label 等元素。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-025",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Image 的 “Type” 属性有哪些？",
+      "answer": "如 Simple、Sliced、Tiled、Filled 等。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-026",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "RawImage 的 “Texture” 属性作用？",
+      "answer": "用于指定要显示的原始纹理。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-027",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何设置 Button 的高亮状态颜色？",
+      "answer": "在 Button 的 Color Tint 过渡模式下设置 Highlighted Color。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W1-U02-028",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Toggle 状态变化时会触发什么事件？",
+      "answer": "会触发 onValue Changed 事件，可监听该事件做相应处理。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U02-017",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Button 控件有哪些常见状态？",
+      "answer": "正常、高亮、按下、禁用四种状态。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U02-020",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "RawImage 的适用场景？",
+      "answer": "显示相机渲染纹理、动态生成的纹理等。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U02-023",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Image 的 “Type” 属性有哪些？",
+      "answer": "如 Simple、Sliced、Tiled、Filled 等。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W2-U02-028",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "RawImage 的 “Texture” 属性作用？",
+      "answer": "用于指定要显示的原始纹理。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W3-U02-004",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "Image 的 “Type” 属性有哪些？",
+      "answer": "如 Simple、Sliced、Tiled、Filled 等。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第二单元：常用控件（一）"
+      ]
+    },
+    {
+      "id": "EX-W4-U02-004",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "Image 的 “Type” 属性有哪些？",
+      "answer": "如 Simple、Sliced、Tiled、Filled 等。",
+      "category": "第二单元：常用控件（一）",
+      "unitNum": 2,
+      "unitName": "第二单元：常用控件（一）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第二单元：常用控件（一）"
+      ]
+    }
+  ]
+}

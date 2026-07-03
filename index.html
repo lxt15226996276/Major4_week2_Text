@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>随机刷题 · Unity 题库</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+
+  <div class="access-banner hidden" id="access-banner">
+    <span class="access-label" id="access-label">公网地址（发给任何人，不同 WiFi 也能打开）：</span>
+    <code id="access-url">—</code>
+    <button class="btn-copy" id="btn-copy-url" title="复制">复制链接</button>
+  </div>
+
+  <div class="app">
+    <header class="header">
+      <div class="brand">
+        <span class="brand-icon">◆</span>
+        <div>
+          <h1>随机刷题</h1>
+          <p class="subtitle" id="bank-subtitle">Unity · 理论 + 面试</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <a href="share.html" class="btn btn-accent btn-sm">分享链接</a>
+        <a href="import.html" class="btn btn-accent btn-sm">录入题库</a>
+        <div class="header-stats">
+          <div class="stat">
+            <span class="stat-value" id="stat-total">—</span>
+            <span class="stat-label">题库</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="stat-done">0</span>
+            <span class="stat-label">已刷</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="stat-session">0</span>
+            <span class="stat-label">本轮</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <aside class="sidebar">
+      <section class="panel">
+        <h2>学习轨道</h2>
+        <label class="field">
+          <span>轨道（分开刷）</span>
+          <select id="filter-track">
+            <option value="exam">考试及格 · 理论题库</option>
+            <option value="interview">大厂面试 · 成长路线</option>
+          </select>
+        </label>
+
+        <div class="exam-only">
+          <label class="field">
+            <span>分类方式</span>
+            <select id="filter-exam-mode">
+              <option value="week">按周次（每周约 64 题）</option>
+              <option value="unit">按单元（Excel 对应单元列）</option>
+            </select>
+          </label>
+          <label class="field">
+            <span id="exam-selection-label">周次</span>
+            <select id="filter-exam-selection"></select>
+          </label>
+          <p class="exam-hint" id="exam-hint"></p>
+        </div>
+
+        <label class="field interview-only">
+          <span>知识域</span>
+          <select id="filter-domain">
+            <option value="">全部域</option>
+          </select>
+        </label>
+        <label class="field interview-only">
+          <span>职级</span>
+          <select id="filter-level">
+            <option value="">全部职级</option>
+            <option value="中级">中级</option>
+            <option value="高级">高级</option>
+            <option value="主程">主程</option>
+          </select>
+        </label>
+        <label class="field interview-only">
+          <span>关联 Exam</span>
+          <select id="filter-exam-ref">
+            <option value="">不限</option>
+          </select>
+        </label>
+        <label class="checkbox-field interview-only">
+          <input type="checkbox" id="filter-hot" />
+          <span>仅高频题 ★</span>
+        </label>
+        <label class="checkbox-field">
+          <input type="checkbox" id="filter-unseen" checked />
+          <span>优先未刷过的题</span>
+        </label>
+        <label class="checkbox-field">
+          <input type="checkbox" id="sound-toggle" checked />
+          <span>音效</span>
+        </label>
+        <p class="filter-count">当前池：<strong id="pool-count">0</strong> 题</p>
+        <p class="nav-pos-text">浏览：<strong id="nav-pos">—</strong></p>
+      </section>
+
+      <section class="panel mobile-hide">
+        <h2>快捷键</h2>
+        <ul class="shortcuts">
+          <li><kbd>←</kbd> 上一题</li>
+          <li><kbd>Space</kbd> 下一题</li>
+          <li><kbd>A</kbd> 显示 / 隐藏答案</li>
+          <li><kbd>1</kbd> 会了 · <kbd>2</kbd> 还不会</li>
+        </ul>
+      </section>
+
+      <section class="panel progress-panel">
+        <h2>进度</h2>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <p class="progress-text"><span id="progress-pct">0</span>% 覆盖</p>
+        <button class="btn btn-ghost btn-sm" id="btn-reset-progress">重置本题库进度</button>
+      </section>
+    </aside>
+
+    <main class="main">
+      <div class="card question-card" id="question-card">
+        <div class="card-meta">
+          <span class="badge domain" id="q-domain">—</span>
+          <span class="badge level" id="q-level">—</span>
+          <span class="badge id" id="q-id">—</span>
+          <span class="badge focus" id="q-focus"></span>
+        </div>
+        <div class="tags" id="q-tags"></div>
+        <h2 class="question-text" id="q-text">加载中…</h2>
+        <p class="exam-ref" id="q-exam"></p>
+
+        <div class="my-answer-section">
+          <label class="my-answer-label" for="my-answer">我的答案</label>
+          <p class="my-answer-hint">可选填写。心里默答后点「显示答案」即可对照；写了内容会额外显示判分</p>
+          <textarea id="my-answer" class="my-answer-input" rows="4" placeholder="可选：写下你的答案；不填也能直接看参考答案"></textarea>
+        </div>
+
+        <div class="feedback-panel hidden" id="feedback-panel">
+          <div class="fb-header">
+            <span class="fb-icon" id="fb-icon">●</span>
+            <div>
+              <strong id="fb-title">—</strong>
+              <p id="fb-message">—</p>
+            </div>
+            <span class="fb-score" id="fb-score">—</span>
+          </div>
+          <div class="fb-tags-wrap" id="fb-matched-wrap">
+            <span class="fb-tags-label">命中要点</span>
+            <div class="fb-tags" id="fb-matched"></div>
+          </div>
+          <div class="fb-tags-wrap" id="fb-missing-wrap">
+            <span class="fb-tags-label">还缺这些</span>
+            <div class="fb-tags" id="fb-missing"></div>
+          </div>
+        </div>
+
+        <div class="answer-section hidden" id="answer-section">
+          <div class="my-answer-review hidden" id="my-answer-review">
+            <h3>你写的</h3>
+            <p class="my-answer-text" id="my-answer-display"></p>
+          </div>
+          <h3>参考答案</h3>
+          <p class="answer-mode-hint hidden" id="answer-mode-hint">未填写答案，请对照下方参考答案（心里默答也算）</p>
+          <p class="answer-text" id="q-answer"></p>
+          <div class="followup hidden" id="followup-section">
+            <h4>追问答</h4>
+            <p id="q-followup"></p>
+          </div>
+        </div>
+
+        <div class="rate-actions hidden" id="rate-actions">
+          <span class="rate-label">自评：</span>
+          <button class="btn btn-success" id="btn-know">会了 ✓</button>
+          <button class="btn btn-warn" id="btn-unknown">还不会</button>
+        </div>
+      </div>
+
+      <div class="empty-state hidden" id="empty-state">
+        <p id="empty-msg">当前分类下没有题目</p>
+        <button class="btn btn-primary hidden" id="btn-clear-filter">清除筛选</button>
+      </div>
+    </main>
+  </div>
+
+  <nav class="quiz-toolbar" id="quiz-toolbar" aria-label="刷题操作">
+    <button class="toolbar-btn" id="btn-prev" disabled>← 上一题</button>
+    <button class="toolbar-btn toolbar-btn-primary" id="btn-reveal">显示答案</button>
+    <button class="toolbar-btn" id="btn-next">下一题 →</button>
+  </nav>
+
+  <script src="js/site-info.js"></script>
+  <script src="js/sounds.js"></script>
+  <script src="js/grader.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,447 @@
+{
+  "id": "exam-unit-u01",
+  "name": "第一单元：画布和基础布局 · 23题",
+  "track": "exam",
+  "type": "theory",
+  "source": "Tests/元宇宙专业四题库.xlsx",
+  "count": 23,
+  "questions": [
+    {
+      "id": "EX-W1-U01-001",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "什么是游戏 UI？",
+      "answer": "游戏中玩家与系统交互的视觉界面，如菜单、血条、按钮等。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-002",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "游戏 UI 和普通应用 UI 的核心区别？",
+      "answer": "游戏 UI 需贴合游戏风格，动态效果更强，适配多输入设备，性能要求更高。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-003",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Canvas 的主要作用？",
+      "answer": "是所有 UI 元素的容器，所有 UI 组件必须依附于 Canvas 存在。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-004",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Canvas 有哪几种渲染模式？",
+      "answer": "屏幕覆盖模式、屏幕相机模式、世界空间模式；",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-005",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Rect Transform 的特点？",
+      "answer": "专为 UI 设计，支持锚点和轴心，可随父级自动调整大小和位置。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-006",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "普通 Transform 和 Rect Transform 的适用对象？",
+      "answer": "普通 Transform 用于 3D/2D 对象；Rect Transform 用于 UI 元素。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-007",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "实现 UI 屏幕自适应的关键组件？",
+      "answer": "Canvas Scaler 组件是实现 UI 屏幕自适应的核心。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-008",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "锚点（Anchors）的作用？",
+      "answer": "决定 UI 元素与父级边缘的连接方式，影响元素随父级变化的调整方式。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-009",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Pivot（轴心）对 UI 元素的影响？",
+      "answer": "是元素旋转、缩放的中心点，也影响位置计算。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-010",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "Text 控件的核心属性？",
+      "answer": "包括字体、字号、颜色、对齐方式、文本内容等。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-011",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "EventSystem 的主要功能？",
+      "answer": "负责检测和处理用户输入，如点击、滑动等交互操作。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-012",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "“Scale With Screen Size” 模式的参考是什么？",
+      "answer": "按设定的参考分辨率缩放 UI，保持元素比例。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W1-U01-013",
+      "bankId": "exam-week-1",
+      "track": "exam",
+      "type": "theory",
+      "question": "为什么要设置合理的 UI 锚点？",
+      "answer": "确保 UI 元素在屏幕尺寸变化时能正确显示在预期位置。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 1,
+      "weekName": "第一周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第一周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W2-U01-003",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Canvas 的主要作用？",
+      "answer": "是所有 UI 元素的容器，所有 UI 组件必须依附于 Canvas 存在。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W2-U01-005",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Rect Transform 的特点？",
+      "answer": "专为 UI 设计，支持锚点和轴心，可随父级自动调整大小和位置。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W2-U01-008",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Pivot（轴心）对 UI 元素的影响？",
+      "answer": "是元素旋转、缩放的中心点，也影响位置计算。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W2-U01-011",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "Text 控件的核心属性？",
+      "answer": "包括字体、字号、颜色、对齐方式、文本内容等。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W2-U01-014",
+      "bankId": "exam-week-2",
+      "track": "exam",
+      "type": "theory",
+      "question": "EventSystem 的主要功能？",
+      "answer": "负责检测和处理用户输入，如点击、滑动等交互操作。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 2,
+      "weekName": "第二周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第二周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W3-U01-001",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "Rect Transform 的特点？",
+      "answer": "专为 UI 设计，支持锚点和轴心，可随父级自动调整大小和位置。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W3-U01-002",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "Canvas Scaler 的 “Constant Pixel Size” 模式特点？",
+      "answer": "保持 UI 元素像素大小不变，屏幕越大显示内容越多。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W3-U01-003",
+      "bankId": "exam-week-3",
+      "track": "exam",
+      "type": "theory",
+      "question": "什么是游戏 UI？",
+      "answer": "游戏中玩家与系统交互的视觉界面，如菜单、血条、按钮等。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 3,
+      "weekName": "第三周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第三周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W4-U01-001",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "Rect Transform 的特点？",
+      "answer": "专为 UI 设计，支持锚点和轴心，可随父级自动调整大小和位置。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第一单元：画布和基础布局"
+      ]
+    },
+    {
+      "id": "EX-W4-U01-003",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "什么是游戏 UI？",
+      "answer": "游戏中玩家与系统交互的视觉界面，如菜单、血条、按钮等。",
+      "category": "第一单元：画布和基础布局",
+      "unitNum": 1,
+      "unitName": "第一单元：画布和基础布局",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第一单元：画布和基础布局"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "id": "exam-unit-u18",
+  "name": "第十八单元 项目实例 RPG世界（三） · 14题",
+  "track": "exam",
+  "type": "theory",
+  "source": "Tests/元宇宙专业四题库.xlsx",
+  "count": 14,
+  "questions": [
+    {
+      "id": "EX-W4-U18-043",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "多线程渲染在 UI 优化中的作用？",
+      "answer": "分担 CPU 渲染压力，提效率。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-044",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "LOD 技术的原理？",
+      "answer": "按相机距离切换模型精度（远低近高）。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-045",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "场景中不移动模型如何优化？",
+      "answer": "合批、复用纹理、移除无用碰撞体。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-046",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "动画优化中减少关键帧的原则？",
+      "answer": "不影响效果下，移除无用关键帧。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-047",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "UI 透明度和重叠的问题？",
+      "answer": "增渲染复杂度，打断合批，提 Draw Call。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-048",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何处理 UI 图文交叉？",
+      "answer": "避免交叉排列，防合批失败。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-049",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "UGUI 多平台优势？",
+      "answer": "无需额外适配，多平台显示 / 操作一致。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-050",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "移动设备 UI 适配注意点？",
+      "answer": "1. 设安全区域；2. 区分背景与异形屏适配元素；3. 异形屏算比例留空间。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-051",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "文本长度不定时如何让文本框自适应？",
+      "answer": "加 Content Size Fitter，设 Horizontal/Vertical Fit 为 Preferred Size。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-052",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "全球化版本适配注意点？",
+      "answer": "1. 文本留 1.5 倍空间；2. 特殊字符 / 日期；3. 文化禁忌（如日本忌绿）。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-053",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "UI 优化中减 Draw Call 的方法？",
+      "answer": "1. 合批（同材质 / 纹理）；2. 用图集；3. 控层级和透明度。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-054",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "UGUI 的核心组件？",
+      "answer": "Canvas、UI 元素、RectTransform、Event System、Layout Groups。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-055",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "Canvas 的渲染模式？",
+      "answer": "1. Screen Space - Overlay；2. Screen Space - Camera；3. World Space。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    },
+    {
+      "id": "EX-W4-U18-056",
+      "bankId": "exam-week-4",
+      "track": "exam",
+      "type": "theory",
+      "question": "如何优化背包道具显示性能？",
+      "answer": "对象池管理道具图标，复用防频繁创建 / 销毁。",
+      "category": "第十八单元 项目实例 RPG世界（三）",
+      "unitNum": 18,
+      "unitName": "第十八单元 项目实例 RPG世界（三）",
+      "weekNum": 4,
+      "weekName": "第四周",
+      "level": "考试及格",
+      "tags": [
+        "考试及格",
+        "第四周",
+        "第十八单元 项目实例 RPG世界（三）"
+      ]
+    }
+  ]
+}

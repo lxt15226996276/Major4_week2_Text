@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>录入题库 · 随机刷题</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="import-page">
+    <header class="import-header">
+      <a href="index.html" class="back-link">← 返回刷题</a>
+      <h1>录入题库</h1>
+      <p id="import-intro">支持 Excel (.xlsx)、CSV、JSON。录入后同 WiFi 下的手机/电脑刷新即可刷到新题。</p>
+    </header>
+
+    <div class="share-notice hidden" id="static-import-notice">
+      <strong>永久站点模式</strong>
+      <p>线上版无法直接提交题库。请在本地修改 Excel 或 <code>QuizSite/imports/</code> 后，双击 <code>部署到公网.bat</code> 重新发布。</p>
+      <p>若需网页录入，请在本机运行 <code>start.bat</code> 使用临时服务器。</p>
+    </div>
+
+    <div class="import-grid">
+      <section class="panel import-panel">
+        <h2>方式一：上传文件（推荐）</h2>
+        <div class="drop-zone" id="drop-zone">
+          <p>拖拽文件到此处，或点击选择</p>
+          <p class="hint">支持 .xlsx · .csv · .json</p>
+          <input type="file" id="file-input" accept=".xlsx,.xls,.csv,.json" hidden />
+        </div>
+        <label class="field">
+          <span>题库名称</span>
+          <input type="text" id="bank-name" placeholder="例如：元宇宙理论补充卷" />
+        </label>
+        <div class="preview hidden" id="preview">
+          <p>已解析 <strong id="preview-count">0</strong> 道题</p>
+          <ul class="preview-list" id="preview-list"></ul>
+        </div>
+        <button class="btn btn-primary" id="btn-upload" disabled>提交到服务器</button>
+        <p class="status" id="upload-status"></p>
+      </section>
+
+      <section class="panel import-panel">
+        <h2>方式二：手动添加</h2>
+        <label class="field">
+          <span>题目</span>
+          <textarea id="manual-q" rows="3" placeholder="题干"></textarea>
+        </label>
+        <label class="field">
+          <span>答案</span>
+          <textarea id="manual-a" rows="3" placeholder="参考答案"></textarea>
+        </label>
+        <label class="field">
+          <span>分类（可选）</span>
+          <input type="text" id="manual-cat" placeholder="例如：第一单元 UI" />
+        </label>
+        <button class="btn btn-accent" id="btn-add-manual">加入待提交列表</button>
+        <p class="manual-count">待提交：<strong id="manual-count">0</strong> 题</p>
+        <button class="btn btn-primary" id="btn-submit-manual" disabled>提交手动录入</button>
+      </section>
+
+      <section class="panel import-panel full-width">
+        <h2>格式说明</h2>
+        <div class="format-help">
+          <div>
+            <h3>Excel / CSV 列名（任选其一）</h3>
+            <ul>
+              <li><code>题干</code> 或 <code>question</code> 或 <code>题目</code></li>
+              <li><code>答案</code> 或 <code>answer</code></li>
+              <li><code>单元</code> / <code>分类</code> / <code>category</code>（可选）</li>
+              <li><code>标签</code> / <code>tags</code>（可选，多个用 | 分隔）</li>
+            </ul>
+          </div>
+          <div>
+            <h3>元宇宙专业四题库.xlsx</h3>
+            <p>已内置导入。更新 Excel 后在本机运行：</p>
+            <pre>python QuizSite/scripts/build_all.py</pre>
+            <p>或把 xlsx 放到 <code>Tests/</code> 后重建。</p>
+          </div>
+          <div>
+            <h3>从其他网站下载的题目</h3>
+            <p>整理成 CSV 上传即可；也可把题目发给我（Chat），我帮你录入 <code>imports/</code> 目录。</p>
+            <a class="btn btn-ghost btn-sm" href="imports/template.csv" download>下载 CSV 模板</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="js/site-info.js"></script>
+  <script src="js/import.js"></script>
+</body>
+</html>
