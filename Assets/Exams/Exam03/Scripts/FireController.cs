@@ -24,7 +24,8 @@ namespace Exam.Exam03
         }
         void OnDestroy()
         {
-            btnFire.onClick.RemoveListener(Fire);
+            if (btnFire != null)
+                btnFire.onClick.RemoveListener(Fire);
         }
 
     }

@@ -14,10 +14,11 @@ namespace Exam.Exam03
             if (!other.CompareTag("Bullet")) return;
 
             var health = FindObjectOfType<PlayerHealth>();
-            health.AddHealth(healthHp);
+            if (health != null)
+                health.AddHealth(healthHp);
 
             Destroy(other.gameObject);
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
     }
 }

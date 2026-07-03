@@ -16,7 +16,7 @@ namespace Exam.Exam03
             float h = Input.GetAxis("Horizontal");
             float v = Input.GetAxis("Vertical");
 
-            transform.Translate(new Vector3(0, 0, v) * moveSpeed * Time.deltaTime);
+            transform.Translate(new Vector3(0, 0, v) * moveSpeed * Time.deltaTime, Space.Self);
             transform.Rotate(new Vector3(0, h, 0) * turnRotation * Time.deltaTime);
         }
     }
