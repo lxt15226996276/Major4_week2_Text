@@ -387,6 +387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   victoryPanel: {fileID: 1994930325}
   hpSlider: {fileID: 1994930324}
+  hpLabelText: {fileID: 1233516615}
   maxHp: 100
 --- !u!114 &520352818
 MonoBehaviour:
@@ -404,6 +405,17 @@ MonoBehaviour:
   bulletPrefab: {fileID: 4782539942366827658, guid: 2c7adfa7d1173c746a333a408582019f, type: 3}
   firePoint: {fileID: 4656969962589233568}
   speed: 4.5
+--- !u!114 &1233516615 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5628829985194965591, guid: 626b71207a19a0742bcd17e00796ebd5, type: 3}
+  m_PrefabInstance: {fileID: 1994930323}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1994930323
 PrefabInstance:
   m_ObjectHideFlags: 0
