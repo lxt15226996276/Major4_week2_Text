@@ -318,6 +318,8 @@ GameObject:
   m_Component:
   - component: {fileID: 520352815}
   - component: {fileID: 520352816}
+  - component: {fileID: 520352817}
+  - component: {fileID: 520352818}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -357,6 +359,37 @@ MonoBehaviour:
   spawnRangeX: 22.5
   spawnRangeZ: 22.5
   spawnY: 0.35
+--- !u!114 &520352817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520352814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87e83ea2d7b48134287fcc931edd6f36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  victoryPanel: {fileID: 1994930325}
+  hpSlider: {fileID: 1994930324}
+  maxHp: 100
+--- !u!114 &520352818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520352814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d53b92190f5fb14e863449006ae7f65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnFire: {fileID: 1994930326}
+  bulletPrefab: {fileID: 4782539942366827658, guid: 2c7adfa7d1173c746a333a408582019f, type: 3}
+  firePoint: {fileID: 4656969962589233568}
+  speed: 4.5
 --- !u!1001 &1994930323
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -458,6 +491,33 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 626b71207a19a0742bcd17e00796ebd5, type: 3}
+--- !u!114 &1994930324 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8887034740938924825, guid: 626b71207a19a0742bcd17e00796ebd5, type: 3}
+  m_PrefabInstance: {fileID: 1994930323}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1994930325 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 200276761333761614, guid: 626b71207a19a0742bcd17e00796ebd5, type: 3}
+  m_PrefabInstance: {fileID: 1994930323}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1994930326 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6754726922548778044, guid: 626b71207a19a0742bcd17e00796ebd5, type: 3}
+  m_PrefabInstance: {fileID: 1994930323}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!23 &48725060378201509
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -710,7 +770,7 @@ Transform:
   m_GameObject: {fileID: 3116965069513397315}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 1.064, z: 0.55}
+  m_LocalPosition: {x: 0, y: 1.146, z: 0.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
