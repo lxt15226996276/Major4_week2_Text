@@ -227,6 +227,7 @@ GameObject:
   - component: {fileID: 88963908}
   - component: {fileID: 88963907}
   - component: {fileID: 88963906}
+  - component: {fileID: 88963909}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -308,6 +309,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 39.98, y: -2.43, z: 0}
+--- !u!114 &88963909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88963905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a00658a7df52846b36c315306c3cfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trank: {fileID: 5511026944259201087}
 --- !u!1 &520352814
 GameObject:
   m_ObjectHideFlags: 0
@@ -900,6 +914,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5511026944259201087}
   - component: {fileID: 5493811139925806043}
+  - component: {fileID: 6957261311484014227}
   m_Layer: 0
   m_Name: Tank
   m_TagString: Player
@@ -907,6 +922,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6957261311484014227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6957261311484014226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b47c16717bbdc45bdb2c948e66c751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &6990099997748391124
 Transform:
   m_ObjectHideFlags: 0
