@@ -14,7 +14,7 @@
 | 本周考纲单元 | U06～U10 + U17 |
 | 练习目录 | `Assets/Exams/Exam01~Exam10/` |
 | 姓名全拼 | **lixiaotong** |
-| **当前进度** | **Exam01/02/06/07 ✅ · Exam08 开套 · Exam05 逻辑链进行中 · P-L1 4/6** |
+| **当前进度** | **Exam01/02/03/06/07 ✅ · Exam04 开套 · Exam05 逻辑链 · P-L1 5/6** |
 | **日常入口** | [`lixiaotong_唯一执行入口.md`](lixiaotong_唯一执行入口.md) |
 | **本周排课** | [`一周五日十套题_排课模板.md`](一周五日十套题_排课模板.md) |
 | 讲解深度 | **UI：§11.27 开讲前审计 + U1～U6 矩阵**（禁止 P2 被动补丁） |
@@ -77,7 +77,9 @@
 | **Exam05** | 进行中 | 逻辑链✅ Battle⚠️ | 3/6 | 82* | 进行中 |
 | **Exam07** | ✅ | ✅ | **3/6** | **84** | ✅ **v7.14 开08归档** |
 | **Exam08** | 开套 | — | — | — | — |
-| Exam03～04, 09～10 | 🔒 | | | | |
+| **Exam03** | ✅ | ✅ | **2/6** | **84** | ✅ **v7.14 开04归档** |
+| **Exam04** | 开套 | — | — | — | — |
+| Exam09～10 | 🔒 | | | | |
 
 ---
 
@@ -107,6 +109,31 @@
 
 ---
 
+## 五、Exam03 存档摘要（2026-07-03 · 开 Exam04 自动归档）
+
+| 大步 | 内容 | 状态 |
+|:----:|------|:----:|
+| 1～2 | 双场景 + Login 6666 | ✅ |
+| 3 | 3D + GameSceneUI 改造 | ✅ |
+| 4 | 刷怪/开火/加血/相机/坦克移动 | ✅ P-L1 |
+| 5 | 断网 Build | P+1 待补 |
+
+**亮点**
+
+- **`CameraFollow`** InverseTransformPoint · LateUpdate · Lerp/Slerp · **IC L2 范本**
+- **`TrankController`** `Space.Self` · **`PlayerHealth.AddHealth` public**
+- **`FireController`** OnDestroy 解绑
+
+**P+1 待补（2/6）**
+
+- ☐ 第 5 步 Build **仅 Exam03** Login=0 Game=1 · 断网自证
+- ☐ `EnemyController` 取消注释 `Destroy(gameObject)` · 改注入 `PlayerHealth`
+- ☐ `FireController` 补 §11.19 方法思路注释
+
+**脚本**：`LoginController` · `GameController` · `FireController` · `PlayerHealth` · `EnemyController` · `TrankController` · `CameraFollow`
+
+---
+
 ## 六、Exam02 存档摘要
 
 见上一版 §六 · 2026-06-24 交付 · P **80**
@@ -117,7 +144,7 @@
 
 - [x] Exam01/02 **P-L1**  
 - [x] Exam06 **P-L1**（v7.14 归档）  
-- [ ] **6/10 套 P-L1**（当前 **3/6**）  
+- [ ] **6/10 套 P-L1**（当前 **5/6**）  
 - [ ] W2 末 P **≥83**
 
 ---
@@ -126,7 +153,7 @@
 
 | S 目标 | 本周动作 | 完成度 |
 |--------|----------|:------:|
-| **S2- 稳固** | **6 套** Exam P-L1 交付 | **3/6** |
+| **S2- 稳固** | **6 套** Exam P-L1 交付 | **5/6** |
 | W3 前 | K 大涨靠 Lab | K **58** |
 
 ---
