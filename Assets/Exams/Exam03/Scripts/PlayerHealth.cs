@@ -6,6 +6,7 @@ namespace Exam.Exam03
     {
         [SerializeField] private GameObject victoryPanel;
         [SerializeField] private Slider hpSlider;
+        [SerializeField] private Text hpLabelText;
         [SerializeField] private int maxHp = 100;
         private int currentHp;
 
@@ -14,6 +15,7 @@ namespace Exam.Exam03
             hpSlider.maxValue = maxHp;
             currentHp = 0;
             hpSlider.value = 0;
+            hpLabelText.text = "主角血量  " + currentHp;
             victoryPanel.SetActive(false);
         }
 
@@ -30,6 +32,7 @@ namespace Exam.Exam03
             }
 
             hpSlider.value = currentHp;
+            hpLabelText.text = "主角血量  " + currentHp;
             if (currentHp >= maxHp)
             {
                 victoryPanel.SetActive(true);
