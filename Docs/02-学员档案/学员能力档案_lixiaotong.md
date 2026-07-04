@@ -225,7 +225,9 @@ L2(现在) → L3(Cinemachine) → M1(RPG功能线) → M2(URP/池/Profiler)
 | 2026-07-03 | Exam03 | `EnemyController` 用 `FindObjectOfType` 找血条 | 耦合 | 改 `[SerializeField] PlayerHealth` 注入 | ☐ |
 | 2026-07-03 | Exam03 | 敌人 `Destroy(gameObject)` 被注释 · 子弹只 Destroy | 玩法未闭环 | 取消注释或计数减敌 | ☐ |
 | 2026-07-03 | Exam03 | `FireController` 缺 §11.19 方法思路注释 | D2 | 补 Fire/OnDestroy 块注释 | ☐ |
-| 2026-07-03 | Exam03 | 第 5 步断网 Build 未自证 | 交付 P+1 | Build **仅 Exam03** Login=0 Game=1 | ☐ |
+| 2026-07-03 | Exam04 | 开套第 1 步即转 Exam08 | 跳套 | 讲义 v3 保留 · 可续做 | ☐ |
+| 2026-07-04 | Exam08 | Build **Main=2 Server=3** 反序 | 交付 | **0 Login 1 Loading 2 Server 3 Main** | ☐ |
+| 2026-07-04 | Exam08 | `ServerController` 未写 **SelectedServer** | 递进 P-L1 | 点服时赋值 | ☐ |
 
 ---
 
@@ -252,9 +254,9 @@ L2(现在) → L3(Cinemachine) → M1(RPG功能线) → M2(URP/池/Profiler)
 | **Exam05** | 进行中 | **逻辑链✅** | **Battle⚠️** | **82*** | Min 双轨 · U03↑ |
 | **Exam06** | **2026-06-24** | ✅ | ✅ | **4/6** | **83** | U01 U03 · Layout · 小灶01/02 |
 | **Exam07** | **2026-06-24** | ✅ | ✅ | **3/6** | **84*** | U17 U11 · Dict·锁3s·WS名字 |
-| **Exam08** | **开套** | — | — | — | **84** | U05 U18 目标 |
+| **Exam08** | **续做** | ⚠️ | ⚠️ | — | **84** | U05 U18 · 第 4 步 |
 | **Exam03** | **2026-07-03** | ✅ | ✅ | **2/6** | **84** | U10 U11 U19 ↑ · **CameraFollow L2** |
-| **Exam04** | **开套** | — | — | — | **84** | U06 U07 U17 目标 |
+| **Exam04** | **开套中断** | — | — | — | **84** | 第 1 步未交付 · 讲义 v3 保留 |
 | Exam09～10 | 🔒 | — | — | — | — |
 
 \* **84** = Exam07 归档 · P-L1 ✅ · P+1 3/6（Build/导图/LateUpdate 待补）· 开 Exam08 §11.7
@@ -380,6 +382,7 @@ L2(现在) → L3(Cinemachine) → M1(RPG功能线) → M2(URP/池/Profiler)
 | 2026-07-03 | **84** | **58** | **Exam03 自动归档**（开 Exam04）· L1+P-L1 ✅ · P+1 2/6 · **5/6 套** · `CameraFollow` L2 |
 | 2026-07-03 | **84** | **58** | **§11.29 同类题递进** · Exam04 P-L1 v2 · 学员反馈固化 v7.16.4 |
 | 2026-07-03 | **84** | **58** | **Exam04 讲义 v3 重生成**（§11.29 六步全量 · 教程+分步） |
+| 2026-07-04 | **84** | **58** | **Exam04 开套中断归档** · **Exam08 §11.29 v3 续做** · 当前第 4 步 |
 
 ---
 
