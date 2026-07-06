@@ -6,7 +6,14 @@ namespace Exam.Exam04
         [SerializeField] private float moveSpeed;
         [SerializeField] private float turnSpeed;
         [SerializeField] private Animator animator;
+
+        [Header("开火（Skill1 动画事件 OnAttack 触发）")]
+        [SerializeField] private GameObject bulletPrefab;
+        [SerializeField] private Transform firePoint;
         private readonly int IsWalkingHash = Animator.StringToHash("IsWalking");
+
+        private bool _isAttacking;
+        private static readonly int AttackHash = Animator.StringToHash("Attack");
 
         void Update()
         {
@@ -22,6 +29,22 @@ namespace Exam.Exam04
 
             bool isMove = Mathf.Abs(h) > 0.01f || Mathf.Abs(v) > 0.01f;
             animator.SetBool(IsWalkingHash, isMove);
+        }
+
+        public void OnAttack()
+        {
+            if (bulletPrefab == null || firePoint == null) return;
+            Instantiate(bulletPrefab, firePoint.position, transform.rotation);
+        }
+        public void TryAttack()
+        {
+            if (_isAttacking || animator == null) return;
+            _isAttacking = true;
+            animator.SetTrigger(AttackHash);
+        }
+        public void OnAttackEnd()
+        {
+            _isAttacking = false;
         }
     }
 }

@@ -9,13 +9,34 @@ namespace Exam.Exam04
         [SerializeField] private float spawnRangeX;
         [SerializeField] private float spawnRangeY;
         [SerializeField] private float spawnRangeZ;
+
+        [Header("胜利")]
+        [SerializeField] private GameObject victoryPanel;
+        private int _aliveCount;
+        public static GameManager Instance { get; private set; }
+        void Awake()
+        {
+            if (Instance != null && Instance != this)
+            {
+                Destroy(gameObject);
+                return;
+            }
+            Instance = this;
+        }
         void Start()
         {
+            _aliveCount = enemyCount;
+            if (victoryPanel != null)
+            {
+                victoryPanel.SetActive(false);
+            }
             SpawnEnemies();
         }
         private void SpawnEnemies()
         {
             if (enemyPrefab == null) return;
+
+
             for (int i = 0; i < enemyCount; i++)
             {
                 float x = Random.Range(-spawnRangeX, spawnRangeX);
@@ -25,6 +46,11 @@ namespace Exam.Exam04
 
             }
         }
-
+        public void OnEnemyDied()
+        {
+            _aliveCount--;
+            if (_aliveCount <= 0 && victoryPanel != null)
+                victoryPanel.SetActive(true);
+        }
     }
 }
