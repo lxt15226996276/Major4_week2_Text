@@ -108,12 +108,26 @@
 | # | 你看到的（症状） | 根因 | **禁止再犯** | **现行标准（v7.15.1）** |
 |:-:|-----------------|------|--------------|-------------------------|
 | **O1d** | Exam08 第 2 步 Chat 教 **「UI→Canvas→InputField 手搭」** · 学员已做 **Exam07 LoginSceneUI** | 发 Chat 前 **未 Glob `Assets/Exams/**/Prefabs`** · 把「手搭全表」当默认 | **有同类 Prefab 禁止从零手搭为首方案** | **①Glob 候选 Prefab ②2.0 体检表 ③Unpack ④差量改表** · 仅 **无 Prefab** 时写「手搭」 |
+| **O1d-2** | Exam04 第 3 步 Chat/讲义教 **「UI→Canvas→Slider 手搭 Loading」** · 仓库有 **Exam06/05 `LoadingCanvas.prefab`** | 学员 **Exam06 已做 Loading** · Coach **忽略 §11.13 优先表** | **Loading 步必须先 Glob LoadingCanvas** | **3.0 候选+体检 → Unpack → 差量改** · v7.16.7 |
 
-**lixiaotong 仓库 · Login 步默认复用**：`Exam07/Prefabs/LoginSceneUI.prefab`（删 Register/Initial · 加 NameInput）。
+**lixiaotong 仓库 · Login 步默认复用**：`Exam07/Prefabs/LoginSceneUI.prefab`（删 Register/Initial · 加 NameInput）。  
+**lixiaotong 仓库 · Loading 步默认复用**：`Exam06/Prefabs/LoadingCanvas.prefab`（或 Exam05 同路径 · Unpack · 关 BtnMute/多余 Text）。
 
 **与 O1b 关系**：O1b = 说了 Prefab 但没流程；**O1d = 压根没走 Prefab 路线**。  
 **与 U3 关系**：O1d 复用 Prefab 后仍 **手调 Input Pos** = **双踩坑** · 须 **Unpack + VLG 七步**（§11.25 **U3/U7**）。  
 **与 U2 关系**：**U7 = Exam06 U2 在 LoginFormColumn 上再犯**（100×100 小盒 · 无 CSF · 对齐错）。
+
+---
+
+## 二-M、多层合规门禁 · Coach 屡次违规（**§11.31/§11.32 · v7.16.8**）
+
+| # | 你看到的（症状） | 根因 | **禁止再犯** | **现行标准** |
+|:-:|-----------------|------|--------------|--------------|
+| **M1** | 同一类违规反复（O1d 手搭 · 省略范本 · 擅自改库） | 只靠记忆 · **未过四门禁** · 学员指正后 **只道歉** | **任一门禁 ❌ 禁止发 Chat** | [`Coach合规四门禁.md`](../Assets/Exams/Docs/Coach合规四门禁.md) **每次 Read** |
+| **M2** | 修了 Chat 没改 `分步教程.md` | 未走 **§11.32 全家桶** | 学员下轮仍对不上讲义 | 违规 **同一轮**：分步+教程+阶段说明+踩坑+入口+规范 |
+| **M3** | UI 步未 Glob 就写「UI→Canvas」 | **G1 资产门禁未执行** | Loading/Login 步必先 **候选表** | §11.13 + **Glob 工具调用**（内部必做） |
+
+**四门禁速记**：**A R1** 15项 · **B G1** Glob · **C K1** 不改库 · **D T1** 触发语 · **E S1** 自愈全家桶
 
 ---
 
@@ -247,7 +261,9 @@
 □ 教 **Image 图标/Panel 底图** 前：**ARF / Sliced+Stretch**（**U4** · 禁止手拉变形）
 □ 教 **TipText/动态 Text** 前：**CSF + 父 VLG**（**U5**）
 □ **UI 大步开讲前** 过 **§11.27 六步** + [`UI布局举一反三矩阵.md`](../Assets/Exams/Docs/UI布局举一反三矩阵.md)（**P2**）
-□ **UI 大步** 先 **Glob Prefab** · **O1d**（§二-K）
+□ **每次输出前 Read** [`Coach合规四门禁.md`](../../Assets/Exams/Docs/Coach合规四门禁.md) · **§11.31 任一条 ❌ 禁止发**
+□ **UI 大步** 先 **Glob Prefab** · **G1/O1d**（§二-K）
+□ **学员指正违规** → **§11.32 全家桶** · 禁止只道歉
 □ 跑脚本后 assert FILL_HOVER > FILL_NORMAL > FILL_PRESSED
 □ 可选：python 量 bbox，确认 _2 > _1 > _3
 □ 告知学员 Reimport + 重拖 Sprite Swap
@@ -268,6 +284,8 @@
 | 2026-06-24 | **v1.15** | **P2/U4/U5/U6** · **§11.27 主动审计** · Image/Text 举一反三 · v7.16 |
 | 2026-06-24 | **v1.14** | **U3** LoginFormColumn VLG · v7.15.2 |
 | 2026-06-24 | **v1.13** | **O1d** Exam08 有 LoginSceneUI 却手搭 · **§11.13 Prefab 优先** · v7.15.1 |
+| 2026-07-06 | **v1.14** | **O1d-2** Exam04 Loading 手搭 · 须 **Exam06/05 LoadingCanvas** · v7.16.7 |
+| 2026-07-06 | **v1.15** | **§11.31 四门禁** · **§11.32 自愈** · **M1～M3** · v7.16.8 |
 | 2026-06-24 | **v1.12** | **O1/O1b** Inspector 三列表 · **§11.26 v7.15** |
 | 2026-06-24 | **v1.9** | **U1/P1** UI Layout Group · **§11.25** |
 | 2026-06-24 | **v1.3** | **E1/E2** Button 监听行业解绑 · **§11.21** |

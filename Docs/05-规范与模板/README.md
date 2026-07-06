@@ -9,7 +9,8 @@
 
 | 文件 | 路径 | 用途 |
 |------|------|------|
-| **教学规范** | [`Assets/Exams/Docs/教学规范.md`](../../Assets/Exams/Docs/教学规范.md) | v7.16.3 · **§11.28 Doc 双遍对照** · §11.14 九块 · §11.25 布局矩阵 · §11.27 审计 |
+| **教学规范** | [`Assets/Exams/Docs/教学规范.md`](../../Assets/Exams/Docs/教学规范.md) | v7.16.8 · **§11.31 四门禁** · **§11.32 自愈** · §11.28 **15 项** |
+| **合规速查卡** | [`Assets/Exams/Docs/Coach合规四门禁.md`](../../Assets/Exams/Docs/Coach合规四门禁.md) | **每次输出前 Read** · R1/G1/K1/T1/S1 |
 | **阶段修改说明** | [`Assets/Exams/Docs/阶段修改说明.md`](../../Assets/Exams/Docs/阶段修改说明.md) | 版本变更记录 |
 | **UI 布局矩阵** | [`Assets/Exams/Docs/UI布局举一反三矩阵.md`](../../Assets/Exams/Docs/UI布局举一反三矩阵.md) | U1～U7 · Button/Input/Image/Text/Grid |
 

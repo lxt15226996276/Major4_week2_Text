@@ -53,15 +53,18 @@
 
 ---
 
-## 五、投喂 AI 标准组合（W3 · **含 §11.28 双遍 Doc**）
+## 五、投喂 AI 标准组合（W3 · **§11.31 四门禁 + §11.28 十五项**）
 
-**每次 Chat 输出前 · Coach 内部顺序**（详见 [`教学规范 §11.28`](../../Assets/Exams/Docs/教学规范.md)）：
+**每次 Chat 输出前 · Coach 内部顺序**（详见 [`Coach合规四门禁.md`](../Assets/Exams/Docs/Coach合规四门禁.md) · [`教学规范 §11.31`](../Assets/Exams/Docs/教学规范.md)）：
 
-1. **总 Doc**：本 README → `05-规范与模板` → `教学规范` → `分步教程模板` → `踩坑记忆库` → `唯一执行入口` → `学员能力档案`
-2. **本套 Doc**：`Assets/Exams/ExamXX/Docs/教程.md` → **`分步教程.md` 当前大步**
-3. **对照 9 项全 ✅** 后才回复 · 讲义/档案脱节 → **先更 Doc**
+1. **Read 速查卡**：[`Coach合规四门禁.md`](../Assets/Exams/Docs/Coach合规四门禁.md)（30 秒决策树）
+2. **总 Doc**：本 README → `05-规范与模板` → `教学规范` → `分步教程模板` → `踩坑记忆库` → `唯一执行入口` → `学员能力档案`
+3. **本套 Doc**：`Assets/Exams/ExamXX/Docs/教程.md` → **`分步教程.md` 当前大步**
+4. **UI 大步**：**G1 Glob Prefab** → 候选表 → 3.0 体检
+5. **对照 15 项全 ✅** 后才回复 · 学员指正违规 → **§11.32 全家桶先更 Doc**
 
 ```
+@Assets/Exams/Docs/Coach合规四门禁.md
 @Docs/00-每日入口/lixiaotong_唯一执行入口.md
 @Docs/02-学员档案/学员能力档案_lixiaotong.md
 @Docs/01-成长路线/职级全景_L0-F1_Unity客户端_lixiaotong.md
