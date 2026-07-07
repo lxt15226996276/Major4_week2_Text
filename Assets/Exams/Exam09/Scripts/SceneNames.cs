@@ -1,18 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class SceneNames : MonoBehaviour
+namespace Exam.Exam09
 {
-    // Start is called before the first frame update
-    void Start()
+    /// <summary>
+    /// 场景名常量
+    /// </summary>
+    public static class SceneNames
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public const string Login = "Exam09_LoginScene";
+        public const string Main = "Exam09_MainScene";
+        public const string Level1 = "Exam09_Level1";
+        public const string Level2 = "Exam09_Level2";
+        public const string Level3 = "Exam09_Level3";
     }
 }
+

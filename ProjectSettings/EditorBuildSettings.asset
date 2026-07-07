@@ -71,4 +71,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Exams/Exam04/Scenes/Exam04_MainScene.unity
     guid: 2fd0fbddf917170488422a2661748bbb
+  - enabled: 1
+    path: Assets/Exams/Exam09/Scenes/Exam09_Level1.unity
+    guid: bf7d88b73116c6b4e8c6f4d438b34482
+  - enabled: 1
+    path: Assets/Exams/Exam09/Scenes/Exam09_Level2.unity
+    guid: 2248242ce1c7e9f4c8c92cae5fdc6831
+  - enabled: 1
+    path: Assets/Exams/Exam09/Scenes/Exam09_Level3.unity
+    guid: 62310a00e00216f4b993a57af8c3086a
+  - enabled: 1
+    path: Assets/Exams/Exam09/Scenes/Exam09_LoginScene.unity
+    guid: 2260f9954579c7f43ae2201cd47b6097
+  - enabled: 1
+    path: Assets/Exams/Exam09/Scenes/Exam09_MainScene.unity
+    guid: 4faed33b769f5434faf9c13b2bf0613c
   m_configObjects: {}
